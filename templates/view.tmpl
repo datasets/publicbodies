@@ -1,0 +1,79 @@
+{% import "macros.tmpl" as macros %}
+{% extends "layout.tmpl" %}
+
+{% block title %}
+  {{ entity.get('title') }}
+{% endblock %}
+
+{% block head %}
+  <style>
+    .abbr {
+      color: #999;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <div class="box">
+    <h1>{{ entity.get('title') }}
+      {% if entity.get('abbr') %}
+        <span class="abbr">({{ entity.get('abbr') }})</span>
+      {% endif %}
+    </h1>
+
+    <hr/>
+    <table width="100%">
+      {% if entity.get('url') %}
+      <tr>
+        <th width="33%">Home page</th>
+        <td><a href="{{ entity.get('url') }}">
+          {{ entity.get('title') }}</a></td>
+      </tr>
+      {% endif %}
+      {% if entity.get('email') %}
+      <tr>
+        <th width="33%">E-Mail</th>
+        <td>{{ entity.get('email') }}</td>
+      </tr>
+      {% endif %}
+      {% if entity.get('address') %}
+      <tr>
+        <th>Address</th>
+        <td>{{ entity.get('address') }}</td>
+      </tr>
+      {% endif %}
+      {% if entity.get('category') %}
+      <tr>
+        <th>Category/Type</th>
+        <td>{{ entity.get('category') }}</td>
+      </tr>
+      {% endif %}
+      {% if entity.get('parent') %}
+      <tr>
+        <th>Parent agency</th>
+        <td>{{ entity.get('parent') }}</td>
+      </tr>
+      {% endif %}
+      {% if entity.get('jurisdiction') %}
+      <tr>
+        <th>Jurisdiction</th>
+        <td>{{ entity.get('jurisdiction') }}
+          ({{ entity.get('jurisdiction_code') }})</td>
+      </tr>
+      {% endif %}
+      {% if entity.get('description') %}
+      <tr>
+        <td colspan="2"><p>{{ entity.get('description') }}</p></td>
+      </tr>
+      {% endif %}
+    </table>
+    <hr />
+    Source: <a title="{{ entity.get('source_description') }}" href="{{ entity.get('source_url') }}">{{ entity.get('source') }}</a>
+    &middot; <a href="{{ url }}.json">JSON</a>
+  </div>
+{% endblock %}
+
+
+
+
+

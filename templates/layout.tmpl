@@ -18,6 +18,46 @@
     <link rel="stylesheet" href="/static/style/ie.css" type="text/css" media="screen, projection">
   <![endif]-->
   <link rel="stylesheet" href="/static/style/style.css?v=2">
+  <style>
+    body {
+      color: #333;
+      line-height: 1.5em;
+      background-color: #fff;
+      font-family: Helvetica, sans-serif;
+    }
+    a {
+      font-weight: normal;
+    }
+    table tr td, table tr th {
+      padding-top: 0.5em;
+    }
+    .box {
+      border: 0px;
+      padding: 0;
+      background-color: none;
+    }
+    header .site-title {
+      font-weight: normal;
+      background: none;
+      padding-left: 0px;
+      min-height: 40px;
+    }
+    header .site-title a {
+      color: #333;
+      font-family: 'Georgia';
+      font-size: 1.7em;
+    }
+    header .site-title .claim {
+      font-size: 0.7em;
+      color: #999;
+    }
+    h1 {
+      font-family: 'Georgia';
+    }
+    footer {
+      background-color: #efefef;
+    }
+  </style>
   {% block head %} {% endblock %}
 </head>
 
@@ -36,7 +76,13 @@
     <header>
       <div class="site">
         <span class="site-title">
-          <a href="{{ url_for('index') }}">{{ config['TITLE'] }}</a>
+          <a href="{{ url_for('index') }}">
+            public bodies
+          </a>
+           <span class="claim">
+              &mdash; an address for each part of government
+            </span>
+
         </span>
       </div>
     </header>
