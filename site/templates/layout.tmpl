@@ -1,82 +1,22 @@
 <!doctype html>
-<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>{% block title %}Welcome{% endblock %} - {{ config['TITLE'] }}</title>
+  <title>{% block title %}Welcome{% endblock %} - Public Bodies</title>
   <meta name="description" content="A directory of public (government) bodies.">
   <meta name="author" content="Open Knowledge Foundation">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/static/favicon.ico">
-  <script src="/static/js/libs/modernizr-1.7.min.js"></script>
-  <!--[if lt IE 8]>
-    <link rel="stylesheet" href="/static/style/ie.css" type="text/css" media="screen, projection">
-  <![endif]-->
-  <link rel="stylesheet" href="/static/style/style.css?v=2">
-  <style>
-    body {
-      color: #333;
-      line-height: 1.5em;
-      background-color: #fff;
-      font-family: Helvetica, sans-serif;
-    }
-    a {
-      font-weight: normal;
-    }
-    table tr td, table tr th {
-      padding-top: 0.5em;
-    }
-    .box {
-      border: 0px;
-      padding: 0;
-      background-color: none;
-    }
-    header .site-title {
-      font-weight: normal;
-      background: none;
-      padding-left: 0px;
-      min-height: 40px;
-    }
-    header .site-title a {
-      color: #333;
-      font-family: 'Georgia';
-      font-size: 1.7em;
-    }
-    header .site-title .claim {
-      font-size: 0.7em;
-      color: #999;
-    }
-    h1 {
-      font-family: 'Georgia';
-    }
-    footer {
-      background-color: #efefef;
-    }
-  </style>
-  {% block head %} {% endblock %}
 </head>
 
 <body>
-    {% with messages = get_flashed_messages(with_categories=true) %}
-      {% if messages %}
-        <ul class="flashes site">
-        {% for category, message in messages %}
-          <li class="{{ category }}">{{ message }}</li>
-        {% endfor %}
-        </ul>
-      {% endif %}
-    {% endwith %}
-
   <div id="container" class="container">
     <header>
       <div class="site">
         <span class="site-title">
-          <a href="{{ url_for('index') }}">
+          <a href="/">
             public bodies
           </a>
            <span class="claim">
@@ -93,43 +33,13 @@
     </div>
     <footer>
       <div class="site">
-        <ul class="links">
-          <li><a href="{{ url_for('index') }}">Home</a></li>
-          <li><a href="http://code.google.com/p/google-refine/wiki/ReconciliationServiceApi">API Documentation</a></li>
-          <li><a href="{{ url_for('reconcile') }}">API Endpoint</a></li>
-          {% if current_user.is_anonymous() %}
-            <!--li><a href="{{ url_for('login') }}">Login</a></li-->
-          {% else %}
-            <li><a href="{{ url_for('manager') }}">Type Manager</a></li>
-            <li><a href="{{ url_for('logout') }}">Logout</a></li>
-          {% endif %}
-        </ul>
         &copy; 2011: An <a href="http://okfn.org">Open Knowledge Foundation</a>
           project. 
       </div>
     </footer>
   </div> <!-- eo #container -->
 
-
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-  <script>window.jQuery || document.write("<script src='/static/js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
-
-
-  <!-- scripts concatenated and minified via ant build script-->
-  <script src="/static/js/script.js"></script>
-  <script>
-    $(document).ready(function() {
-      {% block script %} {% endblock %}
-    });
-  </script>
-  <!-- end scripts-->
-
-
-  <!--[if lt IE 7 ]>
-    <script src="/static/js/libs/dd_belatedpng.js"></script>
-    <script>DD_belatedPNG.fix("img, .png_bg");</script>
-  <![endif]-->
-
 </body>
 </html>
 
