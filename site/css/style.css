@@ -1,42 +1,6 @@
-body {
-  color: #333;
-  line-height: 1.5em;
-  background-color: #fff;
-  font-family: Helvetica, sans-serif;
-}
-a {
-  font-weight: normal;
-}
-table tr td, table tr th {
-  padding-top: 0.5em;
-}
-.box {
-  border: 0px;
-  padding: 0;
-  background-color: none;
-}
-header .site-title {
-  font-weight: normal;
-  background: none;
-  padding-left: 0px;
-  min-height: 40px;
-}
-header .site-title a {
-  color: #333;
-  font-family: 'Georgia';
-  font-size: 1.7em;
-}
-header .site-title .claim {
-  font-size: 0.7em;
-  color: #999;
-}
-h1 {
-  font-family: 'Georgia';
-}
-footer {
+.footer {
   background-color: #efefef;
 }
-
 
 /** View **/
 .abbr {
