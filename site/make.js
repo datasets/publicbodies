@@ -25,20 +25,38 @@ var countries = [ 'eu' ];
 
 function build() {
   prepare();
-  var index = {};
+  var index = [];
   for (idx in countries) {
     country = countries[idx];
-    index[country] = [];
-    fs.mkdirSync(path.join('build', country));
-    csvpath = path.join('..', 'data', country + '.csv');
-    csv().from(csvpath, {columns: true})
-      .on('record', function(record, idx) {
-        // key = eu/abcefg, slug = ten_tea
-        destpath = path.join('build', country, record['slug'] + '.html');
-        index[country].push(country + '/' + record['slug'] + '.html');
-        templateHtml(record, destpath);
-      });
+    renderCountry(country, index, callback);
   }
+  var count = 0;
+  function callback() {
+    count += 1;
+    if (count == countries.length) { buildIndex(index) }
+  }
+}
+
+function buildIndex(index) {
+  var html = env.getTemplate('index.html');
+  var out = html.render({index: index});
+  fs.writeFileSync(path.join('build', 'index.html'), out);
+}
+
+function renderCountry(country, index, cb) {
+  fs.mkdirSync(path.join('build', country));
+  csvpath = path.join('..', 'data', country + '.csv');
+  csv().from(csvpath, {columns: true})
+    .on('record', function(record, idx) {
+      // key = eu/abcefg, slug = ten_tea
+      destpath = path.join('build', country, record['slug'] + '.html');
+      index.push(country + '/' + record['slug'] + '.html');
+      templateHtml(record, destpath);
+    })
+    .on('end', function() {
+      cb();
+    })
+    ;
 }
 
 function templateHtml(data, path) {

@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Home
+{% endblock %}
+
+{% block content %}
+  <div class="box">
+    <h1>
+      Home
+    </h1>
+    {% for link in index %}
+      <a href="{{link}}">{{link}}</a>
+    {% endfor %} 
+  </div>
+{% endblock %}
+
+
+
+
+
