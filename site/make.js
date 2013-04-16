@@ -6,6 +6,6 @@ if (!fs.existsSync('build')) {
 }
 
 var env = new nunjucks.Environment(new nunjucks.FileSystemLoader('templates'));
-var tmpl = env.getTemplate('view.tmpl');
-var out = tmpl.render({ title: "james" });
+var html = env.getTemplate('view.html');
+var out = html.render({ title: "james" });
 fs.writeFileSync('build/index.html', out);
