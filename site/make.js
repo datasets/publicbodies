@@ -52,11 +52,13 @@ function renderCountry(country, index, cb) {
   csvpath = path.join('..', 'data', country + '.csv');
   csv().from(csvpath, {columns: true})
     .on('record', function(record, idx) {
-      // key = eu/abcefg, slug = ten_tea
-      destpath = path.join('build', country, record['slug']);
+      // key = eu/abcefg
+      slug = record['key'].split('/')[1]
+      record['slug'] = slug;
+      destpath = path.join('build', country, slug);
       destjson = destpath + '.json';
       destpath = destpath + '.html';  
-      var offset = country + '/' + record['slug'] + '.html';
+      var offset = country + '/' + slug + '.html';
       index[country].push({title: record['title'], url: offset});
       templateHtml(record, destpath);
       fs.writeFileSync(destjson, JSON.stringify(record, null, 2));
