@@ -1,130 +1,130 @@
 title,abbr,key,category,parent,parent_key,description,url,jurisdiction,jurisdiction_code,source,source_url,address,contact,email,tags,created_at,updated_at
-Trans-European Transport Network Executive Agency,TEN-TEA,eu/ten_tea,,,,,http://ec.europa.eu/tentea,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,Wed Sep 28 00:35:33 UTC 2011,Sun Oct 09 03:23:41 UTC 2011
-Historical archives,,eu/historical_archives,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,Wed Sep 28 00:35:20 UTC 2011,Sun Oct 09 03:12:53 UTC 2011
-Bureau of European Policy Advisers (BEPA),BEPA,eu/bepa,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,Wed Sep 28 00:35:19 UTC 2011,Sun Oct 09 03:12:52 UTC 2011
-Central Library,,eu/central_library,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,Wed Sep 28 00:35:19 UTC 2011,Sun Oct 09 03:12:52 UTC 2011
-Translation Centre for the Bodies of the European Union,CdT,eu/cdt,,,,,http://www.cdt.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:30 UTC 2011,Sun Oct 09 03:23:39 UTC 2011
-European Centre for the Development of Vocational Training,CEDEFOP,eu/cedefop,,,,,http://www.cedefop.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:26 UTC 2011,Sun Oct 09 03:23:08 UTC 2011
-European Police College,CEPOL,eu/cepol,,,,,http://www.cepol.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,judicial_agency,Wed Sep 28 00:35:31 UTC 2011,Sun Oct 09 03:23:39 UTC 2011
-Computer Emergency Response Team (CERT),CERT,eu/cert,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,other,Wed Sep 28 00:35:35 UTC 2011,Sun Oct 09 03:27:24 UTC 2011
-Community Fisheries Control Agency,CFCA,eu/cfca,,,,,http://www.cfca.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:24 UTC 2011,Wed Oct 19 16:01:45 UTC 2011
-European Systemic Risk Board (ESRB),ESRB,eu/esrb,,,,,http://www.esrb.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,financial_supervisory,Sun Oct 09 03:24:28 UTC 2011,Sun Oct 09 03:24:28 UTC 2011
-Council of the EU,,eu/council_of_the_eu,,,,,http://www.consilium.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,council_eu,Wed Sep 28 00:35:09 UTC 2011,Sun Oct 09 03:03:23 UTC 2011
-Committee of the Regions,CoR,eu/cor,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,committee_regions,Wed Sep 28 00:35:22 UTC 2011,Sun Oct 09 03:22:23 UTC 2011
-Community Plant Variety Office,CPVO,eu/cpvo,,,,,http://www.cpvo.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:24 UTC 2011,Sun Oct 09 03:23:07 UTC 2011
-European Ombudsman,,eu/european_ombudsman,,,,,http://www.ombudsman.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,european_ombudsman,Wed Sep 28 00:35:23 UTC 2011,Sun Oct 09 03:22:23 UTC 2011
-Budget (BUDG),DG BDG,eu/dg_bdg,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:10 UTC 2011,Sun Oct 09 03:04:54 UTC 2011
-Climate Action (CLIMA),DG CLIMA,eu/dg_clima,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:10 UTC 2011,Sun Oct 09 03:04:54 UTC 2011
-Communication (COMM),DG COMM,eu/dg_comm,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:11 UTC 2011,Sun Oct 09 03:04:55 UTC 2011
-Competition (COMP),DG COMP,eu/dg_comp,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:11 UTC 2011,Sun Oct 09 03:04:55 UTC 2011
-Informatics (DIGIT),DG DIGIT,eu/dg_digit,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:15 UTC 2011,Sun Oct 09 03:09:37 UTC 2011
-Education and Culture (EAC),DG EAC,eu/dg_eac,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:12 UTC 2011,Sun Oct 09 03:04:55 UTC 2011
-Economic and Financial Affairs (ECFIN),DG ECFIN,eu/dg_ecfin,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:11 UTC 2011,Sun Oct 09 03:04:55 UTC 2011
-Foreign Policy Instruments Service (EEAS),DG EEAS,eu/dg_eeas,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:14 UTC 2011,Sun Oct 09 03:08:43 UTC 2011
-"Employment, Social Affairs and Inclusion (EMPL)",DG EMPL,eu/dg_empl,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:12 UTC 2011,Sun Oct 09 03:04:55 UTC 2011
-Energy (ENER),DG ENER,eu/dg_ener,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:12 UTC 2011,Sun Oct 09 03:08:42 UTC 2011
-Enterprise and Industry (ENTR),DG ENTR,eu/dg_entr,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:13 UTC 2011,Sun Oct 09 03:08:43 UTC 2011
-Environment (ENV),DG ENV,eu/dg_env,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:13 UTC 2011,Sun Oct 09 03:08:43 UTC 2011
-Eurostat (ESTAT),DG ESTAT,eu/dg_estat,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:13 UTC 2011,Sun Oct 09 03:08:43 UTC 2011
-Home Affairs (HOME),DG HOME,eu/dg_home,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:14 UTC 2011,Sun Oct 09 03:08:44 UTC 2011
-Human Resources and Security (HR),DG HR,eu/dg_hr,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:15 UTC 2011,Sun Oct 09 03:08:44 UTC 2011
-Information Society and Media (INFSO),DG INFSO,eu/dg_infso,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:15 UTC 2011,Sun Oct 09 03:09:37 UTC 2011
-Joint Research Centre (JRC),DG JRC,eu/dg_jrc,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:16 UTC 2011,Sun Oct 09 03:09:38 UTC 2011
-Justice (JUST),DG JUST,eu/dg_just,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:16 UTC 2011,Sun Oct 09 03:09:38 UTC 2011
-Maritime Affairs and Fisheries (MARE),DG MARE,eu/dg_mare,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:17 UTC 2011,Sun Oct 09 03:09:38 UTC 2011
-Internal Market and Services (MARKT),DG MARKT,eu/dg_markt,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:15 UTC 2011,Sun Oct 09 03:09:38 UTC 2011
-Mobility and Transport (MOVE),DG MOVE,eu/dg_move,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:17 UTC 2011,Sun Oct 09 03:09:39 UTC 2011
-Research and Innovation (RTD),DG RTD,eu/dg_rtd,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:17 UTC 2011,Sun Oct 09 03:09:39 UTC 2011
-Health and Consumers (SANCO),DG SANCO,eu/dg_sanco,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:14 UTC 2011,Sun Oct 09 03:08:44 UTC 2011
-Interpretation (SCIC),DG SCIC,eu/dg_scic,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:16 UTC 2011,Sun Oct 09 03:09:38 UTC 2011
-Secretariat General (SG),DG SG,eu/dg_sg,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:18 UTC 2011,Sun Oct 09 03:10:58 UTC 2011
-Translation (DGT),DGT,eu/dgt,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:18 UTC 2011,Sun Oct 09 03:10:59 UTC 2011
-Taxation and Customs Union (TAXUD),DG TAXUD,eu/dg_taxud,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:18 UTC 2011,Sun Oct 09 03:10:59 UTC 2011
-Trade (TRADE),DG TRADE,eu/dg_trade,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:18 UTC 2011,Sun Oct 09 03:10:59 UTC 2011
-Agriculture and Rural Development (AGRI),DG AGRI,eu/dg_agri,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:10 UTC 2011,Sun Oct 09 03:04:54 UTC 2011
-Humanitarian Aid and Civil Protection (ECHO),DG ECHO,eu/dg_echo,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:14 UTC 2011,Sun Oct 09 03:08:44 UTC 2011
-Regional Policy (REGIO),DG REGIO,eu/dg_regio,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:17 UTC 2011,Sun Oct 09 03:09:39 UTC 2011
-Enlargement (ELARG),DG ELARG,eu/dg_elarg,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:12 UTC 2011,Sun Oct 09 03:08:42 UTC 2011
-Development & Cooperation - EuropeAid (DEVCO),DG DEVCO,eu/dg_devco,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,Wed Sep 28 00:35:13 UTC 2011,Sun Oct 09 03:08:43 UTC 2011
-European Commission Data Protection Officer,,eu/european_commission_data_protection_officer,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,Wed Sep 28 00:35:19 UTC 2011,Sun Oct 09 03:12:52 UTC 2011
-"Education, Audiovisual and Culture Executive Agency (EACEA)",EACEA,eu/eacea,,,,,http://eacea.ec.europa.eu/index_en.php,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,Wed Sep 28 00:35:32 UTC 2011,Sun Oct 09 03:23:40 UTC 2011
-Executive Agency for Competitiveness and Innovation (EACI),EACI,eu/eaci,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,Wed Sep 28 00:35:32 UTC 2011,Sun Oct 09 03:23:40 UTC 2011
-Executive Agency for Health and Consumers (EAHC),EAHC,eu/eahc,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,Wed Sep 28 00:35:32 UTC 2011,Sun Oct 09 03:23:41 UTC 2011
-European Aviation Safety Agency,EASA,eu/easa,,,,,http://www.easa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:25 UTC 2011,Sun Oct 09 03:23:08 UTC 2011
-European Asylum Support Office (at planning stage),EASO,eu/easo,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:25 UTC 2011,Sun Oct 09 03:23:07 UTC 2011
-European Banking Authority (EBA),EBA,eu/eba,,,,,http://www.eba.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,financial_supervisory,Wed Sep 28 00:35:33 UTC 2011,Sun Oct 09 03:24:28 UTC 2011
-European Central Bank,ECB,eu/ecb,,,,,http://www.ecb.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ecb,Wed Sep 28 00:35:23 UTC 2011,Sun Oct 09 03:22:23 UTC 2011
-European Centre for Disease Prevention and Control,ECDC,eu/ecdc,,,,,http://www.ecdc.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:26 UTC 2011,Sun Oct 09 03:23:08 UTC 2011
-European Chemicals Agency,ECHA,eu/echa,,,,,http://www.echa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:26 UTC 2011,Sat Oct 15 13:01:36 UTC 2011
-European Court of Justice,ECJ,eu/ecj,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,court_justice,Wed Sep 28 00:35:21 UTC 2011,Sun Oct 09 03:22:22 UTC 2011
-European Defence Agency,EDA,eu/eda,,,,,http://www.eda.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,security_agency,Wed Sep 28 00:35:30 UTC 2011,Sun Oct 09 03:23:39 UTC 2011
-European Data Protection Supervisor,EDPS,eu/edps,,,,,http://www.edps.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,edps,Wed Sep 28 00:35:24 UTC 2011,Mon Oct 10 10:10:29 UTC 2011
-European Environment Agency,EEA,eu/eea,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:26 UTC 2011,Sun Oct 09 03:23:09 UTC 2011
-European External Action Service,EEAS,eu/eeas,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,eeas,Wed Sep 28 00:35:22 UTC 2011,Sun Oct 09 03:22:22 UTC 2011
-European Economic and Social Committee,EESC,eu/eesc,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,eesc,Wed Sep 28 00:35:22 UTC 2011,Sun Oct 09 03:22:23 UTC 2011
-European Food Safety Authority,EFSA,eu/efsa,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:27 UTC 2011,Sun Oct 09 03:23:09 UTC 2011
-European Investment Bank,EIB,eu/eib,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,eib,Wed Sep 28 00:35:23 UTC 2011,Sun Oct 09 03:22:23 UTC 2011
-European Institute for Gender Equality,EIGE,eu/eige,,,,,http://www.eige.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:27 UTC 2011,Sun Oct 09 03:23:09 UTC 2011
-European Insurance and Occupational Pensions Authority (EIOPA),EIOPA,eu/eiopa,,,,,http://www.eiopa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,financial_supervisory,Wed Sep 28 00:35:34 UTC 2011,Sun Oct 09 03:24:28 UTC 2011
-European Court of Auditors,,eu/european_court_of_auditors,,,,,http://www.eca.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,court_auditors,Wed Sep 28 00:35:22 UTC 2011,Sun Oct 09 03:22:22 UTC 2011
-European Medicines Agency,EMA,eu/ema,,,,,http://www.ema.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:28 UTC 2011,Sun Oct 09 03:23:10 UTC 2011
-European Monitoring Centre for Drugs and Drug Addiction,EMCDDA,eu/emcdda,,,,,http://www.emcdda.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:28 UTC 2011,Sun Oct 09 03:23:10 UTC 2011
-European Maritime Safety Agency,EMSA,eu/emsa,,,,,http://www.emsa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:28 UTC 2011,Sun Oct 09 03:23:10 UTC 2011
-European Network and Information Security Agency,ENISA,eu/enisa,,,,,http://www.enisa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:28 UTC 2011,Sun Oct 09 03:23:10 UTC 2011
-European Personnel Selection Office,EPSO,eu/epso,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,other,Wed Sep 28 00:35:34 UTC 2011,Sun Oct 09 03:27:24 UTC 2011
-European Railway Agency – promoting safe and compatible rail systems,ERA,eu/era,,,,,http://www.era.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:29 UTC 2011,Sun Oct 09 03:23:10 UTC 2011
-European Research Council Executive Agency (ERC Executive Agency),ERCEA,eu/ercea,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,Wed Sep 28 00:35:32 UTC 2011,Sun Oct 09 03:23:40 UTC 2011
-EURATOM Supply Agency,ESA,eu/esa,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,euratom,Wed Sep 28 00:35:34 UTC 2011,Sun Oct 09 03:27:23 UTC 2011
-European Securities and Markets Authority (ESMA),ESMA,eu/esma,,,,,http://www.esma.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,financial_supervisory,Wed Sep 28 00:35:33 UTC 2011,Sun Oct 09 03:24:28 UTC 2011
-European Training Foundation,ETF,eu/etf,,,,,http://www.etf.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:29 UTC 2011,Sun Oct 09 03:23:11 UTC 2011
-European Agency for Safety and Health at Work,EU-OSHA,eu/eu_osha,,,,,http://osha.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:25 UTC 2011,Wed Oct 19 16:01:45 UTC 2011
-European Foundation for the Improvement of Living and Working Conditions (EUROFOUND),EUROFOUND,eu/eurofound,,,,,http://www.eurofound.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:27 UTC 2011,Sun Oct 09 03:23:09 UTC 2011
-The European Union’s Judicial Cooperation Unit,EUROJUST,eu/eurojust,,,,,http://www.eurojust.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,judicial_agency,Wed Sep 28 00:35:31 UTC 2011,Sun Oct 09 03:23:40 UTC 2011
-European Council,,eu/european_council,,,,,http://www.consilium.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,european_council,Wed Sep 28 00:35:09 UTC 2011,Sun Oct 09 03:03:23 UTC 2011
-European Police Office,EUROPOL,eu/europol,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,judicial_agency,Wed Sep 28 00:35:31 UTC 2011,Sun Oct 09 03:23:39 UTC 2011
-European Union Satellite Centre,EUSC,eu/eusc,,,,,http://www.eusc.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,security_agency,Wed Sep 28 00:35:30 UTC 2011,Sun Oct 09 03:23:39 UTC 2011
-European Joint Undertaking for ITER and the Development of Fusion Energy (Fusion for Energy),F4E,eu/f4e,,,,,http://www.f4e.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,euratom,Wed Sep 28 00:35:34 UTC 2011,Sun Oct 09 03:27:23 UTC 2011
-European Union Agency for Fundamental Rights,FRA,eu/fra,,,,,http://www.fra.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:29 UTC 2011,Sun Oct 09 03:23:11 UTC 2011
-European Agency for the Management of Operational Cooperation at the External Borders (FRONTEX),FRONTEX,eu/frontex,,,,,http://www.frontex.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:25 UTC 2011,Sun Oct 09 03:23:07 UTC 2011
-European GNSS Agency,GSA,eu/gsa,,,,,http://www.gsa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:27 UTC 2011,Sun Oct 09 03:23:09 UTC 2011
-Internal Audit Service (IAS),IAS,eu/ias,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,Wed Sep 28 00:35:20 UTC 2011,Sun Oct 09 03:12:53 UTC 2011
-Internal admin authority,,eu/internal_admin_authority,,,,,http://www.asktheeu.org,European Union,EU,Ask the EU (AccessInfo),,,,,,Wed Sep 28 00:24:51 UTC 2011,Wed Sep 28 00:24:51 UTC 2011
-European Union Institute for Security Studies,ISS,eu/iss,,,,,http://www.iss.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,security_agency,Wed Sep 28 00:35:30 UTC 2011,Sun Oct 09 03:23:39 UTC 2011
-European Administrative School,,eu/european_administrative_school,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,other,Wed Sep 28 00:35:35 UTC 2011,Sun Oct 09 03:27:24 UTC 2011
-Office for Official Publications of the European Communities,OOPEC,eu/oopec,,,,,http://www.publications.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,other,Wed Sep 28 00:35:35 UTC 2011,Sun Oct 09 03:27:24 UTC 2011
-Office for Harmonisation in the Internal Market (Trade Marks and Designs),OHIM,eu/ohim,,,,,http://www.oami.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,Wed Sep 28 00:35:29 UTC 2011,Sun Oct 09 03:23:38 UTC 2011
-Infrastructures and Logistics - Brussels (OIB),OIB,eu/oib,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,Wed Sep 28 00:35:20 UTC 2011,Sun Oct 09 03:12:53 UTC 2011
-Infrastructures and Logistics - Luxembourg (OIL),OIL,eu/oil,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,Wed Sep 28 00:35:20 UTC 2011,Sun Oct 09 03:12:53 UTC 2011
-European Anti-Fraud Office (OLAF),OLAF,eu/olaf,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,Wed Sep 28 00:35:19 UTC 2011,Sun Oct 09 03:12:52 UTC 2011
-Publications Office (OP),OP,eu/op,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,Wed Sep 28 00:35:21 UTC 2011,Sun Oct 09 03:22:22 UTC 2011
-European Parliament,,eu/european_parliament,,,,,http://www.europarl.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,european_parliament,Wed Sep 28 00:35:10 UTC 2011,Sun Oct 09 03:03:23 UTC 2011
-Office For Administration And Payment Of Individual Entitlements (PMO),PMO,eu/pmo,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,Wed Sep 28 00:35:21 UTC 2011,Sun Oct 09 03:12:54 UTC 2011
-Research Executive Agency (REA),REA,eu/rea,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,Wed Sep 28 00:35:33 UTC 2011,Sun Oct 09 03:23:41 UTC 2011
-Permanent Representation of Cyprus to the EU,,eu/permanent_representation_of_cyprus_to_the_eu,,,,,http://www.mfa.gov.cy,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:36 UTC 2011,Sun Oct 09 03:27:25 UTC 2011
-Permanent Representation of Belgium to the EU,,eu/permanent_representation_of_belgium_to_the_eu,,,,,http://www.diplobel.fed.be,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:36 UTC 2011,Sun Oct 09 03:27:25 UTC 2011
-Permanent Representation of Bulgaria to the EU,,eu/permanent_representation_of_bulgaria_to_the_eu,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:36 UTC 2011,Sun Oct 09 03:27:25 UTC 2011
-Permanent Representation of Finland to the EU,,eu/permanent_representation_of_finland_to_the_eu,,,,,http://www.om.fi,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:37 UTC 2011,Sun Oct 09 03:27:26 UTC 2011
-Permanent Representation of France to the EU,,eu/permanent_representation_of_france_to_the_eu,,,,,http://www.diplomatie.gouv.fr,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:37 UTC 2011,Sun Oct 09 03:27:26 UTC 2011
-Permanent Representation of Greece to the EU,,eu/permanent_representation_of_greece_to_the_eu,,,,,http://www.rp-grece.be,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:38 UTC 2011,Sun Oct 09 03:27:27 UTC 2011
-Permanent Representation of Hungary to the EU,,eu/permanent_representation_of_hungary_to_the_eu,,,,,http://www.irm.gov.hu,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:38 UTC 2011,Sun Oct 09 03:27:27 UTC 2011
-Permanent Representation of Latvia to the EU,,eu/permanent_representation_of_latvia_to_the_eu,,,,,http://www.mfa.gov.lv,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:38 UTC 2011,Sun Oct 09 03:27:27 UTC 2011
-Permanent Representation of Lithuania to the EU,,eu/permanent_representation_of_lithuania_to_the_eu,,,,,http://www.eurep.mfa.lt,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:39 UTC 2011,Sun Oct 09 03:27:28 UTC 2011
-Permanent Representation of Germany to the EU,,eu/permanent_representation_of_germany_to_the_eu,,,,,http://www.auswaertiges-amt.de,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:37 UTC 2011,Sun Oct 09 03:27:26 UTC 2011
-Permanent Representation of Poland to the EU,,eu/permanent_representation_of_poland_to_the_eu,,,,,http://www.msz.gov.pl,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:39 UTC 2011,Sun Oct 09 03:27:28 UTC 2011
-Permanent Representation of Czech Republic to the EU,,eu/permanent_representation_of_czech_republic_to_the_eu,,,,,http://www.vlada.cz,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:36 UTC 2011,Sun Oct 09 03:27:25 UTC 2011
-Permanent Representation of Slovakia to the EU,,eu/permanent_representation_of_slovakia_to_the_eu,,,,,http://www.mzv.sk,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:40 UTC 2011,Sun Oct 09 03:27:29 UTC 2011
-Permanent Representation of Slovenia to the EU,,eu/permanent_representation_of_slovenia_to_the_eu,,,,,http://www.gov.si,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:40 UTC 2011,Sun Oct 09 03:27:29 UTC 2011
-Permanent Representation of Sweden to the EU,,eu/permanent_representation_of_sweden_to_the_eu,,,,,http://www.foreign.ministry.se,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:41 UTC 2011,Sun Oct 09 03:27:30 UTC 2011
-Permanent Representation of Austria to the EU,,eu/permanent_representation_of_austria_to_the_eu,,,,,http://www.bmeia.gv.at,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:35 UTC 2011,Sun Oct 09 03:27:24 UTC 2011
-Permanent Representation of Spain to the EU,,eu/permanent_representation_of_spain_to_the_eu,,,,,http://www.reper.maec.es,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:40 UTC 2011,Sun Oct 09 03:27:30 UTC 2011
-Permanent Representation of Estonia to the EU,,eu/permanent_representation_of_estonia_to_the_eu,,,,,http://www.mfa.ee,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:37 UTC 2011,Sun Oct 09 03:27:26 UTC 2011
-Permanent Representation of Ireland to the EU,,eu/permanent_representation_of_ireland_to_the_eu,,,,,http://www.dfa.ie,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:38 UTC 2011,Sun Oct 09 03:27:27 UTC 2011
-Permanent Representation of Italy to the EU,,eu/permanent_representation_of_italy_to_the_eu,,,,,http://www.rpue.esteri.it,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:38 UTC 2011,Sun Oct 09 03:27:27 UTC 2011
-Permanent Representation of Malta to the EU,,eu/permanent_representation_of_malta_to_the_eu,,,,,http://www.gov.mt,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:39 UTC 2011,Sun Oct 09 03:27:28 UTC 2011
-Permanent Representation of Romania to the EU,,eu/permanent_representation_of_romania_to_the_eu,,,,,http://www.rpro.eu,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:40 UTC 2011,Sun Oct 09 03:27:29 UTC 2011
-Permanent Representation of Netherlands to the EU,,eu/permanent_representation_of_netherlands_to_the_eu,,,,,http://www.minbuza.nl,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:39 UTC 2011,Sun Oct 09 03:27:28 UTC 2011
-Permanent Representation of Denmark to the EU,,eu/permanent_representation_of_denmark_to_the_eu,,,,,http://www.um.dk,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:36 UTC 2011,Sun Oct 09 03:27:26 UTC 2011
-Permanent Representation of Luxembourg to the EU,,eu/permanent_representation_of_luxembourg_to_the_eu,,,,,http://www.rpue.etat.lu,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:39 UTC 2011,Sun Oct 09 03:27:28 UTC 2011
-Permanent Representation of Portugal to the EU,,eu/permanent_representation_of_portugal_to_the_eu,,,,,http://www.dgac.pt,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:40 UTC 2011,Sun Oct 09 03:27:29 UTC 2011
-Permanent Representation of UK to the EU,,eu/permanent_representation_of_uk_to_the_eu,,,,,http://www.fco.gov.uk,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,Wed Sep 28 00:35:41 UTC 2011,Sun Oct 09 03:27:30 UTC 2011
-Legal Service (SJ),SJ,eu/sj,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,Wed Sep 28 00:35:21 UTC 2011,Sun Oct 09 03:12:54 UTC 2011
+Trans-European Transport Network Executive Agency,TEN-TEA,eu/ten-tea,,,,,http://ec.europa.eu/tentea,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,2011-09-28,2011-10-09
+Historical archives,,eu/historical-archives,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,2011-09-28,2011-10-09
+Bureau of European Policy Advisers (BEPA),BEPA,eu/bepa,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,2011-09-28,2011-10-09
+Central Library,,eu/central-library,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,2011-09-28,2011-10-09
+Translation Centre for the Bodies of the European Union,CdT,eu/cdt,,,,,http://www.cdt.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Centre for the Development of Vocational Training,CEDEFOP,eu/cedefop,,,,,http://www.cedefop.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Police College,CEPOL,eu/cepol,,,,,http://www.cepol.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,judicial_agency,2011-09-28,2011-10-09
+Computer Emergency Response Team (CERT),CERT,eu/cert,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,other,2011-09-28,2011-10-09
+Community Fisheries Control Agency,CFCA,eu/cfca,,,,,http://www.cfca.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-19
+European Systemic Risk Board (ESRB),ESRB,eu/esrb,,,,,http://www.esrb.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,financial_supervisory,2011-10-09,2011-10-09
+Council of the EU,,eu/council-of-the-eu,,,,,http://www.consilium.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,council_eu,2011-09-28,2011-10-09
+Committee of the Regions,CoR,eu/cor,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,committee_regions,2011-09-28,2011-10-09
+Community Plant Variety Office,CPVO,eu/cpvo,,,,,http://www.cpvo.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Ombudsman,,eu/european-ombudsman,,,,,http://www.ombudsman.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,european_ombudsman,2011-09-28,2011-10-09
+Budget (BUDG),DG BDG,eu/dg-bdg,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Climate Action (CLIMA),DG CLIMA,eu/dg-clima,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Communication (COMM),DG COMM,eu/dg-comm,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Competition (COMP),DG COMP,eu/dg-comp,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Informatics (DIGIT),DG DIGIT,eu/dg-digit,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Education and Culture (EAC),DG EAC,eu/dg-eac,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Economic and Financial Affairs (ECFIN),DG ECFIN,eu/dg-ecfin,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Foreign Policy Instruments Service (EEAS),DG EEAS,eu/dg-eeas,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+"Employment, Social Affairs and Inclusion (EMPL)",DG EMPL,eu/dg-empl,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Energy (ENER),DG ENER,eu/dg-ener,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Enterprise and Industry (ENTR),DG ENTR,eu/dg-entr,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Environment (ENV),DG ENV,eu/dg-env,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Eurostat (ESTAT),DG ESTAT,eu/dg-estat,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Home Affairs (HOME),DG HOME,eu/dg-home,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Human Resources and Security (HR),DG HR,eu/dg-hr,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Information Society and Media (INFSO),DG INFSO,eu/dg-infso,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Joint Research Centre (JRC),DG JRC,eu/dg-jrc,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Justice (JUST),DG JUST,eu/dg-just,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Maritime Affairs and Fisheries (MARE),DG MARE,eu/dg-mare,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Internal Market and Services (MARKT),DG MARKT,eu/dg-markt,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Mobility and Transport (MOVE),DG MOVE,eu/dg-move,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Research and Innovation (RTD),DG RTD,eu/dg-rtd,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Health and Consumers (SANCO),DG SANCO,eu/dg-sanco,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Interpretation (SCIC),DG SCIC,eu/dg-scic,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Secretariat General (SG),DG SG,eu/dg-sg,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Translation (DGT),DGT,eu/dgt,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Taxation and Customs Union (TAXUD),DG TAXUD,eu/dg-taxud,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Trade (TRADE),DG TRADE,eu/dg-trade,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Agriculture and Rural Development (AGRI),DG AGRI,eu/dg-agri,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Humanitarian Aid and Civil Protection (ECHO),DG ECHO,eu/dg-echo,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Regional Policy (REGIO),DG REGIO,eu/dg-regio,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Enlargement (ELARG),DG ELARG,eu/dg-elarg,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+Development & Cooperation - EuropeAid (DEVCO),DG DEVCO,eu/dg-devco,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_dg,2011-09-28,2011-10-09
+European Commission Data Protection Officer,,eu/european-commission-data-protection-officer,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,2011-09-28,2011-10-09
+"Education, Audiovisual and Culture Executive Agency (EACEA)",EACEA,eu/eacea,,,,,http://eacea.ec.europa.eu/index_en.php,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,2011-09-28,2011-10-09
+Executive Agency for Competitiveness and Innovation (EACI),EACI,eu/eaci,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,2011-09-28,2011-10-09
+Executive Agency for Health and Consumers (EAHC),EAHC,eu/eahc,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,2011-09-28,2011-10-09
+European Aviation Safety Agency,EASA,eu/easa,,,,,http://www.easa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Asylum Support Office (at planning stage),EASO,eu/easo,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Banking Authority (EBA),EBA,eu/eba,,,,,http://www.eba.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,financial_supervisory,2011-09-28,2011-10-09
+European Central Bank,ECB,eu/ecb,,,,,http://www.ecb.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ecb,2011-09-28,2011-10-09
+European Centre for Disease Prevention and Control,ECDC,eu/ecdc,,,,,http://www.ecdc.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Chemicals Agency,ECHA,eu/echa,,,,,http://www.echa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-15
+European Court of Justice,ECJ,eu/ecj,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,court_justice,2011-09-28,2011-10-09
+European Defence Agency,EDA,eu/eda,,,,,http://www.eda.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,security_agency,2011-09-28,2011-10-09
+European Data Protection Supervisor,EDPS,eu/edps,,,,,http://www.edps.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,edps,2011-09-28,2011-10-10
+European Environment Agency,EEA,eu/eea,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European External Action Service,EEAS,eu/eeas,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,eeas,2011-09-28,2011-10-09
+European Economic and Social Committee,EESC,eu/eesc,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,eesc,2011-09-28,2011-10-09
+European Food Safety Authority,EFSA,eu/efsa,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Investment Bank,EIB,eu/eib,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,eib,2011-09-28,2011-10-09
+European Institute for Gender Equality,EIGE,eu/eige,,,,,http://www.eige.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Insurance and Occupational Pensions Authority (EIOPA),EIOPA,eu/eiopa,,,,,http://www.eiopa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,financial_supervisory,2011-09-28,2011-10-09
+European Court of Auditors,,eu/european-court-of-auditors,,,,,http://www.eca.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,court_auditors,2011-09-28,2011-10-09
+European Medicines Agency,EMA,eu/ema,,,,,http://www.ema.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Monitoring Centre for Drugs and Drug Addiction,EMCDDA,eu/emcdda,,,,,http://www.emcdda.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Maritime Safety Agency,EMSA,eu/emsa,,,,,http://www.emsa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Network and Information Security Agency,ENISA,eu/enisa,,,,,http://www.enisa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Personnel Selection Office,EPSO,eu/epso,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,other,2011-09-28,2011-10-09
+European Railway Agency – promoting safe and compatible rail systems,ERA,eu/era,,,,,http://www.era.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Research Council Executive Agency (ERC Executive Agency),ERCEA,eu/ercea,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,2011-09-28,2011-10-09
+EURATOM Supply Agency,ESA,eu/esa,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,euratom,2011-09-28,2011-10-09
+European Securities and Markets Authority (ESMA),ESMA,eu/esma,,,,,http://www.esma.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,financial_supervisory,2011-09-28,2011-10-09
+European Training Foundation,ETF,eu/etf,,,,,http://www.etf.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Agency for Safety and Health at Work,EU-OSHA,eu/eu-osha,,,,,http://osha.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-19
+European Foundation for the Improvement of Living and Working Conditions (EUROFOUND),EUROFOUND,eu/eurofound,,,,,http://www.eurofound.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+The European Union’s Judicial Cooperation Unit,EUROJUST,eu/eurojust,,,,,http://www.eurojust.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,judicial_agency,2011-09-28,2011-10-09
+European Council,,eu/european-council,,,,,http://www.consilium.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,european_council,2011-09-28,2011-10-09
+European Police Office,EUROPOL,eu/europol,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,judicial_agency,2011-09-28,2011-10-09
+European Union Satellite Centre,EUSC,eu/eusc,,,,,http://www.eusc.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,security_agency,2011-09-28,2011-10-09
+European Joint Undertaking for ITER and the Development of Fusion Energy (Fusion for Energy),F4E,eu/f4e,,,,,http://www.f4e.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,euratom,2011-09-28,2011-10-09
+European Union Agency for Fundamental Rights,FRA,eu/fra,,,,,http://www.fra.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European Agency for the Management of Operational Cooperation at the External Borders (FRONTEX),FRONTEX,eu/frontex,,,,,http://www.frontex.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+European GNSS Agency,GSA,eu/gsa,,,,,http://www.gsa.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+Internal Audit Service (IAS),IAS,eu/ias,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,2011-09-28,2011-10-09
+Internal admin authority,,eu/internal-admin-authority,,,,,http://www.asktheeu.org,European Union,EU,Ask the EU (AccessInfo),,,,,,2011-09-28,2011-09-28
+European Union Institute for Security Studies,ISS,eu/iss,,,,,http://www.iss.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,security_agency,2011-09-28,2011-10-09
+European Administrative School,,eu/european-administrative-school,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,other,2011-09-28,2011-10-09
+Office for Official Publications of the European Communities,OOPEC,eu/oopec,,,,,http://www.publications.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,other,2011-09-28,2011-10-09
+Office for Harmonisation in the Internal Market (Trade Marks and Designs),OHIM,eu/ohim,,,,,http://www.oami.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,policy_agency,2011-09-28,2011-10-09
+Infrastructures and Logistics - Brussels (OIB),OIB,eu/oib,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,2011-09-28,2011-10-09
+Infrastructures and Logistics - Luxembourg (OIL),OIL,eu/oil,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,2011-09-28,2011-10-09
+European Anti-Fraud Office (OLAF),OLAF,eu/olaf,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,2011-09-28,2011-10-09
+Publications Office (OP),OP,eu/op,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,2011-09-28,2011-10-09
+European Parliament,,eu/european-parliament,,,,,http://www.europarl.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,european_parliament,2011-09-28,2011-10-09
+Office For Administration And Payment Of Individual Entitlements (PMO),PMO,eu/pmo,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,2011-09-28,2011-10-09
+Research Executive Agency (REA),REA,eu/rea,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,executive_agency,2011-09-28,2011-10-09
+Permanent Representation of Cyprus to the EU,,eu/permanent-representation-of-cyprus-to-the-eu,,,,,http://www.mfa.gov.cy,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Belgium to the EU,,eu/permanent-representation-of-belgium-to-the-eu,,,,,http://www.diplobel.fed.be,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Bulgaria to the EU,,eu/permanent-representation-of-bulgaria-to-the-eu,,,,,http://www.ec.europa.eu,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Finland to the EU,,eu/permanent-representation-of-finland-to-the-eu,,,,,http://www.om.fi,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of France to the EU,,eu/permanent-representation-of-france-to-the-eu,,,,,http://www.diplomatie.gouv.fr,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Greece to the EU,,eu/permanent-representation-of-greece-to-the-eu,,,,,http://www.rp-grece.be,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Hungary to the EU,,eu/permanent-representation-of-hungary-to-the-eu,,,,,http://www.irm.gov.hu,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Latvia to the EU,,eu/permanent-representation-of-latvia-to-the-eu,,,,,http://www.mfa.gov.lv,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Lithuania to the EU,,eu/permanent-representation-of-lithuania-to-the-eu,,,,,http://www.eurep.mfa.lt,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Germany to the EU,,eu/permanent-representation-of-germany-to-the-eu,,,,,http://www.auswaertiges-amt.de,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Poland to the EU,,eu/permanent-representation-of-poland-to-the-eu,,,,,http://www.msz.gov.pl,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Czech Republic to the EU,,eu/permanent-representation-of-czech-republic-to-the-eu,,,,,http://www.vlada.cz,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Slovakia to the EU,,eu/permanent-representation-of-slovakia-to-the-eu,,,,,http://www.mzv.sk,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Slovenia to the EU,,eu/permanent-representation-of-slovenia-to-the-eu,,,,,http://www.gov.si,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Sweden to the EU,,eu/permanent-representation-of-sweden-to-the-eu,,,,,http://www.foreign.ministry.se,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Austria to the EU,,eu/permanent-representation-of-austria-to-the-eu,,,,,http://www.bmeia.gv.at,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Spain to the EU,,eu/permanent-representation-of-spain-to-the-eu,,,,,http://www.reper.maec.es,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Estonia to the EU,,eu/permanent-representation-of-estonia-to-the-eu,,,,,http://www.mfa.ee,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Ireland to the EU,,eu/permanent-representation-of-ireland-to-the-eu,,,,,http://www.dfa.ie,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Italy to the EU,,eu/permanent-representation-of-italy-to-the-eu,,,,,http://www.rpue.esteri.it,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Malta to the EU,,eu/permanent-representation-of-malta-to-the-eu,,,,,http://www.gov.mt,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Romania to the EU,,eu/permanent-representation-of-romania-to-the-eu,,,,,http://www.rpro.eu,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Netherlands to the EU,,eu/permanent-representation-of-netherlands-to-the-eu,,,,,http://www.minbuza.nl,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Denmark to the EU,,eu/permanent-representation-of-denmark-to-the-eu,,,,,http://www.um.dk,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Luxembourg to the EU,,eu/permanent-representation-of-luxembourg-to-the-eu,,,,,http://www.rpue.etat.lu,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of Portugal to the EU,,eu/permanent-representation-of-portugal-to-the-eu,,,,,http://www.dgac.pt,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Permanent Representation of UK to the EU,,eu/permanent-representation-of-uk-to-the-eu,,,,,http://www.fco.gov.uk,European Union,EU,Ask the EU (AccessInfo),,,,,permanent_representative,2011-09-28,2011-10-09
+Legal Service (SJ),SJ,eu/sj,,,,,,European Union,EU,Ask the EU (AccessInfo),,,,,ec_service,2011-09-28,2011-10-09
