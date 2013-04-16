@@ -13,11 +13,14 @@ function prepare() {
     deleteFolderRecursive('build'); 
   }
   fs.mkdirSync('build');
+  fs.mkdirSync('build/css');
+  fs.createReadStream(path.join('css', 'style.css'))
+      .pipe(fs.createWriteStream(
+          path.join('build', 'css', 'style.css')));
 }
 
 var countries = [ 'eu', 'gb', 'de' ];
-var countries = [ 'eu' ];
-
+// var countries = [ 'eu' ];
 
 // url structure
 // /{country}/{id}.html
@@ -28,18 +31,19 @@ function build() {
   var index = [];
   for (idx in countries) {
     country = countries[idx];
+    index[country] = [];
     renderCountry(country, index, callback);
   }
   var count = 0;
   function callback() {
     count += 1;
-    if (count == countries.length) { buildIndex(index) }
+    if (count == countries.length) { buildIndex({index: index, countries: countries}) }
   }
 }
 
-function buildIndex(index) {
+function buildIndex(data) {
   var html = env.getTemplate('index.html');
-  var out = html.render({index: index});
+  var out = html.render(data);
   fs.writeFileSync(path.join('build', 'index.html'), out);
 }
 
@@ -49,9 +53,13 @@ function renderCountry(country, index, cb) {
   csv().from(csvpath, {columns: true})
     .on('record', function(record, idx) {
       // key = eu/abcefg, slug = ten_tea
-      destpath = path.join('build', country, record['slug'] + '.html');
-      index.push(country + '/' + record['slug'] + '.html');
+      destpath = path.join('build', country, record['slug']);
+      destjson = destpath + '.json';
+      destpath = destpath + '.html';  
+      var offset = country + '/' + record['slug'] + '.html';
+      index[country].push({title: record['title'], url: offset});
       templateHtml(record, destpath);
+      fs.writeFileSync(destjson, JSON.stringify(record, null, 2));
     })
     .on('end', function() {
       cb();

@@ -9,34 +9,33 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/static/favicon.ico">
+  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <div id="container" class="container">
-    <header>
-      <div class="site">
-        <span class="site-title">
-          <a href="/">
-            public bodies
-          </a>
-           <span class="claim">
-              &mdash; an address for each part of government
-            </span>
-
-        </span>
-      </div>
-    </header>
+  <div class="container site-title">
+    <div class="page-header">
+      <h1>
+        <a href="/">
+          Public Bodies
+        </a>
+        <small>
+          A URL for each part of government
+        </small>
+      </h1>
+    </div>
     <div id="main" class="site" role="main">
       {% block content %}
         - No Content -
       {% endblock %}
     </div>
-    <footer>
+    <div class="footer">
       <div class="site">
         &copy; 2011: An <a href="http://okfn.org">Open Knowledge Foundation</a>
           project. 
       </div>
-    </footer>
+    </div>
   </div> <!-- eo #container -->
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>

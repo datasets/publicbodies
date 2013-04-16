@@ -5,12 +5,23 @@
 {% endblock %}
 
 {% block content %}
+  <div class="navbar">
+    <div class="navbar-inner">
+      <ul class="nav">
+        {% for country in countries %}
+        <li><a href="#{{country}}">{{country.toUpperCase()}} ({{index[country].length}})</a></li>
+        {% endfor %} 
+      </ul>
+    </div>
+  </div>
   <div class="box">
-    <h1>
-      Home
-    </h1>
-    {% for link in index %}
-      <a href="{{link}}">{{link}}</a>
+    {% for country in countries %}
+      <h3 id="{{country}}">{{country.toUpperCase()}} ({{index[country].length}})</h3>
+      <ul>
+      {% for link in index[country] %}
+        <li><a href="{{link.url}}">{{link.title}}</a></li>
+      {% endfor %} 
+    </ul>
     {% endfor %} 
   </div>
 {% endblock %}
