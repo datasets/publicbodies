@@ -14,9 +14,13 @@ function prepare() {
   }
   fs.mkdirSync('build');
   fs.mkdirSync('build/css');
+  fs.mkdirSync('build/js');
   fs.createReadStream(path.join('css', 'style.css'))
       .pipe(fs.createWriteStream(
           path.join('build', 'css', 'style.css')));
+  fs.createReadStream(path.join('js', 'app.js'))
+      .pipe(fs.createWriteStream(
+          path.join('build', 'js', 'app.js')));
 }
 
 var countries = [ 'eu', 'gb', 'de' ];
