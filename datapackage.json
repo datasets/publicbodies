@@ -1,0 +1,89 @@
+{
+  "name": "public-bodies", 
+  "license": [
+    {
+      "url": "http://opendatacommons.org/licenses/pddl/1.0/", 
+      "name": "Public Domain Dedication and License"
+    }
+  ], 
+  "resources": [
+    {
+      "schema": {
+        "fields": [
+          {
+            "type": "string", 
+            "id": "title"
+          }, 
+          {
+            "type": "string", 
+            "id": "abbr"
+          }, 
+          {
+            "type": "string", 
+            "id": "key"
+          }, 
+          {
+            "type": "string", 
+            "id": "category"
+          }, 
+          {
+            "type": "string", 
+            "id": "parent"
+          }, 
+          {
+            "type": "string", 
+            "id": "parent_key"
+          }, 
+          {
+            "type": "string", 
+            "id": "description"
+          }, 
+          {
+            "type": "string", 
+            "id": "url"
+          }, 
+          {
+            "type": "string", 
+            "id": "jurisdiction"
+          }, 
+          {
+            "type": "string", 
+            "id": "jurisdiction_code"
+          }, 
+          {
+            "type": "string", 
+            "id": "source"
+          }, 
+          {
+            "type": "string", 
+            "id": "source_url"
+          }, 
+          {
+            "type": "string", 
+            "id": "address"
+          }, 
+          {
+            "type": "string", 
+            "id": "contact"
+          }, 
+          {
+            "type": "string", 
+            "id": "email"
+          }, 
+          {
+            "type": "string", 
+            "id": "tags"
+          }, 
+          {
+            "type": "string", 
+            "id": "created_at"
+          }, 
+          {
+            "type": "string", 
+            "id": "updated_at"
+          }
+        ]
+      }
+    }
+  ]
+}
