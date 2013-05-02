@@ -1,0 +1,11 @@
+title,abbr,key,category,parent,parent_key,description,url,jurisdiction,jurisdiction_code,source,source_url,address,contact,email,tags,created_at,updated_at
+Department of Agriculture,USDA,us/department-of-agriculture,,,,,http://www.usda.gov/wps/portal/usda/usdahome,United States,US,,,,,,,,
+Department of Defense,DOD,us/department-of-defense,,,,,http://www.defense.gov/,United States,US,,,"1400 Defense Pentagon
+Washington, DC 20301-1400",,,,,
+Department of Energy,DOE,us/department-of-energy,,,,,http://energy.gov/,United States,US,,,"1000 Independence Ave. SW
+Washington DC 20585",,The.Secretary@hq.doe.gov,,,
+Department of Housing and Urban Development,HUD,us/department-of-housing-and-urban-development,,,,,https://portal.hud.gov/hudportal/HUD,United States,US,,,"451 7th Street S.W., Washington, DC 20410",,,,,
+Department of State,,us/department-of-state,,,,,http://www.state.gov/,United States,US,,,"U.S. Department of State 
+2201 C Street NW 
+Washington, DC 20520",,,,,
+The White House,,us/the-white-house,,,,,http://www.whitehouse.gov/,United States,US,,,,,,,,
