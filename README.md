@@ -24,6 +24,7 @@ Details of the automated data extraction to build the original database.
 
 Data sources:
 
+* A-Z Index of U.S. Government Departments and Agencies - http://www.usa.gov/directory/federal/index.shtml
 * AskTheEU.org
 * FragDenStaat.de - (private GoogleDoc) - http://www.bund.de/DE/Behoerden
 * WhatDoTheyKnow.com - http://www.whatdotheyknow.com/body/all-authorities.csv
