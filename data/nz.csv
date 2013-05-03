@@ -33,7 +33,7 @@ Associate Minister of Housing,,nz/associate_minister_of_housing,,,,,http://www.m
 Associate Minister of Immigration,,nz/associate_minister_of_immigration,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:53 UTC 2012,Mon May 07 10:01:53 UTC 2012
 Associate Minister of Justice,,nz/associate_minister_of_justice,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:56 UTC 2012,Mon May 07 10:01:56 UTC 2012
 Associate Minister of Social Development,,nz/associate_minister_of_social_development,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:56 UTC 2012,Mon May 07 10:01:56 UTC 2012
-"Associate Minister of Tertiary Education, Skills and Employment",,associate_minister_of_tertiary_education_skills_and_employment,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:58 UTC 2012,Mon May 07 10:01:58 UTC 2012
+"Associate Minister of Tertiary Education, Skills and Employment",,nz/associate_minister_of_tertiary_education_skills_and_employment,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:58 UTC 2012,Mon May 07 10:01:58 UTC 2012
 Associate Minister of Tourism,,nz/associate_minister_of_tourism,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:55 UTC 2012,Mon May 07 10:01:55 UTC 2012
 Associate Minister of Transport,,nz/associate_minister_of_transport,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:56 UTC 2012,Mon Apr 01 22:36:16 UTC 2013
 AsureQuality Limited,,nz/asurequality_limited,,,,,http://www.asurequality.com/,New Zealand,NZ,fyi.org.nz,,,,,,Tue Jan 26 10:37:28 UTC 2010,Tue Mar 23 11:46:48 UTC 2010
@@ -98,12 +98,11 @@ Environmental Protection Authority,EPA,nz/epa,,,,,http://www.epa.govt.nz/,New Ze
 Earthquake Commission,EQC,nz/eqc,,,,,http://www.eqc.govt.nz/,New Zealand,NZ,fyi.org.nz,,,,,,Tue Jan 26 10:37:20 UTC 2010,Tue Mar 23 11:46:45 UTC 2010
 Education Review Office,ERO,nz/ero,,,,,http://www.ero.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Tue Jan 26 10:37:17 UTC 2010,Tue Mar 23 11:46:44 UTC 2010
 Institute of Environmental Science and Research Limited,ESR,nz/esr,,,,,http://www.esr.cri.nz/,New Zealand,NZ,fyi.org.nz,,,,,,Tue Jan 26 10:37:22 UTC 2010,Tue Mar 23 11:46:46 UTC 2010
-fake,fake,nz/fake,,,,,http://www.gmail.com,New Zealand,NZ,fyi.org.nz,,,,,,Mon Apr 02 12:56:47 UTC 2012,Mon Apr 02 13:26:49 UTC 2012
 Families Commission,,nz/families_commission,,,,,http://www.nzfamilies.org.nz,New Zealand,NZ,fyi.org.nz,,,,,,Tue Jan 26 10:37:20 UTC 2010,Tue Mar 23 11:46:45 UTC 2010
 Far North District Council,,nz/far_north_district_council,,,,,http://www.fndc.govt.nz/,New Zealand,NZ,fyi.org.nz,,,,,district_council,Tue Jan 26 10:37:28 UTC 2010,Tue Mar 23 11:46:50 UTC 2010
 Franklin District Council,,nz/franklin_district_council,,,,,http://www.franklindistrict.co.nz,New Zealand,NZ,fyi.org.nz,,,,,district_council,Tue Jan 26 10:37:26 UTC 2010,Tue Apr 03 10:15:41 UTC 2012
 New Zealand Forest Research Institute Limited,FRICRI,nz/fricri,,,,,http://www.scionresearch.com/,New Zealand,NZ,fyi.org.nz,,,,,,Tue Jan 26 10:37:21 UTC 2010,Tue Mar 23 11:46:46 UTC 2010
-"Foundation for Research, Science,nz/ and Technology",FRST,frst,,,,,http://www.frst.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Tue Jan 26 10:37:20 UTC 2010,Tue Mar 23 11:46:45 UTC 2010
+"Foundation for Research, Science, and Technology",FRST,nz/frst,,,,,http://www.frst.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Tue Jan 26 10:37:20 UTC 2010,Tue Mar 23 11:46:45 UTC 2010
 Gardens Event Trust,,nz/gardens_event_trust,,,,,http://www.xtra.co.nz,New Zealand,NZ,fyi.org.nz,,,,,,Sat Nov 10 01:17:04 UTC 2012,Sat Nov 10 01:17:04 UTC 2012
 Government Communications Security Bureau,GCSB,nz/gcsb,,,,,http://www.gcsb.govt.nz/,New Zealand,NZ,fyi.org.nz,,,,,,Tue Jan 26 10:37:17 UTC 2010,Tue Mar 23 11:46:43 UTC 2010
 Gisborne District Council,GDC,nz/gdc,,,,,http://www.gdc.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,district_council,Tue Jan 26 10:37:28 UTC 2010,Wed Apr 11 08:41:25 UTC 2012
@@ -187,7 +186,7 @@ Marlborough District Council,,nz/marlborough_district_council,,,,,http://www.mar
 Massey University,,nz/massey_university,,,,,http://palmerstonnorth.massey.ac.nz,New Zealand,NZ,fyi.org.nz,,,,,university,Tue Jan 26 10:37:22 UTC 2010,Tue Mar 23 11:46:46 UTC 2010
 Masterton District Council,,nz/masterton_district_council,,,,,http://www.mstn.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,district_council,Tue Jan 26 10:37:27 UTC 2010,Tue Mar 23 11:46:49 UTC 2010
 Matamata-Piako District Council,,nz/matamata_piako_district_council,,,,,http://www.mpdc.govt.nz/,New Zealand,NZ,fyi.org.nz,,,,,district_council,Tue Jan 26 10:37:27 UTC 2010,Tue Mar 23 11:46:49 UTC 2010
-"Ministry of Business, Innovation & Employment",nz/MBIE,mbie,,,,,http://www.mbie.govt.nz/,New Zealand,NZ,fyi.org.nz,,,,,ministry,Tue Oct 02 23:29:31 UTC 2012,Tue Oct 02 23:38:30 UTC 2012
+"Ministry of Business, Innovation & Employment",MBIE,nz/mbie,,,,,http://www.mbie.govt.nz/,New Zealand,NZ,fyi.org.nz,,,,,ministry,Tue Oct 02 23:29:31 UTC 2012,Tue Oct 02 23:38:30 UTC 2012
 Ministry of Economic Development,MED,nz/med,,,,,http://www.med.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,ministry,Tue Jan 26 10:37:17 UTC 2010,Tue Mar 23 11:46:44 UTC 2010
 Mental Health Commission,,nz/mental_health_commission,,,,,http://www.mhc.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,defunct,Tue Jan 26 10:37:20 UTC 2010,Wed Sep 12 21:49:11 UTC 2012
 Meridian Energy Limited,,nz/meridian_energy_limited,,,,,http://www.meridianenergy.co.nz,New Zealand,NZ,fyi.org.nz,,,,,,Tue Jan 26 10:37:23 UTC 2010,Tue Mar 23 11:46:47 UTC 2010
@@ -205,7 +204,7 @@ Minister for Economic Development,,nz/minister_for_economic_development,,,,,http
 Minister for Primary Industries,,nz/minister_for_primary_industries,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Mon May 07 10:01:51 UTC 2012,Mon May 07 10:01:51 UTC 2012
 Minister for Senior Citizens,,nz/minister_for_senior_citizens,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Mon May 07 10:01:56 UTC 2012,Mon May 07 10:01:56 UTC 2012
 Minister for Sports and Recreation,,nz/minister_for_sports_and_recreation,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Mon May 07 10:01:51 UTC 2012,Mon May 07 10:01:51 UTC 2012
-"Minister for Tertiary Education, Skills and Employment",,minister_for_tertiary_education_skills_and_employment,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Mon May 07 10:01:49 UTC 2012,Mon May 07 10:01:49 UTC 2012
+"Minister for Tertiary Education, Skills and Employment",,nz/minister_for_tertiary_education_skills_and_employment,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Mon May 07 10:01:49 UTC 2012,Mon May 07 10:01:49 UTC 2012
 Minister for the Budget,,nz/minister_for_the_budget,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Mon May 07 10:01:48 UTC 2012,Mon May 07 10:01:48 UTC 2012
 Minister for the Community and Voluntary Sector,,nz/minister_for_the_community_and_voluntary_sector,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Mon May 07 10:01:56 UTC 2012,Mon May 07 10:01:56 UTC 2012
 Minister for the Courts,,nz/minister_for_the_courts,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Mon May 07 10:01:56 UTC 2012,Mon May 07 10:01:56 UTC 2012
@@ -214,7 +213,7 @@ Minister for Tourism,,nz/minister_for_tourism,,,,,http://www.ministers.govt.nz,N
 Minister for Veterans' Affairs,,nz/minister_for_veterans_affairs,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Mon May 07 10:01:54 UTC 2012,Mon May 07 10:01:54 UTC 2012
 Minister for Wh?nau Ora,,nz/minister_for_whnau_ora,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,,Mon May 07 10:01:58 UTC 2012,Mon May 07 10:01:58 UTC 2012
 Minister of ACC,,nz/minister_of_acc,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon Apr 01 22:30:31 UTC 2013,Mon Apr 01 22:30:31 UTC 2013
-"Minister of Arts, Culture,nz/ and Heritage",,minister_of_arts_culture_and_heritage,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:50 UTC 2012,Mon May 07 10:01:50 UTC 2012
+"Minister of Arts, Culture, and Heritage",,nz/minister_of_arts_culture_and_heritage,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:50 UTC 2012,Mon May 07 10:01:50 UTC 2012
 Minister of Broadcasting,,nz/minister_of_broadcasting,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:54 UTC 2012,Mon May 07 10:01:54 UTC 2012
 Minister of Building and Construction,,nz/minister_of_building_and_construction,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:55 UTC 2012,Mon May 07 10:01:55 UTC 2012
 Minister of Civil Defence,,nz/minister_of_civil_defence,,,,,http://www.ministers.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,minister,Mon May 07 10:01:55 UTC 2012,Mon May 07 10:01:55 UTC 2012
@@ -268,7 +267,7 @@ Ministry of Education,,nz/ministry_of_education,,,,,http://www.minedu.govt.nz,Ne
 Ministry of Justice,,nz/ministry_of_justice,,,,,http://www.justice.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,ministry,Tue Jan 26 10:37:18 UTC 2010,Tue Mar 23 11:46:44 UTC 2010
 Manukau Institute of Technology,MIT,nz/mit,,,,,http://www.manukau.ac.nz,New Zealand,NZ,fyi.org.nz,,,,,,Tue Jan 26 10:37:22 UTC 2010,Tue Mar 23 11:46:46 UTC 2010
 Ministry of Health,MOH,nz/moh,,,,,http://www.moh.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,ministry,Tue Jan 26 10:37:17 UTC 2010,Tue Mar 23 11:46:44 UTC 2010
-"Ministry of Research, Science,nz/ and Technology",MoRST,morst,,,,,http://www.morst.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,ministry,Tue Jan 26 10:37:18 UTC 2010,Tue Mar 23 11:46:44 UTC 2010
+"Ministry of Research, Science, and Technology",MoRST,nz/morst,,,,,http://www.morst.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,ministry,Tue Jan 26 10:37:18 UTC 2010,Tue Mar 23 11:46:44 UTC 2010
 Ministry of Transport,MOT,nz/mot,,,,,http://www.transport.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,popular_agency ministry,Tue Jan 26 10:37:18 UTC 2010,Sat Apr 20 11:59:46 UTC 2013
 Ministry for Primary Industries,MPI,nz/mpi,,,,,http://www.mpi.govt.nz,New Zealand,NZ,fyi.org.nz,,,,,ministry,Tue Jan 26 10:37:17 UTC 2010,Tue Aug 21 21:58:29 UTC 2012
 Ministry of Pacific Island Affairs,MPIA,nz/mpia,,,,,http://www.minpac.govt.nz/,New Zealand,NZ,fyi.org.nz,,,,,ministry,Tue Jan 26 10:37:18 UTC 2010,Tue Mar 23 11:46:44 UTC 2010
