@@ -5,12 +5,13 @@ var path = require('path');
 var nunjucks = require('nunjucks');
 var csv = require('csv');
 
+var dataDirectory = path.join('..', 'data');
 
 var env = new nunjucks.Environment(new nunjucks.FileSystemLoader('templates'));
 
 function prepare() {
   if (fs.existsSync('build')) {
-    deleteFolderRecursive('build'); 
+    deleteFolderRecursive('build');
   }
   fs.mkdirSync('build');
   fs.mkdirSync('build/css');
@@ -23,17 +24,22 @@ function prepare() {
           path.join('build', 'js', 'app.js')));
 }
 
-var countries = [ 'eu', 'gb', 'de' ];
-// var countries = [ 'eu' ];
-
-// url structure
-// /{country}/{id}.html
-// /{country}/{id}.json
+// read the contents of the data directory, include the name if it ends with ".csv"
+var csvRegex = /\.csv/;
+var dataFiles = fs.readdirSync(dataDirectory);
+var countries = [];
+for (var idx in dataFiles) {
+  if (csvRegex.test(dataFiles[idx])) {
+    countries.push(dataFiles[idx].replace(csvRegex, ''));
+  }
+}
 
 function build() {
+  var country;
+
   prepare();
   var index = [];
-  for (idx in countries) {
+  for (var idx in countries) {
     country = countries[idx];
     index[country] = [];
     renderCountry(country, index, callback);
@@ -41,7 +47,7 @@ function build() {
   var count = 0;
   function callback() {
     count += 1;
-    if (count == countries.length) { buildIndex({index: index, countries: countries}) }
+    if (count === countries.length) { buildIndex({index: index, countries: countries}) }
   }
 }
 
@@ -53,15 +59,15 @@ function buildIndex(data) {
 
 function renderCountry(country, index, cb) {
   fs.mkdirSync(path.join('build', country));
-  csvpath = path.join('..', 'data', country + '.csv');
+  var csvpath = path.join(dataDirectory, country + '.csv');
   csv().from(csvpath, {columns: true})
     .on('record', function(record, idx) {
       // key = eu/abcefg
-      slug = record['key'].split('/')[1]
+      var slug = record['key'].split('/')[1]
       record['slug'] = slug;
-      destpath = path.join('build', country, slug);
-      destjson = destpath + '.json';
-      destpath = destpath + '.html';  
+      var destpath = path.join('build', country, slug);
+      var destjson = destpath + '.json';
+      destpath = destpath + '.html';
       var offset = country + '/' + slug + '.html';
       index[country].push({title: record['title'], url: offset});
       templateHtml(record, destpath);
@@ -79,7 +85,7 @@ function templateHtml(data, path) {
   fs.writeFileSync(path, out);
 }
 
-deleteFolderRecursive = function(path) {
+function deleteFolderRecursive(path) {
   var files = [];
   if( fs.existsSync(path) ) {
     files = fs.readdirSync(path);
@@ -93,6 +99,6 @@ deleteFolderRecursive = function(path) {
     });
     fs.rmdirSync(path);
   }
-};
+}
 
 build();
