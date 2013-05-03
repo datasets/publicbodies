@@ -1,0 +1,35 @@
+{
+  "name": "publicbodies",
+  "version": "0.0.1",
+  "description": "A database of public bodies such as government departments, ministries etc.",
+  "main": "site/make.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "make": "npm install && (cd site && node make.js)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okfn/publicbodies"
+  },
+  "keywords": [
+    "opengovt",
+    "open",
+    "govt",
+    "okfn",
+    "publicbodies",
+    "public",
+    "bodies",
+    "government"
+  ],
+  "author": "@OKFN",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "05c0380d7adbbc2dc74238a2ca5354d8401caf38",
+  "dependencies": {
+    "csv": "~0.3.0",
+    "nunjucks": "~0.1.8a"
+  }
+}

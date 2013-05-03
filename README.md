@@ -187,3 +187,9 @@ SQL
     .headers ON
 
     SELECT * FROM entity;
+
+### Building the Site
+
+From the root directory, run this script:
+
+    npm run-script make
