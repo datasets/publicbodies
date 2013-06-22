@@ -2,6 +2,12 @@ doctype 5
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/publicbodies.css')
   body
-    block content
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          a.brand Public Bodies
+          span A URL for every part of government
+    .container
+      block content
