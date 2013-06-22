@@ -31,7 +31,15 @@ exports.jurisdiction = function(req, res) {
             bodies.push(record);
         }
     });
+    bodies.sort(function(a, b) {
+        if (a.title === b.title) {
+            return 0;
+        } else {
+            return a.title < b.title ? -1 : 1;
+        }
+    });
     res.render('jurisdiction', {
+        code: jurisdiction.toUpperCase(),
         bodies: bodies
     });
 };

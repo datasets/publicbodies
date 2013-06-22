@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  .row
+    .span12
+      h1 #{code} Jurisdiction
+  - each body in bodies
+    .row.jurisdiction
+      .span12
+        a(href="/#{body.key}")=body.title
