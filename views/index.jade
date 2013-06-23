@@ -1,0 +1,50 @@
+extends layout
+
+block content
+  .row
+    .span8
+      h1 Jurisdictions
+      - each jurisdiction in juris
+        .row-fluid.jurisdiction
+          a(href="/#{jurisdiction.key}") 
+            .span5.title
+              | #{jurisdiction.name} 
+            .span2.code
+              | #{jurisdiction.key.toUpperCase()}
+            .span3
+              | #{jurisdiction.count} bodies
+          .span2.download
+            a.btn.btn-inverse(href="https://github.com/okfn/publicbodies/raw/master/data/#{key}.csv") 
+              i.icon-download-alt
+              |  csv
+
+    .span4.sidebar
+      h3
+        | Open Data 
+        a(href='http://opendefinition.org/')
+          img(alt='This material is Open Data', border='0', src='http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png')
+      p
+        | This is all 
+        a(href='http://opendefinition.org/') open data
+        |  licensed under the 
+        a(href='http://opendatacommons.org/licenses/pddl/1.0/') Public Domain Dedication and License
+        |. Please use and reuse freely.
+      h3 Contribute
+      | Want to contribute (or just have a question)? Join the Open Knowledge Foundation Labs mailing list:
+      p
+        form.form-inline(action='http://lists.okfn.org/mailman/subscribe/okfn-labs')
+          .input-append
+            input.input-medium(type='email', name='email', placeholder='your@email.com')
+            button.btn.btn-info(type='submit') 
+              i.icon-envelope
+              |  Sign up
+      p
+        | Want to dive straight in? All the code 
+        em and
+        |  data are hosted in 
+        a(href='https://github.com/okfn/publicbodies') this github repo
+        |  and there's a list of 
+        a(href='https://github.com/okfn/publicbodies/issues') issues
+        |  where we need help!
+    
+
