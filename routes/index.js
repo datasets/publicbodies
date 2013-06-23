@@ -72,7 +72,7 @@ exports.body = function(req, res) {
 
     body = db.get(jurisdiction + '/' + key);
 
-    body.pageTitle = body.jurisdiction + ' / ' + body.title;
+    body.pageTitle = body.title + '/' + body.jurisdiction
 
     res.render('body', body);
 };
