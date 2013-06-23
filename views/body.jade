@@ -1,6 +1,11 @@
 extends layout
 
 block content
+  .row
+    .span12
+      a.btn.btn-large(href="/#{jurisdiction_code}")
+        i.icon-level-up
+        |  #{jurisdiction}
   .view
     h2
       =title
@@ -27,7 +32,9 @@ block content
       dt Tags
       dd=tags
       dt Description
-      dd=description
+      -if (description)
+        dd.description
+          blockquote=description
 
     .well
       p.source Source: #{source}

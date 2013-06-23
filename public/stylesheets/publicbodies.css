@@ -6311,6 +6311,17 @@ body {
   margin-left: 20px;
   max-width: 720px;
 }
+.description {
+  line-height: 1.6;
+}
+.description blockquote:before {
+  content: '\f10d';
+  font-family: FontAwesome;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  color: #999999;
+}
 .source {
   font-style: italic;
 }
