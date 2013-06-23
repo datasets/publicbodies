@@ -11,6 +11,4 @@ block content
         - each body in bodies
           tr
             td
-              a(href="/#{body.key}")
-                i.icon-bookmark
-                |  #{body.title}
+              a(href="/#{body.key}") #{body.title}

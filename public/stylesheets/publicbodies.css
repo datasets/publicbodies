@@ -6325,27 +6325,35 @@ body {
 .source {
   font-style: italic;
 }
+.logo {
+  height: 32px;
+  padding: 4px;
+}
 .jurisdiction {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 4px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #999999;
   box-sizing: border-box;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  background-color: #e0e0e0;
-  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee), to(#cccccc));
-  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: linear-gradient(to bottom, #eeeeee, #cccccc);
+  background-color: #9c9c9c;
+  background-image: -moz-linear-gradient(top, #aaaaaa, #888888);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aaaaaa), to(#888888));
+  background-image: -webkit-linear-gradient(top, #aaaaaa, #888888);
+  background-image: -o-linear-gradient(top, #aaaaaa, #888888);
+  background-image: linear-gradient(to bottom, #aaaaaa, #888888);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeeeeee', endColorstr='#ffcccccc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffaaaaaa', endColorstr='#ff888888', GradientType=0);
+}
+.jurisdiction > a {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
 }
 .jurisdiction > a,
 .jurisdiction [class*="span"] {
   line-height: 40px;
-  text-shadow: 1px 1px 3px #fff;
 }
 .jurisdiction .code {
   font-size: 40px;
