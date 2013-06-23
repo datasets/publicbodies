@@ -6297,3 +6297,20 @@ body {
   background: #eeeeee;
   text-align: center;
 }
+.view h2 .abbr {
+  line-height: 40px;
+  vertical-align: middle;
+}
+.attributes dt,
+.attributes dd {
+  margin-bottom: 10px;
+}
+.attributes dd {
+  float: left;
+  clear: right;
+  margin-left: 20px;
+  max-width: 720px;
+}
+.source {
+  font-style: italic;
+}

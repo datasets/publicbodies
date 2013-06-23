@@ -5,6 +5,7 @@ block content
     h2
       =title
       - if (abbr)
+        | 
         small.abbr=abbr
     .attributes.dl-horizontal
       dt Home page
@@ -27,6 +28,10 @@ block content
       dd=tags
       dt Description
       dd=description
-    p.source Source: #{source}
-    p
-      a(href="#{slug}.json") JSON
+
+    .well
+      p.source Source: #{source}
+      p
+        a.btn.btn-success(href="#{slug}.json") 
+          i.icon-download-alt
+          |  JSON
