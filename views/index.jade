@@ -5,13 +5,18 @@ block content
     .span8
       h1 Jurisdictions
       - each jurisdiction in juris
-        .row.jurisdiction
-          .span4.title
-            a(href="/#{jurisdiction.key}") #{jurisdiction.name} (#{jurisdiction.key.toUpperCase()})
-          .span2
-            a(href="/#{jurisdiction.key}") #{jurisdiction.count} bodies
-          .span2
-            a.btn.btn-mini(href="https://github.com/okfn/publicbodies/raw/master/data/#{key}.csv") csv
+        .row-fluid.jurisdiction
+          a(href="/#{jurisdiction.key}") 
+            .span6.title
+              | #{jurisdiction.name} 
+            .span2.code
+              | #{jurisdiction.key.toUpperCase()}
+            .span2
+              | #{jurisdiction.count} bodies
+          .span2.download
+            a.btn.btn-info(href="https://github.com/okfn/publicbodies/raw/master/data/#{key}.csv") 
+              i.icon-download-alt
+              |  csv
 
     .span4.sidebar
       h3
