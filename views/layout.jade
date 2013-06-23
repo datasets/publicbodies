@@ -6,15 +6,16 @@ html
       - if (pageTitle)
         | &mdash; #{pageTitle}
     link(rel='stylesheet', href='/stylesheets/publicbodies.css')
+    link(rel="shortcut icon",href="http://assets.okfn.org/p/okfn/img/favicon.ico")
   body
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
-          a.brand(href="/") Public Bodies
-          span A URL for every part of government
           .pull-right
             a(href="http://okfnlabs.org",title="An Open Knowledge Foundation Labs project",target="_blank")
-              img.logo(src="http://assets.okfn.org/p/labs/img/logo-flask.png",alt="")
+              img.logo(src="/images/logo-flask.png",alt="Open Knowledge Foundation Labs")
+          a.brand(href="/") Public Bodies
+          span A URL for every part of government
     .container
       block content
     footer.footer
