@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  .row
+    .span12
+      a.btn.btn-large(href="/#{jurisdiction_code}")
+        i.icon-level-up
+        |  #{jurisdiction}
+  .view
+    h2
+      =title
+      - if (abbr)
+        | 
+        small.abbr=abbr
+    .attributes.dl-horizontal
+      dt Home page
+      dd
+        a(href="#{url}")=title
+      dt E-Mail
+      dd=email
+      dt Address
+      dd
+        - if (address)
+          address
+            pre=address
+      dt Category/Type
+      dd=category
+      dt Parent category
+      dd=parent
+      dt Jurisdiction
+      dd #{jurisdiction} (#{jurisdiction_code})
+      dt Tags
+      dd=tags
+      dt Description
+      -if (description)
+        dd.description
+          blockquote=description
+
+    .well
+      p.source Source: #{source}
+      p
+        a.btn.btn-success(href="#{slug}.json") 
+          i.icon-download-alt
+          |  JSON
