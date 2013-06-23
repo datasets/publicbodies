@@ -28,3 +28,13 @@ html
           a(href='http://opendefinition.org/')
             img(alt='This material is Open Data', border='0', src='http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png')
           // Open Data Link 
+    script(type="text/javascript")
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33874954-15']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
