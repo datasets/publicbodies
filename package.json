@@ -36,6 +36,7 @@
     "pouchdb": "0.0.13",
     "less-middleware": "~0.1.12",
     "async": "~0.2.9",
-    "dirty": "~0.9.7"
+    "dirty": "~0.9.7",
+    "underscore": "~1.4.4"
   }
 }
