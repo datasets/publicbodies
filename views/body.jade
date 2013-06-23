@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  .view
+    h2
+      =title
+      - if (abbr)
+        small.abbr=abbr
+    .attributes.dl-horizontal
+      dt Home page
+      dd
+        a(href="#{url}")=title
+      dt E-Mail
+      dd=email
+      dt Address
+      dd
+        - if (address)
+          address
+            pre=address
+      dt Category/Type
+      dd=category
+      dt Parent category
+      dd=parent
+      dt Jurisdiction
+      dd #{jurisdiction} (#{jurisdiction_code})
+      dt Tags
+      dd=tags
+      dt Description
+      dd=description
+    p.source Source: #{source}
+    p
+      a(href="#{slug}.json") JSON

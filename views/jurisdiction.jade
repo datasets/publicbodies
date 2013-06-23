@@ -3,8 +3,12 @@ extends layout
 block content
   .row
     .span12
-      h1 #{code} Jurisdiction
-  - each body in bodies
-    .row.jurisdiction
-      .span12
-        a(href="/#{body.key}")=body.title
+      h1 #{name} (#{code})
+  .row
+    .span12
+      table.table.table-striped
+        tbody
+        - each body in bodies
+          tr
+            td
+              a(href="/#{body.key}")=body.title

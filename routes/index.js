@@ -6,17 +6,34 @@ var db = require('../lib/db'),
  */
 
 exports.index = function(req, res) {
-    var juris = {};
+    var juris = [],
+        indexes = {};
 
     db.forEach(function(key, record) {
         if (record.type === 'body') {
-            var code = record.jurisdiction_code;
+            var code = record.jurisdiction_code,
+                jurisdiction;
 
-            juris[code] = juris[code] || 0;
+            if (indexes[code] === undefined) {
+                juris.push({
+                    name: record.jurisdiction,
+                    key: code,
+                    count: 0
+                });
+                indexes[code] = juris.length - 1;
+            }
 
-            juris[code]++;
+            juris[indexes[code]].count++;
         }
     });
+
+    juris.sort(function(a, b) {
+        if (a.name === b.name) {
+            return 0;
+        } else {
+            return a.name < b.name ? -1 : 1;
+        }
+    })
     res.render('index', {
         juris: juris
     });
@@ -24,10 +41,12 @@ exports.index = function(req, res) {
 
 exports.jurisdiction = function(req, res) {
     var bodies = [],
+        name,
         jurisdiction = req.params.jurisdiction;
 
     db.forEach(function(key, record) {
         if (record.jurisdiction_code === jurisdiction) {
+            name = name || record.jurisdiction;
             bodies.push(record);
         }
     });
@@ -40,6 +59,29 @@ exports.jurisdiction = function(req, res) {
     });
     res.render('jurisdiction', {
         code: jurisdiction.toUpperCase(),
+        name: name,
+        pageTitle: name,
         bodies: bodies
     });
+};
+
+exports.body = function(req, res) {
+    var body,
+        jurisdiction = req.params.jurisdiction,
+        key = req.params.key;
+
+    body = db.get(jurisdiction + '/' + key);
+
+    body.pageTitle = body.jurisdiction + ' / ' + body.title;
+
+    res.render('body', body);
+};
+
+exports.bodyJSON = function(req, res) {
+    var body,
+        jurisdiction = req.params.jurisdiction,
+        key = req.params.key;
+
+    body = db.get(jurisdiction + '/' + key);
+    res.send(200, body);
 };

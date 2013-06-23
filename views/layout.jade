@@ -1,7 +1,10 @@
 doctype 5
 html
   head
-    title= title
+    title 
+      | Public Bodies 
+      - if (pageTitle)
+        | &mdash; #{pageTitle}
     link(rel='stylesheet', href='/stylesheets/publicbodies.css')
   body
     .navbar.navbar-fixed-top

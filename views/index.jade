@@ -4,12 +4,12 @@ block content
   .row
     .span8
       h1 Jurisdictions
-      - each val, key in juris
+      - each jurisdiction in juris
         .row.jurisdiction
-          .span2.title
-            a(href="/#{key}")=key.toUpperCase()
-          .span4
-            a(href="/#{key}") #{val} bodies
+          .span4.title
+            a(href="/#{jurisdiction.key}") #{jurisdiction.name} (#{jurisdiction.key.toUpperCase()})
+          .span2
+            a(href="/#{jurisdiction.key}") #{jurisdiction.count} bodies
           .span2
             a.btn.btn-mini(href="https://github.com/okfn/publicbodies/raw/master/data/#{key}.csv") csv
 
