@@ -7,11 +7,11 @@ block content
       - each jurisdiction in juris
         .row-fluid.jurisdiction
           a(href="/#{jurisdiction.key}") 
-            .span6.title
+            .span5.title
               | #{jurisdiction.name} 
             .span2.code
               | #{jurisdiction.key.toUpperCase()}
-            .span2
+            .span3
               | #{jurisdiction.count} bodies
           .span2.download
             a.btn.btn-inverse(href="https://github.com/okfn/publicbodies/raw/master/data/#{key}.csv") 
