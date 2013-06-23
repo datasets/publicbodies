@@ -14,9 +14,31 @@ Examples are:
 Data is stored in CSVs partitioned by country or region (e.g. EU). Directories
 are named by ISO code.  
 
-## Contribute
+## Contribute Data
 
 Please just add to the CSV file and submit a pull request or open an issue.
+
+## For Developers of the Website
+
+The website is a node webapp. To get it running:
+
+1. Install node and npm (>= 0.8)
+
+2. Get the code
+
+        git clone https://github.com/okfn/publicbodies
+
+3. Install the dependencies (make sure you are in the publicbodies directory)
+
+        npm install .
+
+4. Run the webapp:
+
+        node index.js
+
+The list of outstanding issues is at: <https://github.com/okfn/publicbodies/issues>
+
+----
 
 ## Original Preparation
 
@@ -188,8 +210,3 @@ SQL
 
     SELECT * FROM entity;
 
-### Building the Site
-
-From the root directory, run this script:
-
-    npm run-script make
