@@ -6351,7 +6351,11 @@ body {
   padding: 20px;
   border-radius: 4px;
   border: 1px solid #999999;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   background-color: #9c9c9c;
   background-image: -moz-linear-gradient(top, #aaaaaa, #888888);
