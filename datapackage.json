@@ -12,74 +12,92 @@
         "fields": [
           {
             "type": "string", 
+            "description": "Full name of the Body",
             "id": "title"
           }, 
           {
             "type": "string", 
+            "description": "Abbreviation for the body (if any).",
             "id": "abbr"
           }, 
           {
             "type": "string", 
+            "description": "Unique key/id for the Body. Should be of form {jurisdiction-code}/{unique-id-for-body-within-jurisdiction} where jurisdiction-code is a per jurisdiction_code field",
             "id": "key"
           }, 
           {
             "type": "string", 
+            "description": "Category of Body",
             "id": "category"
           }, 
           {
-            "type": "string", 
+            "type": "string",
+            "description": "If the Body has a parent body this should be the title for that parent body",
             "id": "parent"
           }, 
           {
             "type": "string", 
+            "description": "If the Body has a parent body this should be the title for that parent body",
             "id": "parent_key"
           }, 
           {
             "type": "string", 
+            "description": "Description of the Body",
             "id": "description"
           }, 
           {
             "type": "string", 
+            "description": "URL for the the Body",
             "id": "url"
           }, 
           {
             "type": "string", 
+            "description": "Full name of the jurisdiction in which this Body exists e.g. Germany or United States",
             "id": "jurisdiction"
           }, 
           {
             "type": "string", 
+            "description": "Short 2-digit code for the Body. Use 2-digit iso-code in case where jurisdiction is a country",
             "id": "jurisdiction_code"
           }, 
           {
             "type": "string", 
+            "description": "Human name for source e.g. Parliament Website",
             "id": "source"
           }, 
           {
             "type": "string", 
+            "description": "Source URL",
             "id": "source_url"
           }, 
           {
             "type": "string", 
+            "description": "Official physical address of the Body",
             "id": "address"
           }, 
           {
             "type": "string", 
+            "description": "Address for correspondence if different from official address",
             "id": "contact"
           }, 
           {
             "type": "string", 
+            "description": "Contact email for the Body",
             "id": "email"
           }, 
           {
             "type": "string", 
+            "description": "Free text tags, space separated",
             "id": "tags"
           }, 
           {
             "type": "string", 
+            "description": "Date this entry created at (NOT date Body created at). Likely to be deprecated",
             "id": "created_at"
           }, 
           {
             "type": "string", 
+            "description": "Date this entry updated at. Likely to be deprecated",
             "id": "updated_at"
           }
         ]
