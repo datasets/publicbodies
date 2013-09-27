@@ -27,6 +27,10 @@ block content
       dd=category
       dt Parent category
       dd=parent
+      - if (parentBody)
+        dt Parent Body
+        dd
+          a(href="/#{parentBody.key}")=parentBody.title
       dt Jurisdiction
       dd #{jurisdiction} (#{jurisdiction_code})
       dt Tags

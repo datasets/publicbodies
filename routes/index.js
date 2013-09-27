@@ -72,6 +72,10 @@ exports.body = function(req, res) {
 
     body = db.get(jurisdiction + '/' + key);
 
+    if (body.parent_key) {
+        body.parentBody = db.get(body.parent_key);
+    }
+
     body.pageTitle = body.title + '/' + body.jurisdiction
 
     res.render('body', body);
