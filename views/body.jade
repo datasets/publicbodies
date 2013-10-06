@@ -25,8 +25,6 @@ block content
             pre=address
       dt Classification
       dd=classification
-      dt Parent
-      dd=parent
       - if (parentBody)
         dt Parent Body
         dd
@@ -41,7 +39,7 @@ block content
           blockquote=description
 
     .well
-      p.source Source: #{source}
+      p.source Source: <a href="#{source_url}">#{source_url}</a>
       p
         a.btn.btn-success(href="#{slug}.json") 
           i.icon-download-alt

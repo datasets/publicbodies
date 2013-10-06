@@ -76,7 +76,7 @@ exports.body = function(req, res) {
         body.parentBody = db.get(body.parent_id);
     }
 
-    body.pageTitle = body.title + '/' + body.jurisdiction
+    body.pageTitle = body.name + ' / ' + body.jurisdiction;
 
     res.render('body', body);
 };
