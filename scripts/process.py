@@ -1,7 +1,39 @@
 import csv
 import sys
 import os
+import json
 import datetime
+
+# migrate data as per https://github.com/okfn/publicbodies/issues/29
+def migrate29(path):
+    fo = open(path) 
+    reader = csv.DictReader(fo)
+    fields = reader.fieldnames
+    schema = json.load(open('datapackage.json'))['resources'][0]['schema']
+    newfields = [ f['id'] for f in schema['fields'] ]
+    mapfields = {
+        'title': 'name',
+        'abbr': 'abbreviation',
+        'key': 'id',
+        'category': 'classification',
+        'parent_key': 'parent_id',
+        }
+    def migraterow(row):
+        for key in mapfields:
+            outkey = mapfields[key]
+            row[outkey] = row[key]
+        for key in row.keys():
+            if key not in newfields:
+                del row[key]
+        return row
+    
+    newrows = [ migraterow(row) for row in reader ]
+    fo.close()
+    writer = csv.DictWriter(open(path, 'w'), newfields, lineterminator='\n')
+    writer.writeheader()
+    writer.writerows(newrows)
+
+## Older
 
 def normalize(path):
     fo = open(path) 
@@ -68,10 +100,28 @@ def strip_accents(s):
     return out.encode('utf8')
 
 if __name__ == '__main__':
-    if len(sys.argv) >= 2:
-        path = sys.argv[1]
-        normalize(path)
+    usage = 'process.py {action} ...'
+    if not len(sys.argv) > 1:
+        print(usage)
+        sys.exit(0)
+
+    jurisdictions = ['br', 'ch', 'de', 'eu', 'gb', 'gr', 'nz', 'us']
+
+    action = sys.argv[1]
+    if action == 'migrate29':
+        if len(sys.argv) > 2:
+            migrate29(sys.argv[2])
+        else:
+            for j in jurisdictions:
+                print('Processing %s' % j)
+                migrate29(os.path.join('data', '%s.csv' % j))
+    elif action == 'normalize':
+        if len(sys.argv) > 2:
+            path = sys.argv[2]
+            normalize(path)
+        else:
+            for c in ['de', 'eu', 'gb']:
+                normalize(os.path.join('data', c + '.csv'))
     else:
-        for c in ['de', 'eu', 'gb']:
-            normalize(os.path.join('data', c + '.csv'))
+        print(usage)
 

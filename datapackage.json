@@ -1,104 +1,104 @@
 {
-  "name": "public-bodies", 
+  "name": "public-bodies",
   "license": [
     {
-      "url": "http://opendatacommons.org/licenses/pddl/1.0/", 
+      "url": "http://opendatacommons.org/licenses/pddl/1.0/",
       "name": "Public Domain Dedication and License"
     }
-  ], 
+  ],
   "resources": [
     {
       "schema": {
         "fields": [
           {
-            "type": "string", 
-            "description": "Full name of the Body",
-            "id": "title"
-          }, 
-          {
-            "type": "string", 
-            "description": "Abbreviation for the body (if any).",
-            "id": "abbr"
-          }, 
-          {
-            "type": "string", 
-            "description": "Unique key/id for the Body. Should be of form {jurisdiction-code}/{unique-id-for-body-within-jurisdiction} where jurisdiction-code is a per jurisdiction_code field",
-            "id": "key"
-          }, 
-          {
-            "type": "string", 
-            "description": "Category of Body",
-            "id": "category"
-          }, 
-          {
+            "id": "id",
             "type": "string",
-            "description": "If the Body has a parent body this should be the title for that parent body",
-            "id": "parent"
-          }, 
+            "primarykey": true,
+            "description": "Unique key/id for the Body. Should be of form {jurisdiction-code}/{unique-id-for-body-within-jurisdiction} where jurisdiction-code is a per jurisdiction_code field"
+          },
           {
-            "type": "string", 
-            "description": "If the Body has a parent body this should be the title for that parent body",
-            "id": "parent_key"
-          }, 
+            "id": "name",
+            "type": "string",
+            "description": "Standard name of the Body"
+          },
           {
-            "type": "string", 
-            "description": "Description of the Body",
-            "id": "description"
-          }, 
+            "id": "abbreviation",
+            "type": "string",
+            "description": "Abbreviation for the body (if any)."
+          },
           {
-            "type": "string", 
-            "description": "URL for the the Body",
-            "id": "url"
-          }, 
+            "id": "other_names",
+            "type": "string",
+            "description": "Other, alternate, names for this Body. If there is more than one separate them with semi-colons"
+          },
           {
-            "type": "string", 
-            "description": "Full name of the jurisdiction in which this Body exists e.g. Germany or United States",
-            "id": "jurisdiction"
-          }, 
+            "id": "description",
+            "type": "string",
+            "description": "Description of the Body"
+          },
           {
-            "type": "string", 
-            "description": "Short 2-digit code for the Body. Use 2-digit iso-code in case where jurisdiction is a country",
-            "id": "jurisdiction_code"
-          }, 
+            "id": "classification",
+            "type": "string",
+            "description": "Category of Body. There should only be one classification per body."
+          },
           {
-            "type": "string", 
-            "description": "Human name for source e.g. Parliament Website",
-            "id": "source"
-          }, 
+            "id": "parent_id",
+            "type": "string",
+            "description": "If the Body has a parent body this should be the title for that parent body"
+          },
           {
-            "type": "string", 
-            "description": "Source URL",
-            "id": "source_url"
-          }, 
+            "id": "founding_date",
+            "type": "date",
+            "description": "IS0 8601 Date this body was founded / created"
+          },
           {
-            "type": "string", 
-            "description": "Official physical address of the Body",
-            "id": "address"
-          }, 
+            "id": "dissolution_date",
+            "type": "date",
+            "description": "ISO 8601 Date this body was dissolved"
+          },
           {
-            "type": "string", 
-            "description": "Address for correspondence if different from official address",
-            "id": "contact"
-          }, 
+            "id": "image",
+            "type": "string",
+            "format": "url",
+            "description": "URL of an image for this Body"
+          },
           {
-            "type": "string", 
-            "description": "Contact email for the Body",
-            "id": "email"
-          }, 
+            "id": "url",
+            "type": "string",
+            "format": "url",
+            "description": "URL for the the Body"
+          },
           {
-            "type": "string", 
-            "description": "Free text tags, space separated",
-            "id": "tags"
-          }, 
+            "id": "jurisdiction_code",
+            "type": "string",
+            "description": "Short 2-digit code for the Body. Use 2-digit iso-code in case where jurisdiction is a country"
+          },
           {
-            "type": "string", 
-            "description": "Date this entry created at (NOT date Body created at). Likely to be deprecated",
-            "id": "created_at"
-          }, 
+            "id": "email",
+            "type": "string",
+            "format": "email",
+            "description": "Contact email for the Body"
+          },
           {
-            "type": "string", 
-            "description": "Date this entry updated at. Likely to be deprecated",
-            "id": "updated_at"
+            "id": "address",
+            "type": "string",
+            "description": "Official address of the Body"
+          },
+          {
+            "id": "contact",
+            "type": "string",
+            "description": "Address for correspondence if different from official address"
+          },
+          {
+            "id": "tags",
+            "type": "string",
+            "description": "Free text tags, space separated"
+          },
+          {
+            "id": "source_url",
+            "type": "string",
+            "format": "url",
+            "description": "Source URL for this specific record. Please point to a specific webpage or API not just the base website or API (it is of little value if this attribute is the the same API endpoint for every record (in such circumstances it would be better to put something in the README instead)."
           }
         ]
       }

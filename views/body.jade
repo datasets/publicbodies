@@ -8,14 +8,14 @@ block content
         |  #{jurisdiction}
   .view
     h2
-      =title
-      - if (abbr)
+      =name
+      - if (abbreviation)
         | 
-        small.abbr=abbr
+        small.abbr=abbreviation
     .attributes.dl-horizontal
       dt Home page
       dd
-        a(href="#{url}")=title
+        a(href="#{url}")=name
       dt E-Mail
       dd=email
       dt Address
@@ -23,14 +23,14 @@ block content
         - if (address)
           address
             pre=address
-      dt Category/Type
-      dd=category
-      dt Parent category
+      dt Classification
+      dd=classification
+      dt Parent
       dd=parent
       - if (parentBody)
         dt Parent Body
         dd
-          a(href="/#{parentBody.key}")=parentBody.title
+          a(href="/#{parentBody.id}")=parentBody.name
       dt Jurisdiction
       dd #{jurisdiction} (#{jurisdiction_code})
       dt Tags
