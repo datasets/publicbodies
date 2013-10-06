@@ -29,6 +29,7 @@ if ('development' === app.get('env')) {
 }
 
 app.get('/', routes.index);
+app.get('/search', routes.search);
 app.get('/:jurisdiction', routes.jurisdiction);
 app.get('/:jurisdiction/:key.json', routes.bodyJSON);
 app.get('/:jurisdiction/:key', routes.body);

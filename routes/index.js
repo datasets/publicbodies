@@ -89,3 +89,8 @@ exports.bodyJSON = function(req, res) {
     body = db.get(jurisdiction + '/' + key);
     res.send(200, body);
 };
+
+exports.search = function(req, res) {
+    res.render('search');
+};
+

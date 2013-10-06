@@ -12,6 +12,8 @@ html
       .navbar-inner
         .container
           .pull-right
+            form(class="navbar-search",action="/search")
+              input(type="text",name="search",class="search-query",placeholder="Search")
             a(href="http://okfnlabs.org",title="An Open Knowledge Foundation Labs project",target="_blank")
               img.logo(src="/images/logo-flask.png",alt="Open Knowledge Foundation Labs")
           a.brand(href="/") Public Bodies
@@ -28,6 +30,7 @@ html
           a(href='http://opendefinition.org/')
             img(alt='This material is Open Data', border='0', src='http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png')
           // Open Data Link 
+
     script(type="text/javascript")
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-33874954-15']);
