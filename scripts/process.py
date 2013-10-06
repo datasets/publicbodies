@@ -23,6 +23,9 @@ def normalize_dates(row):
     return row
 
 def normalize_keys_2(row):
+    if not row['key']:
+        key = row['abbr'] if row['abbr'] else row['title']
+        row['key'] = row['jurisdiction_code'].lower() + '/' + generate_slug(key)
     parts = row['key'].split('/')
     row['key'] = parts[0] + '/' + parts[1].replace('_', '-')
     return row
@@ -54,6 +57,8 @@ def generate_slug(title):
     slug = slug.replace(' ', '-')
     slug = slug.replace('- ', '-')
     slug = slug.replace('--', '-')
+    slug = slug.replace('(', '').replace(')', '')
+    return slug
 
 import unicodedata
 def strip_accents(s):
