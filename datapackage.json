@@ -1,5 +1,6 @@
 {
   "name": "public-bodies",
+  "title": "Database of Public Bodies (Government Entities)",
   "license": [
     {
       "url": "http://opendatacommons.org/licenses/pddl/1.0/",
@@ -8,6 +9,7 @@
   ],
   "resources": [
     {
+      "path": "data/gb.csv",
       "schema": {
         "fields": [
           {
