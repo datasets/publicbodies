@@ -16,7 +16,12 @@ are named by ISO code.
 
 ## Contribute Data
 
-Please just add to the CSV file and submit a pull request or open an issue.
+Please just add a CSV file and submit a pull request or open an issue.
+
+The set of fields required in the CSV file can be seen in the field list on:
+<http://data.okfn.org/community/okfn/publicbodies> (if you like JSON you look
+directly at the `datapackage.json` file in this repo - you can also check out
+the existing data in `data/`).
 
 ## For Developers of the Website
 
