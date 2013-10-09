@@ -4,7 +4,6 @@ var db = require('../lib/db'),
 /*
  * GET home page.
  */
-
 exports.index = function(req, res) {
     var juris = [],
         indexes = {};
@@ -33,12 +32,16 @@ exports.index = function(req, res) {
         } else {
             return a.name < b.name ? -1 : 1;
         }
-    })
+    });
+
     res.render('index', {
         juris: juris
     });
 };
 
+/*
+ * GET list of bodies in jurisdiction
+ */
 exports.jurisdiction = function(req, res) {
     var bodies = [],
         name,
@@ -65,6 +68,9 @@ exports.jurisdiction = function(req, res) {
     });
 };
 
+/*
+ * GET single public body
+ */
 exports.body = function(req, res) {
     var body,
         jurisdiction = req.params.jurisdiction,
@@ -81,16 +87,72 @@ exports.body = function(req, res) {
     res.render('body', body);
 };
 
+/*
+ * GET single public body as JSON
+ */
 exports.bodyJSON = function(req, res) {
-    var body,
-        jurisdiction = req.params.jurisdiction,
+    var jurisdiction = req.params.jurisdiction,
         key = req.params.key;
 
-    body = db.get(jurisdiction + '/' + key);
-    res.send(200, body);
+    function toJSON(body, getParent) {
+        var json = _.omit(body, 'type', 'jurisdiction', 'slug');
+
+        _.each(json, function(value, key) {
+            if (value == '') {
+                delete json[key];
+            }
+        });
+
+        if (json.url) {
+            json.links = [{url: json.url}];
+            delete json.url;
+        }
+
+        if (json.source_url) {
+            json.sources = [{url: json.source_url}];
+            delete json.source_url;
+        }
+
+        if (json.abbreviation) {
+            json.other_names = [{name: json.abbreviation}];
+            delete json.abbreviation;
+        }
+
+        if (json.email || json.address) {
+            json.contact_details = [];
+        }
+
+        if (json.email) {
+            json.contact_details.push({
+                label: 'Email',
+                type: 'email',
+                value: json.email
+            });
+            delete json.email;
+        }
+
+        if (json.address) {
+            json.contact_details.push({
+                label: 'Address',
+                type: 'address',
+                value: json.address
+            });
+            delete json.address;
+        }
+
+        if (getParent && json.parent_id) {
+            json.parent = toJSON(db.get(json.parent_id), false);
+        }
+
+        return json;
+    }
+
+    res.json(toJSON(db.get(jurisdiction + '/' + key), true));
 };
 
+/*
+ * GET search page
+ */
 exports.search = function(req, res) {
     res.render('search');
 };
-
