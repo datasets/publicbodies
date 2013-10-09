@@ -42,7 +42,7 @@ exports.index = function(req, res) {
 exports.jurisdiction = function(req, res) {
     var bodies = [],
         name,
-        jurisdiction = req.params.jurisdiction;
+        jurisdiction = req.params.jurisdiction.toUpperCase();
 
     db.forEach(function(key, record) {
         if (record.jurisdiction_code === jurisdiction) {
@@ -58,7 +58,7 @@ exports.jurisdiction = function(req, res) {
         }
     });
     res.render('jurisdiction', {
-        code: jurisdiction.toUpperCase(),
+        code: jurisdiction,
         name: name,
         pageTitle: name,
         bodies: bodies
