@@ -16,7 +16,7 @@ exports.index = function(req, res) {
             if (indexes[code] === undefined) {
                 juris.push({
                     name: record.jurisdiction,
-                    key: code,
+                    key: code.toLowerCase(),
                     count: 0
                 });
                 indexes[code] = juris.length - 1;
