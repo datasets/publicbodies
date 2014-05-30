@@ -55,6 +55,7 @@ Data sources:
 * AskTheEU.org
 * FragDenStaat.de - (private GoogleDoc) - http://www.bund.de/DE/Behoerden
 * WhatDoTheyKnow.com - http://www.whatdotheyknow.com/body/all-authorities.csv
+* Brazilian Government SIORG - http://www.siorg.redegoverno.gov.br/ - xml export at http://repositorio.dados.gov.br/governo-politica/administracao-publica/estrutura-organizacional/
 
 ### Building the SQLite DB
 
