@@ -38,7 +38,7 @@ column_map = {
 }
 localnumberpattern = re.compile(r"\s*\d{4,5}\s*-?\s*\d{4}")
 paragraphpattern = re.compile(r"[CP]\d{3}")
-bulletpointpattern = re.compile(r"[IK]\d{3}")
+bulletpointpattern = re.compile(r"[AIK]\d{3}")
 
 class SIORGReader():
     "Reads the SIORG xml files using lxml."
