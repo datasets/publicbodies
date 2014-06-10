@@ -1,4 +1,4 @@
-== Purpose ==
+## Purpose
 
 This set of scripts copy and import the information about the Brazilian federal government
 organizational structure, contained within the xml dump file at
@@ -8,13 +8,13 @@ http://repositorio.dados.gov.br/governo-politica/administracao-publica/estrutura
 and saves it as a csv file in the [schema](http://data.okfn.org/data/okfn/public-bodies) used
 by the [public bodies project](https://github.com/okfn/publicbodies).
 
-== Dependencies ==
+## Dependencies
 
 * lxml (also requires libxml, see [installation instructions](http://lxml.de/installation.html))
 * nltk
 * phonenumberslite
 
-== Installation ==
+## Installation
 
 Note: it's not necessary to install these scripts as a Python package. As long as your system
 satisfies the dependencies described here, you can just run the scripts directly.
@@ -39,7 +39,7 @@ $ source pyenv/bin/activate
 
 This should take care of the dependencies on other python packages.
 
-== Usage ==
+## Usage
 
 Fist you need to download the xml dump files to a local folder.
 
@@ -65,7 +65,7 @@ The second parameter is the output csv file.
 The third parameter optionally reads the xml file containing domain information.
 This is required if you want to fill the classification and tags fields.
 
-== To do ==
+## To do
 
-* refactor to use the Python standard library instead of lxml to simplify installation
+* refactor to use the Python standard library for xml processing instead of lxml to simplify installation
 * refactor to some simpler slugging code not to require the whole nltk library
