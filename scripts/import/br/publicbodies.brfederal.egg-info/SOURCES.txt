@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+publicbodies.brfederal.egg-info/PKG-INFO
+publicbodies.brfederal.egg-info/SOURCES.txt
+publicbodies.brfederal.egg-info/dependency_links.txt
+publicbodies.brfederal.egg-info/entry_points.txt
+publicbodies.brfederal.egg-info/requires.txt
+publicbodies.brfederal.egg-info/top_level.txt
+publicbodies.brfederal.egg-info/zip-safe
+publicbodiesbrfederal/__init__.py
+publicbodiesbrfederal/simpleslugger.py
+publicbodiesbrfederal/xmltocsv.py

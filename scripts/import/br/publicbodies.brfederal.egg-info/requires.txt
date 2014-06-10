@@ -1,0 +1,2 @@
+nltk>=2.0b8s
+phonenumberslite>=6.1.0

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: publicbodies.brfederal
+Version: 0.3dev
+Summary: Imports Brazilian federal government structure into publicbodies csv file
+Home-page: UNKNOWN
+Author: Augusto Herrmann
+Author-email: augusto.herrmann@gmail.com
+License: GPL-3.0
+Description: A collection of scripts that load the Brazilian federal government organizational structure xml dump file into a csv file in the format used by publicbodies.org.
+Keywords: government organizations publicbodies
+Platform: UNKNOWN
