@@ -16,13 +16,10 @@ by the [public bodies project](https://github.com/okfn/publicbodies).
 
 ## Installation
 
-Note: it's not necessary to install these scripts as a Python package. As long as your system
-satisfies the dependencies described here, you can just run the scripts directly.
+Install the system libraries for libxml2 and libxslt (required for lxml, see
+[instructions on lxml documentation](http://lxml.de/installation.html)).
 
-Install the system libraries for libxml2 and libxslt (required for lxml,
-[see instructions](http://lxml.de/installation.html)).
-
-Proceed to install the package in the usual Python way. That is, create an empty virtual
+Proceed to install the package in the usual Python way. That is, create a new virtual
 environment (install Python [virtualenv](http://virtualenv.readthedocs.org/en/latest/virtualenv.html)
 if you haven't already):
 
@@ -34,8 +31,10 @@ Then activate the environment and install the package from where you downloaded 
 
 ```
 $ source pyenv/bin/activate
-(pyenv)$ pip install -e .
+(pyenv)$ pip install -r requirements.txt
 ```
+
+You'll of course need to activate this virtual environment every time you want to run the scripts.
 
 This should take care of the dependencies on other python packages.
 
