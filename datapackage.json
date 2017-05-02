@@ -1,86 +1,106 @@
 {
-  "name": "public-bodies", 
+  "name": "public-bodies",
+  "title": "Database of Public Bodies (Government Entities)",
   "license": [
     {
-      "url": "http://opendatacommons.org/licenses/pddl/1.0/", 
+      "url": "http://opendatacommons.org/licenses/pddl/1.0/",
       "name": "Public Domain Dedication and License"
     }
-  ], 
+  ],
   "resources": [
     {
+      "path": "data/gb.csv",
       "schema": {
         "fields": [
           {
-            "type": "string", 
-            "id": "title"
-          }, 
+            "id": "id",
+            "type": "string",
+            "primarykey": true,
+            "description": "Unique key/id for the Body. Should be of form {jurisdiction-code}/{unique-id-for-body-within-jurisdiction} where jurisdiction-code is a per jurisdiction_code field"
+          },
           {
-            "type": "string", 
-            "id": "abbr"
-          }, 
+            "id": "name",
+            "type": "string",
+            "description": "Standard name of the Body"
+          },
           {
-            "type": "string", 
-            "id": "key"
-          }, 
+            "id": "abbreviation",
+            "type": "string",
+            "description": "Abbreviation for the body (if any)."
+          },
           {
-            "type": "string", 
-            "id": "category"
-          }, 
+            "id": "other_names",
+            "type": "string",
+            "description": "Other, alternate, names for this Body. If there is more than one separate them with semi-colons"
+          },
           {
-            "type": "string", 
-            "id": "parent"
-          }, 
+            "id": "description",
+            "type": "string",
+            "description": "Description of the Body"
+          },
           {
-            "type": "string", 
-            "id": "parent_key"
-          }, 
+            "id": "classification",
+            "type": "string",
+            "description": "Category of Body. There should only be one classification per body."
+          },
           {
-            "type": "string", 
-            "id": "description"
-          }, 
+            "id": "parent_id",
+            "type": "string",
+            "description": "If the Body has a parent body this should be the title for that parent body"
+          },
           {
-            "type": "string", 
-            "id": "url"
-          }, 
+            "id": "founding_date",
+            "type": "date",
+            "description": "IS0 8601 Date this body was founded / created"
+          },
           {
-            "type": "string", 
-            "id": "jurisdiction"
-          }, 
+            "id": "dissolution_date",
+            "type": "date",
+            "description": "ISO 8601 Date this body was dissolved"
+          },
           {
-            "type": "string", 
-            "id": "jurisdiction_code"
-          }, 
+            "id": "image",
+            "type": "string",
+            "format": "url",
+            "description": "URL of an image for this Body"
+          },
           {
-            "type": "string", 
-            "id": "source"
-          }, 
+            "id": "url",
+            "type": "string",
+            "format": "url",
+            "description": "URL for the the Body"
+          },
           {
-            "type": "string", 
-            "id": "source_url"
-          }, 
+            "id": "jurisdiction_code",
+            "type": "string",
+            "description": "Short 2-digit code for the Body. Use 2-digit iso-code in case where jurisdiction is a country"
+          },
           {
-            "type": "string", 
-            "id": "address"
-          }, 
+            "id": "email",
+            "type": "string",
+            "format": "email",
+            "description": "Contact email for the Body"
+          },
           {
-            "type": "string", 
-            "id": "contact"
-          }, 
+            "id": "address",
+            "type": "string",
+            "description": "Official address of the Body"
+          },
           {
-            "type": "string", 
-            "id": "email"
-          }, 
+            "id": "contact",
+            "type": "string",
+            "description": "Address for correspondence if different from official address"
+          },
           {
-            "type": "string", 
-            "id": "tags"
-          }, 
+            "id": "tags",
+            "type": "string",
+            "description": "Free text tags, space separated"
+          },
           {
-            "type": "string", 
-            "id": "created_at"
-          }, 
-          {
-            "type": "string", 
-            "id": "updated_at"
+            "id": "source_url",
+            "type": "string",
+            "format": "url",
+            "description": "Source URL for this specific record. Please point to a specific webpage or API not just the base website or API (it is of little value if this attribute is the the same API endpoint for every record (in such circumstances it would be better to put something in the README instead)."
           }
         ]
       }

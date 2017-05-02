@@ -1,0 +1,116 @@
+@import "variables.less";
+@import "bootswatch.less";
+@import "bootstrap/bootstrap.less";
+@import "font-awesome/font-awesome.less";
+
+body {
+    padding: 70px 0 20px;
+}
+
+.navbar .container span {
+    line-height: 60px;
+    color: @grayLight;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 30px 0 20px;
+    background: @grayLighter;
+    text-align: center;
+}
+
+.view {
+    h2 .abbr {
+        line-height: 40px;
+        vertical-align: middle;
+    }
+}
+
+.attributes {
+    dt, dd {
+        margin-bottom: 10px;
+    }
+    dd {
+        float: left;
+        clear: right;
+        margin-left: 20px;
+        max-width: 720px;
+    }
+}
+
+.description {
+    line-height: 1.6;
+    blockquote:before {
+        content: '\f10d';
+        font-family: FontAwesome;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        font-size: 1.4em;
+        color: @grayLight;
+    }
+}
+
+.source {
+    font-style: italic;
+}
+
+.logo {
+    padding: 14px;
+}
+
+.jurisdiction {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    border-radius: 4px;
+    border: 1px solid @grayLight;
+    .box-sizing(border-box);
+    .box-shadow(1px 1px 3px rgba(0,0,0,0.5));
+
+    > a {
+        color: white;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        padding: 10px 0;
+    }
+    > a, [class*="span"] {
+        line-height: 40px;
+    }
+    #gradient > .vertical(#aaa, #888);
+
+    .code {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .download {
+
+    }
+}
+
+input.gsc-input, input.gsc-input:focus {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  line-height: 16px;
+  border-color: none;
+}
+
+td.gsib_a {
+  padding-top: 0;
+  line-height: 16px;
+  border: none;
+}
+
+div.gsc-thumbnail-inside {
+  padding-left: 0;
+}
+
+div.gsc-url-top {
+  display: none;
+}
+

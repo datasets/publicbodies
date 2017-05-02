@@ -14,9 +14,36 @@ Examples are:
 Data is stored in CSVs partitioned by country or region (e.g. EU). Directories
 are named by ISO code.  
 
-## Contribute
+## Contribute Data
 
-Please just add to the CSV file and submit a pull request or open an issue.
+Please just add a CSV file and submit a pull request or open an issue.
+
+The set of fields required in the CSV file can be seen in the field list on:
+<http://data.okfn.org/community/okfn/publicbodies> (if you like JSON you look
+directly at the `datapackage.json` file in this repo - you can also check out
+the existing data in `data/`).
+
+## For Developers of the Website
+
+The website is a node webapp. To get it running:
+
+1. Install node and npm (>= 0.8)
+
+2. Get the code
+
+        git clone https://github.com/okfn/publicbodies
+
+3. Install the dependencies (make sure you are in the publicbodies directory)
+
+        npm install .
+
+4. Run the webapp:
+
+        node index.js
+
+The list of outstanding issues is at: <https://github.com/okfn/publicbodies/issues>
+
+----
 
 ## Original Preparation
 
@@ -28,6 +55,7 @@ Data sources:
 * AskTheEU.org
 * FragDenStaat.de - (private GoogleDoc) - http://www.bund.de/DE/Behoerden
 * WhatDoTheyKnow.com - http://www.whatdotheyknow.com/body/all-authorities.csv
+* Brazilian Government SIORG - http://www.siorg.redegoverno.gov.br/ - xml export at http://repositorio.dados.gov.br/governo-politica/administracao-publica/estrutura-organizacional/
 
 ### Building the SQLite DB
 
@@ -188,3 +216,4 @@ SQL
     .headers ON
 
     SELECT * FROM entity;
+

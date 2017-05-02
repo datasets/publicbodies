@@ -1,0 +1,43 @@
+doctype 5
+html
+  head
+    title 
+      - if (pageTitle)
+        | #{pageTitle} &mdash; 
+      | Public Bodies 
+    link(rel='stylesheet', href='/stylesheets/publicbodies.css')
+    link(rel="shortcut icon",href="http://assets.okfn.org/p/okfn/img/favicon.ico")
+  body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          .pull-right
+            form(class="navbar-search",action="/search")
+              input(type="text",name="search",class="search-query",placeholder="Search")
+            a(href="http://okfnlabs.org",title="An Open Knowledge Foundation Labs project",target="_blank")
+              img.logo(src="/images/logo-flask.png",alt="Open Knowledge Foundation Labs")
+          a.brand(href="/") Public Bodies
+          span A URL for every part of government
+    .container
+      block content
+    footer.footer
+      .container
+        p
+          | © 2011-2013: An 
+          a(href='http://okfn.org') Open Knowledge Foundation
+          |  project. 
+          // Open Data Link 
+          a(href='http://opendefinition.org/')
+            img(alt='This material is Open Data', border='0', src='http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png')
+          // Open Data Link 
+
+    script(type="text/javascript")
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33874954-15']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();

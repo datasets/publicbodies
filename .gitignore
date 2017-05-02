@@ -1,2 +1,4 @@
 .*.swp
 site/build
+node_modules
+.DS_STORE
