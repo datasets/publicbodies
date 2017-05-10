@@ -19,9 +19,10 @@ are named by ISO code.
 Please just add a CSV file and submit a pull request or open an issue.
 
 The set of fields required in the CSV file can be seen in the field list on:
-<http://data.okfn.org/community/okfn/publicbodies> (if you like JSON you look
-directly at the `datapackage.json` file in this repo - you can also check out
-the existing data in `data/`).
+<http://data.okfn.org/community/okfn/publicbodies>.  You can also check out 
+the existing data in `data/` for hints, or if you like JSON, you can look
+directly at the `datapackage.json` file in this repo.  To learn more about Data
+Packages, visit http://specs.frictionlessdata.io/.
 
 ## For Developers of the Website
 
