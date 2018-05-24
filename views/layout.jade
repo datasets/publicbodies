@@ -7,6 +7,12 @@ html
       | Public Bodies 
     link(rel='stylesheet', href='/stylesheets/publicbodies.css')
     link(rel="shortcut icon",href="http://assets.okfn.org/p/okfn/img/favicon.ico")
+    
+    // Consent manager
+    script.
+      var okiConsent = {analyticsTrackingID: 'UA-33874954-15'}  
+    script(src='https://a.okfn.org/html/oki/consent/assets/js/consent.js')
+    
   body
     .navbar.navbar-fixed-top
       .navbar-inner
@@ -26,18 +32,9 @@ html
           | © 2011-2013: An 
           a(href='http://okfn.org') Open Knowledge Foundation
           |  project. 
+          a(href='https://okfn.org/privacy-policy/') Privacy policy
+
           // Open Data Link 
           a(href='http://opendefinition.org/')
             img(alt='This material is Open Data', border='0', src='http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png')
           // Open Data Link 
-
-    script(type="text/javascript")
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-33874954-15']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
