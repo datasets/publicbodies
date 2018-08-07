@@ -1,0 +1,94 @@
+{
+"fields": [
+  {
+    "name": "id",
+    "type": "string",
+    "primarykey": true,
+    "description": "Unique key/id for the Body. Should be of form {jurisdiction-code}/{unique-id-for-body-within-jurisdiction} where jurisdiction-code is a per jurisdiction_code field"
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "description": "Standard name of the Body"
+  },
+  {
+    "name": "abbreviation",
+    "type": "string",
+    "description": "Abbreviation for the body (if any)."
+  },
+  {
+    "name": "other_names",
+    "type": "string",
+    "description": "Other, alternate, names for this Body. If there is more than one separate them with semi-colons"
+  },
+  {
+    "name": "description",
+    "type": "string",
+    "description": "Description of the Body"
+  },
+  {
+    "name": "classification",
+    "type": "string",
+    "description": "Category of Body. There should only be one classification per body."
+  },
+  {
+    "name": "parent_id",
+    "type": "string",
+    "description": "If the Body has a parent body this should be the title for that parent body"
+  },
+  {
+    "name": "founding_date",
+    "type": "date",
+    "description": "IS0 8601 Date this body was founded / created"
+  },
+  {
+    "name": "dissolution_date",
+    "type": "date",
+    "description": "ISO 8601 Date this body was dissolved"
+  },
+  {
+    "name": "image",
+    "type": "string",
+    "format": "uri",
+    "description": "URI of an image for this Body"
+  },
+  {
+    "name": "url",
+    "type": "string",
+    "format": "uri",
+    "description": "URI for the the Body"
+  },
+  {
+    "name": "jurisdiction_code",
+    "type": "string",
+    "description": "Short 2-digit code for the Body. Use 2-digit iso-code in case where jurisdiction is a country"
+  },
+  {
+    "name": "email",
+    "type": "string",
+    "format": "email",
+    "description": "Contact email for the Body"
+  },
+  {
+    "name": "address",
+    "type": "string",
+    "description": "Official address of the Body"
+  },
+  {
+    "name": "contact",
+    "type": "string",
+    "description": "Address for correspondence if different from official address"
+  },
+  {
+    "name": "tags",
+    "type": "string",
+    "description": "Free text tags, space separated"
+  },
+  {
+    "name": "source_url",
+    "type": "string",
+    "format": "uri",
+    "description": "Source URI for this specific record. Please point to a specific webpage or API not just the base website or API (it is of little value if this attribute is the the same API endpoint for every record (in such circumstances it would be better to put something in the README instead)."
+  }
+]
+}

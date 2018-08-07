@@ -1,109 +1,102 @@
 {
+  "profile": "tabular-data-package",
   "name": "public-bodies",
   "title": "Database of Public Bodies (Government Entities)",
-  "license": [
+  "licenses": [
     {
-      "url": "http://opendatacommons.org/licenses/pddl/1.0/",
-      "name": "Public Domain Dedication and License"
+      "name": "ODC-PDDL-1.0",
+      "uri": "http://opendatacommons.org/licenses/pddl/1.0/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ],
   "resources": [
     {
+      "path": "data/br.csv",
+      "profile": "tabular-data-resource",
+      "name": "br",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/ch.csv",
+      "profile": "tabular-data-resource",
+      "name": "ch",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/de.csv",
+      "profile": "tabular-data-resource",
+      "name": "de",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/eu.csv",
+      "profile": "tabular-data-resource",
+      "name": "eu",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
       "path": "data/gb.csv",
-      "schema": {
-        "fields": [
-          {
-            "id": "id",
-            "type": "string",
-            "primarykey": true,
-            "description": "Unique key/id for the Body. Should be of form {jurisdiction-code}/{unique-id-for-body-within-jurisdiction} where jurisdiction-code is a per jurisdiction_code field"
-          },
-          {
-            "id": "name",
-            "type": "string",
-            "description": "Standard name of the Body"
-          },
-          {
-            "id": "abbreviation",
-            "type": "string",
-            "description": "Abbreviation for the body (if any)."
-          },
-          {
-            "id": "other_names",
-            "type": "string",
-            "description": "Other, alternate, names for this Body. If there is more than one separate them with semi-colons"
-          },
-          {
-            "id": "description",
-            "type": "string",
-            "description": "Description of the Body"
-          },
-          {
-            "id": "classification",
-            "type": "string",
-            "description": "Category of Body. There should only be one classification per body."
-          },
-          {
-            "id": "parent_id",
-            "type": "string",
-            "description": "If the Body has a parent body this should be the title for that parent body"
-          },
-          {
-            "id": "founding_date",
-            "type": "date",
-            "description": "IS0 8601 Date this body was founded / created"
-          },
-          {
-            "id": "dissolution_date",
-            "type": "date",
-            "description": "ISO 8601 Date this body was dissolved"
-          },
-          {
-            "id": "image",
-            "type": "string",
-            "format": "url",
-            "description": "URL of an image for this Body"
-          },
-          {
-            "id": "url",
-            "type": "string",
-            "format": "url",
-            "description": "URL for the the Body"
-          },
-          {
-            "id": "jurisdiction_code",
-            "type": "string",
-            "description": "Short 2-digit code for the Body. Use 2-digit iso-code in case where jurisdiction is a country"
-          },
-          {
-            "id": "email",
-            "type": "string",
-            "format": "email",
-            "description": "Contact email for the Body"
-          },
-          {
-            "id": "address",
-            "type": "string",
-            "description": "Official address of the Body"
-          },
-          {
-            "id": "contact",
-            "type": "string",
-            "description": "Address for correspondence if different from official address"
-          },
-          {
-            "id": "tags",
-            "type": "string",
-            "description": "Free text tags, space separated"
-          },
-          {
-            "id": "source_url",
-            "type": "string",
-            "format": "url",
-            "description": "Source URL for this specific record. Please point to a specific webpage or API not just the base website or API (it is of little value if this attribute is the the same API endpoint for every record (in such circumstances it would be better to put something in the README instead)."
-          }
-        ]
-      }
+      "profile": "tabular-data-resource",
+      "name": "gb",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/gr.csv",
+      "profile": "tabular-data-resource",
+      "name": "gr",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/it.csv",
+      "profile": "tabular-data-resource",
+      "name": "it",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/np.csv",
+      "profile": "tabular-data-resource",
+      "name": "np",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/nz.csv",
+      "profile": "tabular-data-resource",
+      "name": "nz",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/se.csv",
+      "profile": "tabular-data-resource",
+      "name": "se",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/us.csv",
+      "profile": "tabular-data-resource",
+      "name": "us",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
     }
   ]
 }
