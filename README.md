@@ -1,3 +1,5 @@
+[![goodtables.io](https://goodtables.io/badge/github/okfn/publicbodies.svg)](https://goodtables.io/github/okfn/publicbodies)
+
 A database of public bodies (or organizations):
 
 > Government-run or controlled organizations or entities which may or may not
