@@ -14486,7 +14486,7 @@ de/deutsche-welle,Deutsche Welle,,,"Die Deutsche Welle ist der Auslandsrundfunk 
 
 Ihr Fernseh-, Hörfunk- und Internetangebot fördert den Dialog der Kulturen und vermittelt Werte der freiheitlichen Demokratie.
 
-Siehe http://www.bund.de/DE/Behoerden/D/Deutsche-Welle/Deutsche-Welle.html",Andere,,,,,http://www.dw-world.de,DE,info@dw-world,"Kurt-Schumacher-Straße 3
+Siehe http://www.bund.de/DE/Behoerden/D/Deutsche-Welle/Deutsche-Welle.html",Andere,,,,,http://www.dw-world.de,DE,info@dw-world.de,"Kurt-Schumacher-Straße 3
 53113 Bonn, Nordrhein-Westfalen
 Deutschland
 Grosskundenanschrift:
@@ -14495,7 +14495,7 @@ Telefon: 
 +49 228 429-0
 Fax: 
 +49 228 429-3000
-info@dw-world
+info@dw-world.de
 
 
   
@@ -14815,7 +14815,7 @@ de/deutscher-landkreistag,Deutscher Landkreistag,,,"Der deutsche Landkreistag ve
 DLT
  wirkt zum Teil aufgrund ausdrücklicher gesetzlicher Regelung in einer Vielzahl von Gremien und Organisationen des Bundes und der Länder beschließend oder beratend mit.
 
-Siehe http://www.bund.de/DE/Behoerden/D/DLT/Deutscher-Landkreistag.html",Andere,,,,,http://www.landkreistag.de,DE,info@landkreistag,"Lennéstraße 11
+Siehe http://www.bund.de/DE/Behoerden/D/DLT/Deutscher-Landkreistag.html",Andere,,,,,http://www.landkreistag.de,DE,info@landkreistag.de,"Lennéstraße 11
 Gebäude: Ulrich-von-Hassell-Haus
 10785 Berlin, Berlin
 Deutschland
@@ -14823,7 +14823,7 @@ Telefon: 
 +49 30 590097-309
 Fax: 
 +49 30 590097-400
-info@landkreistag","Hauptadresse
+info@landkreistag.de","Hauptadresse
 Lennéstraße 11
 Gebäude: Ulrich-von-Hassell-Haus
 10785 Berlin, Berlin
@@ -23289,7 +23289,7 @@ Telefon: 
 Fax: 
 +49 89 780609-22
 ikgs@ikgs.de","Institut für deutsche Kultur und Geschichte Südosteuropas e.V., IKGS, Kultur, Forschungsinstitut, Forschung",
-de/institut-fur-deutsche-sprache,Institut für Deutsche Sprache,,,,Stiftung des Privatrechts,,,,,http://www.ids-mannheim.de,DE,trabold@ids-mannheim,"R 5 6 - 13
+de/institut-fur-deutsche-sprache,Institut für Deutsche Sprache,,,,Stiftung des Privatrechts,,,,,http://www.ids-mannheim.de,DE,trabold@ids-mannheim.de,"R 5 6 - 13
 68161 Mannheim, Baden-Württemberg
 Deutschland
 Postanschrift:
@@ -23298,7 +23298,7 @@ Telefon: 
 +49 621 1581-0
 Fax: 
 +49 621 1581-200
-trabold@ids-mannheim","Hauptadresse
+trabold@ids-mannheim.de","Hauptadresse
 R 5 6 - 13
 68161 Mannheim, Baden-Württemberg
 Deutschland
@@ -23308,7 +23308,7 @@ Telefon: 
 +49 621 1581-0
 Fax: 
 +49 621 1581-200
-trabold@ids-mannheim","Institut für Deutsche Sprache, IDS",
+trabold@ids-mannheim.de","Institut für Deutsche Sprache, IDS",
 de/institut-fur-gemuse-und-zierpflanzenbau-großbeeren-erfurt-ev,Institut für Gemüse- und Zierpflanzenbau Großbeeren/Erfurt e.V.,,,,Andere,,,,,http://www.igzev.de,DE,igzev@igzev.de,"Theodor-Echtermeyer-Weg 1
 14979 Großbeeren, Brandenburg
 Deutschland
@@ -27169,7 +27169,6 @@ Deutschland
 Telefon: 
 +49 228 185-150
 a.hahn@mspt.de","Museumsstiftung Post und Telekommunikation, MusStiftPT, Nachrichtenübermittlung, Telekommunikation",
-de/name,name,,,description,classification,,,,,url,DE,email,contact,address,keywords,
 de/nationale-anti-doping-agentur,Nationale Anti-Doping Agentur,,,,Stiftung des Privatrechts,,,,,http://www.nada-bonn.de,DE,info@nada-bonn.de,"Heussallee 38
 53113 Bonn, Nordrhein-Westfalen
 Deutschland
