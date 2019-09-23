@@ -1,0 +1,5 @@
+# tell goodtables.io to specifically ignore public-body-schema.json,
+# because it is not a full data package, just the schema part
+datapackages:
+  - 'datapackage.json'
+
