@@ -64,6 +64,11 @@
     "description": "Short 2-digit code for the Body. Use 2-digit iso-code in case where jurisdiction is a country"
   },
   {
+    "name": "phone",
+    "type": "string",
+    "description": "Phone number in international format"
+  },
+  {
     "name": "email",
     "type": "string",
     "format": "email",
