@@ -59,12 +59,18 @@ def import_br_data(url: str, output: str):
     ]
     df['name'] = [orgao['nome'] for orgao in filtered_data]
     df['abbreviation'] = [orgao['sigla'] for orgao in filtered_data]
+
+    # the dataset does not have a description for Brazilian public bodies.
+    # As a substitute, we take the purpose, and failing that, the legal
+    # competencies of the body.
     df['description'] = [
         orgao['finalidade']
         if orgao.get('finalidade', None) else orgao['competencia']
         for orgao in filtered_data
     ]
 
+    # the category is very generic for the type 'Vinculado', so we take
+    # the nature of the legal person to enrich the possible categories
     natureza_juridica_response = requests.get(URL_NATUREZAJURIDICA)
     natureza_juridica_data = natureza_juridica_response.json()
     natureza_juridica_map = {
@@ -98,6 +104,8 @@ def import_br_data(url: str, output: str):
         for orgao in filtered_data \
     ]
 
+    # we need to map the public bodies internal code to their respective
+    # names, in order to be able to build the proper parent_id
     code_map = {
         orgao['codigoUnidade']: orgao['nome'] \
             for orgao in data['unidades']
@@ -116,10 +124,12 @@ def import_br_data(url: str, output: str):
                 '185', # comando da marinha
                 '48', # comando da aeronáutica
             )
-            else None
+            else None # set to None those parents which are not present
         )  for orgao in filtered_data
     ]
 
+    # get URLs of images, like logos and photos, from the dados.gov.br
+    # open data portal. Luckily, those have the siorg code property set.
     images_response = requests.get(URL_IMAGES)
     images_data = images_response.json()
 
@@ -137,6 +147,7 @@ def import_br_data(url: str, output: str):
         for orgao in filtered_data
     ]
 
+    # finds and cleans dirty data of the public body's website
     def get_site_url(contato: list) -> str:
         "Retorna a URL do site institucional."
         if len(contato) < 1:
@@ -145,7 +156,7 @@ def import_br_data(url: str, output: str):
         site_details = contact.get('site', None)
         if site_details is None:
             return None
-        sites = [
+        sites = [ # we only want URLs of the type 'official site'
             site
             for site in site_details
             if site['tipo'] == 'Site Institucional'
@@ -154,9 +165,9 @@ def import_br_data(url: str, output: str):
             return None
         else:
             url = sites[0]['site']
-            url = url.strip()
+            url = url.strip() # some have leading or trailing spaces
             parsed = urlparse(url)
-            if not parsed.scheme:
+            if not parsed.scheme: # some don't have the scheme part
                 url = f'https://{url}'
             else:
                 url = parsed.geturl()
@@ -167,6 +178,8 @@ def import_br_data(url: str, output: str):
         for orgao in filtered_data
     ]
 
+    # some URLs missing from the official source can be found in the
+    # old version of the dataset
     missing_url = (
         df[df.url.isna()]
         .reset_index()
@@ -177,6 +190,7 @@ def import_br_data(url: str, output: str):
     )
     df.update(missing_url.url)
 
+    # always the same for the whole dataset
     df['jurisdiction_code'] = [
         'BR'
         for orgao in filtered_data
@@ -201,6 +215,8 @@ def import_br_data(url: str, output: str):
         for orgao in filtered_data
     ]
 
+    # the main data source has only the municipality code, not their
+    # names. So we go to IBGE to get the corresponding name.
     municipios_response = requests.get(URL_MUNICIPIOS)
     municipios_data = municipios_response.json()
 
@@ -209,6 +225,9 @@ def import_br_data(url: str, output: str):
         for municipio in municipios_data
     }
 
+    # the main data source has only the country code, not their names.
+    # So we go to the SISCOMEX (foreign trade) data to get country
+    # names in English.
     paises_response = requests.get(URL_PAISES, verify=False)
     paises_df = pd.read_csv(
         io.StringIO(paises_response.text),
@@ -220,8 +239,9 @@ def import_br_data(url: str, output: str):
         row[1]['CO_PAIS']: row[1]['NO_PAIS_ING']
         for row in paises_df.iterrows()
     }
-    country_map[1058] = 'Brazil'
+    country_map[1058] = 'Brazil' # set manually as the dataset does not have it
 
+    # build the address string from several parts
     def get_address(endereco: list) -> str:
         "Retorna o endereço físico."
         if len(endereco) < 1:
@@ -231,10 +251,10 @@ def import_br_data(url: str, output: str):
             for address in endereco
             if address['tipoEndereco'] == 'Principal'
         ]
-        if len(addresses) < 1: # se não houver endereço principal,
-            address = endereco[0] # pega o primeiro endereço disponível
-        else: # caso contrário,
-            address = addresses[0] # pega o primeiro endereço principal
+        if len(addresses) < 1: # if there is no main address,
+            address = endereco[0] # get the first available address
+        else:
+            address = addresses[0] # get the first main address
         address_str = address['logradouro']
         if address.get('numero', None) is not None:
             address_str += ', ' + str(address['numero'])
@@ -261,6 +281,7 @@ def import_br_data(url: str, output: str):
         for orgao in filtered_data
     ]
 
+    # get and change the formatting of phone numbers
     def get_phones(contato: list) -> str:
         "Retorna o e-mail institucional."
         if len(contato) < 1:
@@ -283,6 +304,8 @@ def import_br_data(url: str, output: str):
         for orgao in filtered_data
     ]
 
+    # this attribute has some useful properties. For lack of a better
+    # field, we create tags out of them.
     snj_response = requests.get(URL_SUBNATUREZAJURIDICA)
     snj_data = snj_response.json()
 
@@ -304,6 +327,8 @@ def import_br_data(url: str, output: str):
         for orgao in filtered_data
     ]
 
+    # the ID is a URI that responds with data about that entity, so we
+    # can use it also as a source URL
     df['source_url'] = [
         orgao['codigoUnidade']
         for orgao in filtered_data
