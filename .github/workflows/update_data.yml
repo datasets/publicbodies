@@ -24,3 +24,5 @@ jobs:
         run: "python3 scripts/import/br/import_br.py --output data/br.csv"
       - name: push
         uses: actions-x/commit@v2
+        with:
+          message: "update BR data source automatically scheduled with Github actions"
