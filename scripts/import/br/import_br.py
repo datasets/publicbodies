@@ -7,6 +7,7 @@ Official source: [SIORG's open data API](https://dados.gov.br/dataset/siorg)
 # dependencies
 # standard library
 import io, re
+import argparse
 from urllib.parse import urlparse
 
 # packages
@@ -337,4 +338,15 @@ def import_br_data(url: str, output: str):
     df.to_csv(output, index=False)
 
 if __name__ == '__main__':
-    import_br_data(URL, 'br.csv')
+    parser = argparse.ArgumentParser(
+        description=__doc__
+    )
+    parser.add_argument(
+        '--output',
+        help='filename for the data output as CSV',
+        metavar='file_name',
+        default='br.csv'
+    )
+    args = parser.parse_args()
+
+    import_br_data(URL, args.output)
