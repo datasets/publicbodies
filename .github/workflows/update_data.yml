@@ -21,6 +21,7 @@ jobs:
         uses: py-actions/py-dependency-install@v2
         with:
           path: "scripts/import/br/requirements.txt"
+      - name: Update br.csv file
         run: "python3 scripts/import/br/import_br.py --output data/br.csv"
       - name: push
         uses: actions-x/commit@v2
