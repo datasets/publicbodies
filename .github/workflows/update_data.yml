@@ -1,8 +1,6 @@
 name: Update data sources
 
 on:
-  push:
-    branches: master
   schedule:
     - cron: 45 3 * * 0
 
