@@ -1,70 +1,41 @@
 ## Purpose
 
-This set of scripts copy and import the information about the Brazilian federal government
-organizational structure, contained within the xml dump file at
+This script copies and imports the information about the Brazilian
+federal government organizational structure from the open data API at
 
-http://repositorio.dados.gov.br/governo-politica/administracao-publica/estrutura-organizacional/
+https://dados.gov.br/dataset/siorg
 
-and saves it as a csv file in the [schema](http://data.okfn.org/data/okfn/public-bodies) used
-by the [public bodies project](https://github.com/okfn/publicbodies).
+It saves the data as a csv file in the
+[schema](http://data.okfn.org/data/okfn/public-bodies) used by the
+[public bodies project](https://github.com/okfn/publicbodies).
 
 ## Dependencies
 
-* lxml (also requires libxml, see [installation instructions](http://lxml.de/installation.html))
-* nltk
-* phonenumberslite
+* `python-slugify` to generate user-friendly ids
+* `requests`, to fetch data through http(s)
+* `pandas`, for some data transformations
 
 ## Installation
 
-Install the system libraries for libxml2 and libxslt (required for lxml, see
-[instructions on lxml documentation](http://lxml.de/installation.html)).
+Simply create and activate a virtual environment
 
-Proceed to install the package in the usual Python way. That is, create a new virtual
-environment (install Python [virtualenv](http://virtualenv.readthedocs.org/en/latest/virtualenv.html)
-if you haven't already):
-
-```
-$ virtualenv --no-site-packages pyenv
+```bash
+$ python3 -m venv env
+$ source env/bin/activate
 ```
 
-Then activate the environment and install the package from where you downloaded it:
+and install the dependencies.
 
+```bash
+(env)$ pip install -r requirements.txt
 ```
-$ source pyenv/bin/activate
-(pyenv)$ pip install -r requirements.txt
-```
-
-You'll of course need to activate this virtual environment every time you want to run the scripts.
-
-This should take care of the dependencies on other python packages.
-
 ## Usage
 
-Fist you need to download the xml dump files to a local folder.
-
-Then, run the command for conveting the data from xml to csv format.
-For instructions on the converter script, try typing on a terminal
+With the Python environment active, just run the `import_br.py` script.
 
 ```
-$ python xmltocsv.py
-
-Usage: xmltocsv.py [filename] [outfile] [domainfilename]
-
-    filename:    file containing the Brazilian government's SIORG xml dump
-           outfile:  output csv filename (optional)
-    domainfilename:  file containing domain table information (optional)
-                     (note: both files can be obtained at the following URL)
-                      http://repositorio.dados.gov.br/governo-politica/administracao-publica/estrutura-organizacional/
+(env)$ python import_br.py
 ```
 
-The first parameter after that is the name of the input xml file containing the data.
-
-The second parameter is the output csv file.
-
-The third parameter optionally reads the xml file containing domain information.
-This is required if you want to fill the classification and tags fields.
-
-## To do
-
-* refactor to use the Python standard library for xml processing instead of lxml to simplify installation
-* refactor to some simpler slugging code not to require the whole nltk library
+As an optional parameter, you can specify the path and file name of the
+csv file output.
