@@ -4,19 +4,19 @@ block content
   .row
     .span8
       h1 Jurisdictions
-      - each jurisdiction in juris
-        .row-fluid.jurisdiction
-          a(href="/#{jurisdiction.key}") 
-            .span5.title
-              | #{jurisdiction.name} 
-            .span2.code
-              | #{jurisdiction.key.toUpperCase()}
-            .span3
-              | #{jurisdiction.count} bodies
-          .span2.download
-            a.btn.btn-inverse(href="https://github.com/okfn/publicbodies/raw/master/data/#{jurisdiction.key}.csv") 
-              i.icon-download-alt
-              |  csv
+        each jurisdiction in juris
+          .row-fluid.jurisdiction
+            a(href="/#{jurisdiction.key}") 
+              .span5.title
+                | #{jurisdiction.name} 
+              .span2.code
+                | #{jurisdiction.key.toUpperCase()}
+              .span3
+                | #{jurisdiction.count} bodies
+            .span2.download
+              a.btn.btn-inverse(href="https://github.com/okfn/publicbodies/raw/master/data/#{jurisdiction.key}.csv") 
+                i.icon-download-alt
+                |  csv
 
     .span4.sidebar
       h3

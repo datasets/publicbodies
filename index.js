@@ -14,7 +14,7 @@ var express = require('express'),
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 app.use(morgan('dev'));
 app.use(require('less-middleware')({
