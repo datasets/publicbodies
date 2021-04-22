@@ -5,6 +5,7 @@
 var express = require('express'),
     favicon = require('serve-favicon'),
     morgan = require('morgan'),
+    lessMiddleware = require('less-middleware'),
     routes = require('./routes'),
     http = require('http'),
     path = require('path'),
@@ -17,9 +18,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'pug');
 app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 app.use(morgan('dev'));
-app.use(require('less-middleware')({
-    src: __dirname + '/public'
-}));
+app.use(lessMiddleware(__dirname + '/public'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
