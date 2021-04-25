@@ -32,19 +32,37 @@ Packages, visit http://specs.frictionlessdata.io/.
 
 The website is a node webapp. To get it running:
 
-1. Install node and npm (>= 0.8)
+1. Install node and npm (>= 12). Alternatively, install Docker.
 
 2. Get the code
 
+        ```
         git clone https://github.com/okfn/publicbodies
+        ```
 
 3. Install the dependencies (make sure you are in the publicbodies directory)
 
+        ```
         npm install .
+        ```
+
+  If you're using Docker, build the container instead:
+
+        ```
+        docker build --rm -t publicbodies .
+        ```
 
 4. Run the webapp:
 
+        ```
         node index.js
+        ```
+  
+  If you're using Docker, start the container instead:
+
+        ```
+        docker run --rm --volume="$PWD:/home/node/portal" -p 3000:3000 -it publicbodies node index.js
+        ```
 
 The list of outstanding issues is at: <https://github.com/okfn/publicbodies/issues>
 
