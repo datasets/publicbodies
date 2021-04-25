@@ -4,7 +4,7 @@
 # If you want to just build the documentation portal locally, do:
 #   docker build --rm -t publicbodies .
 # to build the container, then run
-#   docker run --rm --volume="$PWD:/home/node/portal" -it publicbodies node index.js
+#   docker run --rm --volume="$PWD:/home/node/portal" -p 3000:3000 -it publicbodies node index.js
 # open http://localhost:3000 on your browser to see the portal.
 
 FROM node:12
