@@ -3,12 +3,12 @@ extends layout
 block content
   .row
     .span12
-      h1 #{name} (#{code})
+      h1= name + ' (' + code + ')'
   .row
     .span12
       table.table.table-striped
         tbody
-        - each body in bodies
+        each body in bodies
           tr
             td
-              a(href="/#{body.id}") #{body.name}
+              a(href=`/${body.id}`)= body.name
