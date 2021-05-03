@@ -13,6 +13,7 @@ from urllib.parse import urlparse
 # packages
 import requests
 import pandas as pd
+import numpy as np
 from slugify import slugify
 
 # data sources
@@ -153,6 +154,23 @@ def import_br_data(url: str, output: str):
         for orgao in filtered_data
     ]
 
+    def cleanup_url(url: str, verbose: bool = False):
+        old_url = url
+        url = url.strip() # some have leading or trailing spaces
+        url = url.replace(' ', '') # others, white space right in the middle
+        # yet others, a trailing dash or dot
+        if url.endswith('.br-') or url.endswith('.br.'):
+            url = url[:-1]
+        url = url.replace('http://http://', 'http://') # double scheme
+        parsed = urlparse(url)
+        if not parsed.scheme: # some don't have the scheme part
+            url = f'https://{url}'
+        else:
+            url = parsed.geturl()
+        if verbose and url != old_url:
+            print (f'cleaned from "{old_url}" to "{url}"')
+        return url
+
     # finds and cleans dirty data of the public body's website
     def get_site_url(contato: list) -> str:
         "Retorna a URL do site institucional."
@@ -171,18 +189,17 @@ def import_br_data(url: str, output: str):
             return None
         else:
             url = sites[0]['site']
-            url = url.strip() # some have leading or trailing spaces
-            parsed = urlparse(url)
-            if not parsed.scheme: # some don't have the scheme part
-                url = f'https://{url}'
-            else:
-                url = parsed.geturl()
-            return url
+            return cleanup_url(url)
 
     df['url'] = [
         get_site_url(orgao['contato'])
         for orgao in filtered_data
     ]
+
+    # fix urls also in the old file
+    br_old['url'] = br_old['url'].apply(
+        lambda v: cleanup_url(v) if isinstance(v, str) else v
+    )
 
     # some URLs missing from the official source can be found in the
     # old version of the dataset
