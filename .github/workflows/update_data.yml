@@ -24,4 +24,6 @@ jobs:
       - name: push
         uses: actions-x/commit@v2
         with:
+          email: 41898282+github-actions[bot]@users.noreply.github.com
+          name: GitHub Actions Update Bot
           message: "update BR data source automatically scheduled with Github actions"
