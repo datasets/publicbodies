@@ -144,7 +144,7 @@ Setor de Indústrias Gráficas
 70610440 Brasília, DF
 Brazil",,,http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/75
 br/banco-central-do-brasil,Banco Central do Brasil,BCB,,"O Banco Central do Brasil tem por finalidade a formulação, a execução, o acompanhamento e o controle das políticas monetária, cambial, de crédito e de relações financeiras com o exterior; a organização, disciplina e fiscalização do Sistema Financeiro Nacional; a gestão do Sistema de Pagamentos Brasileiro e dos serviços do meio circulante.
-",Vinculado (Autarquia),br/ministerio-da-economia,,,https://dados.gov.br/wp/wp-content/uploads/2018/11/logo-bcb.png,https://www.economia.gov.br,BR,+55 61 613412180,secap@fazenda.gov.br,"Setor Bancário Sul-SBS, Quadra, 3, Bloco B, Edifício Sede
+",Vinculado (Autarquia),br/ministerio-da-economia,,,https://dados.gov.br/wp/wp-content/uploads/2018/11/logo-bcb.png,https://www.economia.gov.br,BR,+55 61 613412180,secap@fazenda.gov.br,"Setor Bancário Sul-SBS, Quadra, 3, Bloco B, Edifício Sede 
 Asa Sul
 70074900 Brasília, DF
 Brazil",,,http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/89
@@ -1585,9 +1585,9 @@ Centro
 20090004 Rio de Janeiro, RJ
 Brazil",,autarquia-especial-agencia-reguladora,http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/25281
 br/empresa-de-pesquisa-energetica,Empresa de Pesquisa Energética,EPE,,"     I - prestar serviços na área de estudos e pesquisas destinadas a subsidiar o planejamento do setor energético, tais como energia elétrica, petróleo e gás natural e seus derivados, carvão mineral, fontes energéticas renováveis e eficiência energética, dentre outras
-",Vinculado (Empresa Pública),br/ministerio-de-minas-e-energia,,,https://dados.gov.br/wp/wp-content/uploads/2018/12/logo-epe.png,http://epe.gov.br/,BR,+55 21 35123157,comunicacao@epe.gov.br,"Av. Rio Branco, , 1, 11º andar
+",Vinculado (Empresa Pública),br/ministerio-de-minas-e-energia,,,https://dados.gov.br/wp/wp-content/uploads/2018/12/logo-epe.png,http://epe.gov.br/,BR,+55 21 35123331,comunicacao@epe.gov.br,"Praça Pio X, 54, 5º andar
 Centro
-20090003 Rio de Janeiro, RJ
+20091040 Rio de Janeiro, RJ
 Brazil",,,http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/76608
 br/agencia-nacional-de-energia-eletrica,Agência Nacional de Energia Elétrica,ANEEL,,"regular e fiscalizar a produção, transmissão, distribuição e comercialização de energia elétrica, em conformidade com as políticas e diretrizes do governo federal.
 
@@ -1731,16 +1731,18 @@ br/instituto-federal-de-educacao-ciencia-e-tecnologia-do-sul-de-minas-gerais,"In
 Nova Pouso Alegre
 37553465 Pouso Alegre, MG
 Brazil",,autarquia-ife,http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/100915
-br/instituto-federal-de-educacao-ciencia-e-tecnologia-baiano,"Instituto Federal de Educação, Ciência e Tecnologia Baiano",IF BAIANO,,"Ao Instituto Federal de Educação, Ciência e Tecnologia Baiano tem como finalidade e característica:
-     I - ofertar educação profissional e tecnológica, em todos os seus níveis e modalidades, formando e qualificando cidadãos com vistas na atuação profissional nos diversos setores da economia, com ênfase no desenvolvimento socioeconômico local, regional e nacional
-     II - desenvolver a educação profissional e tecnológica como processo educativo e investigativo de geração e adaptação de soluções técnicas e tecnológicas às demandas sociais e peculiaridades regionais
-     III - promover a integração e a verticalização da educação básica à educação profissional e educação superior, otimizando a infra-estrutura física, os quadros de pessoal e os recursos de gestão
-     IV - orientar sua oferta formativa em benefício da consolidação e fortalecimento dos arranjos produtivos, sociais e culturais locais, identificados com base no mapeamento das potencialidades de desenvolvimento socioeconômico e cultural no âmbito de atuação do Instituto Federal
-     V - constituir-se em centro de excelência na oferta do ensino de ciências, em geral, e de ciências aplicadas, em particular, estimulando o desenvolvimento de espírito crítico, voltado à investigação empírica
-     VI - qualificar-se como centro de referência no apoio à oferta do ensino de ciências nas instituições públicas de ensino, oferecendo capacitação técnica e atualização pedagógica aos docentes das redes públicas de ensino
-     VII - desenvolver programas de extensão e de divulgação científica e tecnológica
-     VIII - realizar e estimular a pesquisa aplicada, a produção cultural, o empreendedorismo, o cooperativismo e o desenvolvimento científico e tecnológico
-     IX - promover a produção, o desenvolvimento e a transferência de tecnologias sociais, notadamente as voltadas à preservação do meio ambiente
+br/instituto-federal-de-educacao-ciencia-e-tecnologia-baiano,"Instituto Federal de Educação, Ciência e Tecnologia Baiano",IF BAIANO,,"O Instituto Federal de Educação, Ciência e Tecnologia Baiano tem como finalidade e característica:
+I - ofertar educação profissional e tecnológica, em todos os seus níveis e modalidades, formando e qualificando cidadãos com vistas na atuação profissional nos diversos setores da economia, com ênfase no desenvolvimento socioeconômico local, regional e nacional;
+II - desenvolver a educação profissional e tecnológica como processo educativo e investigativo de geração e adaptação de soluções técnicas e tecnológicas às demandas sociais e peculiaridades regionais;
+III - promover a integração e a verticalização da educação básica à educação profissional e educação superior, otimizando a infra-estrutura física, os quadros de pessoal e os recursos de gestão;
+IV - orientar sua oferta formativa em benefício da consolidação e fortalecimento dos arranjos produtivos, sociais e culturais locais, identificados com base no mapeamento das potencialidades de desenvolvimento socioeconômico e cultural no âmbito de atuação do Instituto Federal;
+V - constituir-se em centro de excelência na oferta do ensino de ciências, em geral, e de ciências aplicadas, em particular, estimulando o desenvolvimento de espírito crítico, voltado à investigação empírica;
+VI - qualificar-se como centro de referência no apoio à oferta do ensino de ciências nas instituições públicas de ensino, oferecendo capacitação técnica e atualização pedagógica aos docentes das redes públicas de ensino;
+VII - desenvolver programas de extensão e de divulgação científica e tecnológica;
+VIII - realizar e estimular a pesquisa aplicada, a produção cultural, o empreendedorismo, o cooperativismo e o desenvolvimento científico e tecnológico;
+IX - promover a produção, o desenvolvimento e a transferência de tecnologias sociais, notadamente as voltadas à preservação do meio ambiente.
+
+
 ",Vinculado (Autarquia),br/ministerio-da-educacao,,,https://dados.gov.br/wp/wp-content/uploads/2017/10/logo-institutos-federais.gif,,BR,+55 71 31860001,gabinete@ifbaiano.edu.br,"Rua do Rouxinol, 115
 Centro
 41720052 Salvador, BA
@@ -1756,7 +1758,7 @@ br/agencia-brasileira-gestora-de-fundos-garantidores-e-garantias-s-a,Agência Br
 Asa Norte
 70712900 Brasília, DF
 Brazil",,,http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/118698
-br/instituto-federal-de-educacao-ciencia-e-tecnologia-do-sertao-pernambucano,"Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano",IFSPE,,"Ao Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano tem por finalidade e característica, o seguinte:
+br/instituto-federal-de-educacao-ciencia-e-tecnologia-do-sertao-pernambucano,"Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano",IFSertaoPE,,"Ao Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano tem por finalidade e característica, o seguinte:
      I - ofertar educação profissional e tecnológica, em todos os seus níveis e modalidades, formando e qualificando cidadãos com vistas na atuação profissional nos diversos setores da economia, com  ênfase no desenvolvimento socioeconômico local, regional e nacional  
      II - desenvolver a educação profissional e tecnológica como processo educativo e investigativo de geração e adaptação de soluções técnicas e tecnológicas às demandas sociais e peculiaridades regionais  
      III - promover a integração e a verticalização da educação básica à educação profissional e educação superior, otimizando a infraestrutura física, os quadros de pessoal e os recursos de gestão  
