@@ -2,7 +2,7 @@ doctype 5
 html
   head
     title 
-      - if (pageTitle)
+      if (pageTitle)
         | #{pageTitle} &mdash; 
       | Public Bodies 
     link(rel='stylesheet', href='/stylesheets/publicbodies.css')
@@ -29,7 +29,7 @@ html
     footer.footer
       .container
         p
-          | © 2011-2013: An 
+          | © 2011-2021: An 
           a(href='http://okfn.org') Open Knowledge Foundation
           |  project. 
           a(href='https://okfn.org/privacy-policy/') Privacy policy

@@ -1,6 +1,6 @@
 {
   "name": "publicbodies",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A database of public bodies such as government departments, ministries etc.",
   "main": "site/make.js",
   "directories": {
@@ -30,13 +30,15 @@
   "readmeFilename": "README.md",
   "gitHead": "05c0380d7adbbc2dc74238a2ca5354d8401caf38",
   "dependencies": {
-    "csv": "~0.3.0",
-    "express": "~3.2.6",
-    "jade": "~0.31.2",
-    "pouchdb": "0.0.13",
-    "less-middleware": "~0.1.12",
     "async": "~0.2.9",
+    "csv": "~5.0.0",
     "dirty": "~0.9.7",
+    "express": "^4.7.4",
+    "less-middleware": "~3.1.0",
+    "morgan": "~1.10.0",
+    "pouchdb": "~7.2.2",
+    "pug": "~3.0.2",
+    "serve-favicon": "^2.5.0",
     "underscore": "~1.4.4"
   }
 }
