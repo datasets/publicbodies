@@ -137,7 +137,7 @@ def import_br_data(url: str, output: str):
     # get URLs of images, like logos and photos, from the dados.gov.br
     # open data portal. Luckily, those have the siorg code property set.
     print(f'Fetching image URLs from {URL_IMAGES}...')
-    images_response = requests.get(URL_IMAGES)
+    images_response = requests.get(URL_IMAGES, verify=False)
     images_data = images_response.json()
 
     image_map = {
