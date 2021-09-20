@@ -26,6 +26,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' === process.env.NODE_ENV) {
     app.use(errorhandler());
 }
+else { // production only
+    // handle https redirect
+    function ensureSecure(req, res, next){
+        if(req.secure){
+        // OK, continue
+        return next();
+        };
+        res.redirect('https://' + req.hostname + req.url);
+    }
+    app.all('*', ensureSecure);
 }
 
 app.get('/', routes.index);

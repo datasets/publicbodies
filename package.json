@@ -1,6 +1,6 @@
 {
   "name": "publicbodies",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A database of public bodies such as government departments, ministries etc.",
   "main": "site/make.js",
   "directories": {
