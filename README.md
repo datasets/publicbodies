@@ -51,6 +51,13 @@ The website is a node webapp. To get it running:
         ```
         docker build --rm -t publicbodies .
         ```
+  
+  If you are building a development environment, please use:
+
+        ```
+        docker build --rm -t publicbodies . --build-arg NODE_ENV=development
+        ```
+  so that you can get debugging information.
 
 4. Run the webapp:
 
