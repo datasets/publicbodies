@@ -33,6 +33,7 @@
     "async": "~0.2.9",
     "csv": "~5.0.0",
     "dirty": "~0.9.7",
+    "errorhandler": "~1.5.1",
     "express": "^4.7.4",
     "less-middleware": "~3.1.0",
     "morgan": "~1.10.0",

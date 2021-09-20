@@ -3,6 +3,7 @@
  */
 
 var express = require('express'),
+    errorhandler = require('errorhandler'),
     favicon = require('serve-favicon'),
     morgan = require('morgan'),
     lessMiddleware = require('less-middleware'),
@@ -22,8 +23,9 @@ app.use(lessMiddleware(__dirname + '/public'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
-if ('development' === app.get('env')) {
-    app.use(express.errorHandler());
+if ('development' === process.env.NODE_ENV) {
+    app.use(errorhandler());
+}
 }
 
 app.get('/', routes.index);
