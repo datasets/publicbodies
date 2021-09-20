@@ -61,7 +61,7 @@ The website is a node webapp. To get it running:
   If you're using Docker, start the container instead:
 
         ```
-        docker run --rm --volume="$PWD:/home/node/portal" -p 3000:3000 -it publicbodies node index.js
+        docker run --rm --name publicbodies -p 3000:3000 -it publicbodies node index.js
         ```
 
 The list of outstanding issues is at: <https://github.com/okfn/publicbodies/issues>

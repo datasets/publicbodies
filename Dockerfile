@@ -4,7 +4,7 @@
 # If you want to just build the documentation portal locally, do:
 #   docker build --rm -t publicbodies .
 # to build the container, then run
-#   docker run --rm --volume="$PWD:/home/node/portal" -p 3000:3000 -it publicbodies node index.js
+#   docker run --rm --name publicbodies -p 3000:3000 -it publicbodies node index.js
 # open http://localhost:3000 on your browser to see the portal.
 
 FROM node:12
@@ -25,6 +25,14 @@ RUN mkdir -p /home/node/portal
 COPY ./package.json /home/node/portal/package.json
 WORKDIR /home/node/portal
 RUN npm install .
+
+# copy website resources
+COPY ./lib /home/node/portal/lib
+COPY ./routes /home/node/portal/routes
+COPY ./views /home/node/portal/views
+COPY ./public /home/node/portal/public
+COPY ./data /home/node/portal/data
+COPY ./index.js /home/node/portal/
 
 # port Docusaurus runs on
 EXPOSE 3000
