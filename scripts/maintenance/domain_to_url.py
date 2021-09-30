@@ -7,23 +7,36 @@ import argparse
 import pandas as pd
 from frictionless import Package
 
-domain_re = re.compile(r'([a-z0-9A-Z]\.)*[a-z0-9-]+\.([a-z0-9]{2,24})+(\.co\.([a-z0-9]{2,24})|\.([a-z0-9]{2,24}))')
+domain_re = re.compile(
+    r'([a-z0-9A-Z]\.)*[a-z0-9-]+'
+    r'\.([a-z0-9]{2,24})+(\.co\.([a-z0-9]{2,24})|\.([a-z0-9]{2,24}))')
 
 def domain_to_url(domain: str) -> str:
     "Converts a domain name to a full url."
     return urlunsplit(urlsplit(f'//{domain}', scheme='https'))
 
-def get_jurisdiction_df(jurisdiction_code: str) -> pd.DataFrame:
-    "Get a pandas dataframe for a given jurisdiction code."
-    package = Package('../../datapackage.json')
-    resource = package.get_resource(jurisdiction_code)
-    return pd.read_csv(resource.fullpath)
+class JurisdictionData:
+    "Data from a given jurisdiction."
 
-def save_jurisdiction_df(jurisdiction_code: str, df: pd.DataFrame):
-    "Save a pandas dataframe for a given jurisdiction code."
-    package = Package('../../datapackage.json')
-    resource = package.get_resource(jurisdiction_code)
-    return df.to_csv(resource.fullpath, index=False)
+    def _get_jurisdiction_df(self) -> pd.DataFrame:
+        "Get a pandas dataframe for a given jurisdiction code."
+        package = Package('../../datapackage.json')
+        self.resource = package.get_resource(self.jurisdiction_code)
+        return pd.read_csv(self.resource.fullpath)
+
+    def _save_jurisdiction_df(self, file_name: str):
+        "Save a pandas dataframe for a given jurisdiction code."
+        self.df.to_csv(file_name, index=False)
+
+    def __init__(self, jurisdiction_code: str):
+        self.jurisdiction_code = jurisdiction_code
+        self.df = self._get_jurisdiction_df()
+
+    def save(self, file_name: str = None):
+        """Saves the contents of the dataframe to the resource or to a
+        provided csv file."""
+        self._save_jurisdiction_df(
+            file_name if file_name else self.resource.fullpath)
 
 def fix_url(df: pd.DataFrame) -> pd.DataFrame:
     "Fixes the url column in a given datafame."
@@ -35,9 +48,9 @@ def fix_url(df: pd.DataFrame) -> pd.DataFrame:
 
 def fix_csv(jurisdiction_code: str):
     "Fixes the url column in a csv file with a given jurisdiction code."
-    save_jurisdiction_df(
-        jurisdiction_code,
-        fix_url(get_jurisdiction_df(jurisdiction_code)))
+    data = JurisdictionData(jurisdiction_code)
+    data.df = fix_url(data.df)
+    data.save()
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
