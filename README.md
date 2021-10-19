@@ -11,7 +11,7 @@ Examples are:
 * State-run Health organizations
 * Police and fire departments
 
-Visit the site: http://publicbodies.org/
+Visit the site: https://publicbodies.org/
 
 ## Data
 
