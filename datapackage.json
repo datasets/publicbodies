@@ -2,6 +2,7 @@
   "profile": "tabular-data-package",
   "name": "public-bodies",
   "title": "Database of Public Bodies (Government Entities)",
+  "description": "A database of public bodies (or organizations) around the world, such as government departments, ministries etc.",
   "licenses": [
     {
       "name": "ODC-PDDL-1.0",
