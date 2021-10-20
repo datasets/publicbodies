@@ -15,8 +15,8 @@ Visit the site: https://publicbodies.org/
 
 ## Data
 
-Data is stored in CSVs partitioned by country or region (e.g. EU). Directories
-are named by ISO code.  
+Data is stored in CSVs partitioned by country or region (e.g. EU) in the
+[data](data) folder. Files are named by two-letter ISO code.  
 
 ## Contribute Data
 
