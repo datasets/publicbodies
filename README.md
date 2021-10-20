@@ -36,40 +36,42 @@ The website is a node webapp. To get it running:
 
 2. Get the code
 
-        ```
-        git clone https://github.com/okfn/publicbodies
-        ```
+    ```bash
+    git clone https://github.com/okfn/publicbodies
+    ```
 
-3. Install the dependencies (make sure you are in the publicbodies directory)
+3. Install the dependencies (make sure you are in the publicbodies
+    directory)
 
-        ```
-        npm install .
-        ```
+    ```bash
+    npm install .
+    ```
 
-  If you're using Docker, build the container instead:
+    If you're using Docker, build the container instead:
 
-        ```
-        docker build --rm -t publicbodies .
-        ```
-  
-  If you are building a development environment, please use:
+    ```bash
+    docker build --rm -t publicbodies .
+    ```
 
-        ```
-        docker build --rm -t publicbodies . --build-arg NODE_ENV=development
-        ```
-  so that you can get debugging information.
+    If you are building a development environment, please use:
+
+    ```bash
+    docker build --rm -t publicbodies . --build-arg NODE_ENV=development
+    ```
+
+    so that you can get debugging information.
 
 4. Run the webapp:
 
-        ```
-        node index.js
-        ```
+    ```bash
+    node index.js
+    ```
   
-  If you're using Docker, start the container instead:
+    If you're using Docker, start the container instead:
 
-        ```
-        docker run --rm --name publicbodies -p 3000:3000 -it publicbodies node index.js
-        ```
+    ```bash
+    docker run --rm --name publicbodies -p 3000:3000 -it publicbodies node index.js
+    ```
 
 The list of outstanding issues is at: <https://github.com/okfn/publicbodies/issues>
 
