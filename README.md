@@ -23,10 +23,9 @@ are named by ISO code.
 Please just add a CSV file and submit a pull request or open an issue.
 
 The set of fields required in the CSV file can be seen in the field list on:
-<http://data.okfn.org/community/okfn/publicbodies>.  You can also check out 
-the existing data in `data/` for hints, or if you like JSON, you can look
-directly at the `datapackage.json` file in this repo.  To learn more about Data
-Packages, visit http://specs.frictionlessdata.io/.
+[public-body-schema.json](public-body-schema.json). You can also check out 
+the existing data in `data/` for hints. To learn more about Data
+Packages, visit https://specs.frictionlessdata.io/.
 
 ## For Developers of the Website
 
