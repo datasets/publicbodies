@@ -82,11 +82,21 @@ Details of the automated data extraction to build the original database.
 
 Data sources:
 
-* A-Z Index of U.S. Government Departments and Agencies - http://www.usa.gov/directory/federal/index.shtml
-* AskTheEU.org
-* FragDenStaat.de - (private GoogleDoc) - http://www.bund.de/DE/Behoerden
-* WhatDoTheyKnow.com - http://www.whatdotheyknow.com/body/all-authorities.csv
-* Brazilian Government SIORG - http://www.siorg.redegoverno.gov.br/ - xml export at http://repositorio.dados.gov.br/governo-politica/administracao-publica/estrutura-organizacional/
+* Brazil
+  * Brazilian Government's SIORG – https://dados.gov.br/dataset/siorg
+* European Union
+  * [AskTheEU.org](https://www.asktheeu.org/)
+* Italy
+  * Opendata IPA
+    ([amministrazioni](https://indicepa.gov.it/ipa-dati/dataset/amministrazioni)
+    / [enti](https://indicepa.gov.it/ipa-dati/dataset/enti))
+* Germany
+  * FragDenStaat.de – (private GoogleDoc)
+  * Bund.de – https://www.bund.de/Content/DE/Behoerden/Suche/Formular.html
+* United Kingdom
+  * WhatDoTheyKnow.com – https://www.whatdotheyknow.com/body/all-authorities.csv
+* United States of America
+  * A-Z Index of U.S. Government Departments and Agencies – https://www.usa.gov/federal-agencies/a
 
 ### Building the SQLite DB
 
