@@ -245,7 +245,7 @@ def import_br_data(url: str, output: str):
     municipios_data = municipios_response.json()
 
     municipios_map = {
-        municipio['id']: municipio['nome']
+        int(municipio['id']): municipio['nome']
         for municipio in municipios_data
     }
 
