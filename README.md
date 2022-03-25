@@ -1,4 +1,4 @@
-[![goodtables.io](https://goodtables.io/badge/github/okfn/publicbodies.svg)](https://goodtables.io/github/okfn/publicbodies)
+[![Data](https://github.com/okfn/publicbodies/actions/workflows/frictionless.yaml/badge.svg)](https://repository.frictionlessdata.io/report?user=okfn&repo=publicbodies&flow=publicbodies)
 
 A database of public bodies (or organizations):
 
