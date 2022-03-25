@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import urllib.request
+import requests
 import csv
 import os
 
@@ -14,14 +14,17 @@ okfn/publibodies database
 #URL of the data in indicepa site
 IPA_URL = "http://www.indicepa.gov.it/public-services/opendata-read-service.php?dstype=FS&filename=amministrazioni.txt"
 
+# config for making requests
+USER_AGENT = "PublicBodiesBot (https://github.com/okfn/publicbodies)"
+
 #Categories of public bodies to skip during import (for now Schools)
 not_wanted_categories = ["Istituti di Istruzione Statale di Ogni Ordine e Grado"];
 
 #path to publicbodies repository root
-PBO_PATH = "../"
+PBO_PATH = os.path.join("..", "..", "..")
 
 #name of the output file
-PBO_FILENAME = PBO_PATH + "data/it.csv"
+PBO_FILENAME = os.path.join(PBO_PATH, "data/it.csv")
 
 #Name of the temporary file downloaded 
 IPA_FILENAME = "amministrazioni.txt"
@@ -33,10 +36,10 @@ pbo_fieldnames = ["id","name","abbreviation","other_names","description","classi
 
 def download_indicepa():
     print("Downloading indicePA data")
-    file_req = urllib.request.urlopen(IPA_URL)
+    file_req = requests.get(IPA_URL, headers={"User-Agent": USER_AGENT})
     print("indicePA data downloaded, saving to "+IPA_FILENAME)
     output = open(IPA_FILENAME,'wb')
-    output.write(file_req.read())
+    output.write(file_req.content)
     output.close()
     print("indicePA data saved")
     
