@@ -29,15 +29,22 @@ URL_MUNICIPIOS = 'https://servicodados.ibge.gov.br/api/v1/localidades/municipios
 URL_PAISES = 'https://balanca.economia.gov.br/balanca/bd/tabelas/PAIS.csv'
 URL_IMAGES = 'https://dados.gov.br/api/3/action/organization_list?all_fields=1&include_extras=1'
 
+# config for making requests
+USER_AGENT = 'PublicBodiesBot (https://github.com/okfn/publicbodies)'
+
 # regular expressions
 phone_re = re.compile(r'(?:\((\d{1,3})\)\s*)?(?:\((\d{1,2})\)\s)?([0-9- ]{7,9})')
 
 def import_br_data(url: str, output: str):
     "Imports data from the SIORG open data API on the given URL."
 
+    # initiate the requests session
+    session = requests.Session()
+    session.headers.update({'User-Agent': USER_AGENT})
+
     # get the json data on the public bodies
     print(f'Fetching public bodies data from {url}...')
-    response = requests.get(url)
+    response = session.get(url)
     data = response.json()
 
     # filter data to get only federal level and executive branch
@@ -76,7 +83,7 @@ def import_br_data(url: str, output: str):
     # the category is very generic for the type 'Vinculado', so we take
     # the nature of the legal person to enrich the possible categories
     print(f'Fetching nj data from {URL_NATUREZAJURIDICA}...')
-    natureza_juridica_response = requests.get(URL_NATUREZAJURIDICA)
+    natureza_juridica_response = session.get(URL_NATUREZAJURIDICA)
     natureza_juridica_data = natureza_juridica_response.json()
     natureza_juridica_map = {
         natureza_juridica['codigoNaturezaJuridica']:
@@ -86,7 +93,7 @@ def import_br_data(url: str, output: str):
     }
 
     print(f'Fetching category data from {URL_CATEGORIAS}...')
-    categorias_response = requests.get(URL_CATEGORIAS)
+    categorias_response = session.get(URL_CATEGORIAS)
     categorias_data = categorias_response.json()
     category_map = {
         categoria['codigoCategoriaUnidade']:
@@ -241,7 +248,7 @@ def import_br_data(url: str, output: str):
     # the main data source has only the municipality code, not their
     # names. So we go to IBGE to get the corresponding name.
     print(f'Fetching municipality codes data from {URL_MUNICIPIOS}...')
-    municipios_response = requests.get(URL_MUNICIPIOS)
+    municipios_response = session.get(URL_MUNICIPIOS)
     municipios_data = municipios_response.json()
 
     municipios_map = {
@@ -253,7 +260,7 @@ def import_br_data(url: str, output: str):
     # So we go to the SISCOMEX (foreign trade) data to get country
     # names in English.
     print(f'Fetching country codes data from {URL_PAISES}...')
-    paises_response = requests.get(URL_PAISES, verify=False)
+    paises_response = session.get(URL_PAISES, verify=False)
     paises_df = pd.read_csv(
         io.StringIO(paises_response.text),
         delimiter=';',
@@ -332,7 +339,7 @@ def import_br_data(url: str, output: str):
     # this attribute has some useful properties. For lack of a better
     # field, we create tags out of them.
     print(f'Fetching snj data from {URL_SUBNATUREZAJURIDICA}...')
-    snj_response = requests.get(URL_SUBNATUREZAJURIDICA)
+    snj_response = session.get(URL_SUBNATUREZAJURIDICA)
     snj_data = snj_response.json()
 
     snj_map = {
