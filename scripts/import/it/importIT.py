@@ -32,7 +32,7 @@ IPA_FILENAME = "amministrazioni.txt"
 
 #metadata documentation: http://www.indicepa.gov.it/public-services/docs-read-service.php?dstype=FS&filename=Metadati_Open_Data.pdf
 #ipa_fieldnames = ["cod_amm","des_amm","Comune","nome_resp","cogn_resp","Cap","Provincia","Regione","sito_istituzionale","Indirizzo","titolo_resp","tipologia_istat","acronimo","cf_validato","Cf","mail1","tipo_mail1","mail2","tipo_mail2","mail3","tipo_mail4","mail5","tipo_mail5","url_facebook","url_twitter","url_googleplus","url_youtube","liv_accessibili"]
-pbo_fieldnames = ["id","name","abbreviation","other_names","description","classification","parent_id","founding_date","dissolution_date","image","url","jurisdiction_code","email","address","contact","tags","source_url"]
+pbo_fieldnames = ["id","name","abbreviation","other_names","description","classification","parent_id","founding_date","dissolution_date","image","url","jurisdiction_code","phone","email","address","contact","tags","source_url"]
 
 def download_indicepa():
     print("Downloading indicePA data")
@@ -47,10 +47,11 @@ def convert_data():
     print("Converting data to publicbodies csv file")
     pbo_writer = csv.DictWriter(open(PBO_FILENAME, 'w', newline=''), fieldnames=pbo_fieldnames, delimiter=',')
     pbo_writer.writeheader()
-    with open(IPA_FILENAME) as csvfile:
+    with open(IPA_FILENAME, 'r', encoding='utf-8-sig') as csvfile:
         dialect = csv.Sniffer().sniff(csvfile.read(10000))
         csvfile.seek(0)
-        ipa_reader = csv.DictReader(csvfile,dialect=dialect)
+        ipa_reader = csv.DictReader(csvfile,
+            dialect=dialect, delimiter='\t')
         for ipa_row in ipa_reader:
             #clean row from "null" values
             for key in ipa_row.keys():
@@ -81,6 +82,7 @@ def convert_data():
             pbo_row["image"] = ""
             pbo_row["url"] = ipa_row["sito_istituzionale"]
             pbo_row["jurisdiction_code"] = "IT"
+            pbo_row["phone"] = ""
             pbo_row["email"] =  ipa_row["mail1"]
             pbo_row["address"] = ipa_row["Indirizzo"].replace(","," ") + " - " + ipa_row["Cap"] + " " + ipa_row["Comune"] + " (" + ipa_row["Provincia"] + ") " + "Italy" 
             pbo_row["contact"] = ""
