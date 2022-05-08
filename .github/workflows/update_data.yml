@@ -23,7 +23,7 @@ jobs:
       - name: Update br.csv file
         run: "python3 scripts/import/br/import_br.py --output data/br.csv"
       - name: push BR data
-        uses: actions-x/commit@v2
+        uses: actions-x/commit@v5
         with:
           email: 41898282+github-actions[bot]@users.noreply.github.com
           name: GitHub Actions Update Bot
@@ -31,7 +31,7 @@ jobs:
       - name: Update it.csv file
         run: "python3 scripts/import/it/import_it.py --output data/it.csv"
       - name: push IT data
-        uses: actions-x/commit@v2
+        uses: actions-x/commit@v5
         with:
           email: 41898282+github-actions[bot]@users.noreply.github.com
           name: GitHub Actions Update Bot
