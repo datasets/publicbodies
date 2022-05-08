@@ -5,10 +5,10 @@ on:
     - cron: 45 3 * * 0
 
 jobs:
-  update-data:
+  update-data-br:
     if: github.repository == 'okfn/publicbodies'
     runs-on: ubuntu-latest
-    name: Update data sources
+    name: Update BR data source
     steps:
       - uses: actions/checkout@v2
       - name: Setup Python
@@ -22,14 +22,33 @@ jobs:
           path: "scripts/requirements.txt"
       - name: Update br.csv file
         run: "python3 scripts/import/br/import_br.py --output data/br.csv"
+      - name: sync with git repo
+        run: git pull
       - name: push BR data
         uses: actions-x/commit@v5
         with:
           email: 41898282+github-actions[bot]@users.noreply.github.com
           name: GitHub Actions Update Bot
           message: "update BR data source automatically scheduled with Github actions"
+  update-data-it:
+    if: github.repository == 'okfn/publicbodies'
+    runs-on: ubuntu-latest
+    name: Update IT data source
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+          architecture: x64
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          path: "scripts/requirements.txt"
       - name: Update it.csv file
         run: "python3 scripts/import/it/import_it.py --output data/it.csv"
+      - name: sync with git repo
+        run: git pull
       - name: push IT data
         uses: actions-x/commit@v5
         with:
