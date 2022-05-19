@@ -6350,6 +6350,7 @@ body {
 .jurisdiction .code {
   font-size: 40px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .jurisdiction .title {
   font-size: 24px;

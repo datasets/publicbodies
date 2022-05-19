@@ -1,0 +1,19 @@
+title: Public Bodies
+
+# Build settings
+markdown: kramdown
+
+# kramdown:
+#   parse_block_html: true
+
+baseurl: /
+
+jurisdictions:
+  -
+    name: Brazil
+    key: br
+    count: 247
+  -
+    name: Nepal
+    key: np
+    count: 1017
