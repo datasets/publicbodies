@@ -26,8 +26,8 @@ jobs:
         uses: py-actions/py-dependency-install@v2
         with:
           path: "scripts/requirements.txt"
-      - name: Update {{ matrix.source }}.csv file
-        run: "python3 scripts/import/{{ matrix.source }}/import_{{ matrix.source }}.py --output data/{{ matrix.source }}.csv"
+      - name: Update ${{ matrix.source }}.csv file
+        run: "python3 scripts/import/${{ matrix.source }}/import_${{ matrix.source }}.py --output data/${{ matrix.source }}.csv"
       - name: re-sync with git repo
         run: git pull
       - name: commit & push with rebase
@@ -35,5 +35,5 @@ jobs:
         with:
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
           author_name: GitHub Actions Update Bot
-          message: "Update {{ matrix.source }} data source automatically scheduled with Github actions"
+          message: "Update ${{ matrix.source }} data source automatically scheduled with Github actions"
           rebase: true
