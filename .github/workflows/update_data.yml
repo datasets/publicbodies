@@ -16,7 +16,10 @@ jobs:
         source: [br, it]
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Check out repository
+        uses: actions/checkout@v3
+        with:
+          ref: master # branch
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
