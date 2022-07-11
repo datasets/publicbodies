@@ -11,8 +11,9 @@ jobs:
     name: Update data from sources
     runs-on: ubuntu-latest
 
-    strategy: matrix
-      source: [br, it]
+    strategy:
+      matrix:
+        source: [br, it]
 
     steps:
       - uses: actions/checkout@v2
