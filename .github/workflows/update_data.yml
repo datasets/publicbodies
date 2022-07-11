@@ -1,9 +1,8 @@
 name: Update data sources
 
 on:
-  push:
-    branches:
-      - issue-156
+  schedule:
+    - cron: 45 3 * * 0
 
 jobs:
   update-data:
