@@ -12,8 +12,30 @@ jurisdictions:
   -
     name: Brazil
     key: br
-    count: 247
+  -
+    name: Switzerland
+    key: ch
+  -
+    name: Germany
+    key: de
+  -
+    name: European Union
+    key: eu
+  -
+    name: United Kingdom
+    key: gb
+  -
+    name: Italy
+    key: it
   -
     name: Nepal
     key: np
-    count: 1017
+  -
+    name: New Zealand
+    key: nz
+  -
+    name: Sweden
+    key: se
+  -
+    name: United States
+    key: us
