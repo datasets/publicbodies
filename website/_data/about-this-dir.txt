@@ -1,0 +1,4 @@
+The data files used to build the website go into this directory.
+Do not commit them here, though, as they reside in their own data
+directory in the repository and are copies here only when building the
+website and for that purpose.
