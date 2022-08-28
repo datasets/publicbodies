@@ -544,6 +544,9 @@ a:focus {
 .container:after {
   clear: both;
 }
+.container > .row:first-of-type{
+  margin-top: 2em;
+}
 .container-fluid {
   padding-right: 20px;
   padding-left: 20px;
