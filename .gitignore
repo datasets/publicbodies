@@ -5,3 +5,4 @@ node_modules
 .vscode
 pyenv
 website/_site
+website/_data/*.csv
