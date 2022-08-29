@@ -8,34 +8,15 @@ markdown: kramdown
 
 baseurl: /
 
-jurisdictions:
-  -
-    name: Brazil
-    key: br
-  -
-    name: Switzerland
-    key: ch
-  -
-    name: Germany
-    key: de
-  -
-    name: European Union
-    key: eu
-  -
-    name: United Kingdom
-    key: gb
-  -
-    name: Italy
-    key: it
-  -
-    name: Nepal
-    key: np
-  -
-    name: New Zealand
-    key: nz
-  -
-    name: Sweden
-    key: se
-  -
-    name: United States
-    key: us
+collections:
+  jurisdictions:
+    output: true
+    layout: jurisdiction
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ''
+      type: jurisdictions
+    values:
+      layout: jurisdiction

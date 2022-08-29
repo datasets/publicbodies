@@ -3,22 +3,7 @@
 {% assign page_type=page %}
 {% include head.html %}
   <body>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <div class="pull-right">
-            <form class="navbar-search" action="/search">
-              <input type="text" name="search" class="search-query" placeholder="Search">
-            </form>
-            <a href="http://okfnlabs.org" title="An Open Knowledge Foundation Labs project" target="_blank">
-              <img class="logo" src="{{ 'assets/images/logo-okl.png' | relative_url }}" alt="Open Knowledge Foundation Labs">
-            </a>
-          </div>
-          <a class="brand" href="/">Public Bodies</a>
-          <span>A URL for every part of government</span>
-        </div>
-      </div>
-    </div>
+    {% include navbar.html %}
     <div class="container">
       {{ content }}
     </div>

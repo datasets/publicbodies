@@ -14,15 +14,16 @@ desc: An open database about every part of government.
 
 {% assign juris=site.jurisdictions %}
 {% for jurisdiction in juris  %}
-      
+  
+  {% assign jurisdiction_id=jurisdiction.id | slice: 1, 3 %}
   <div class="row-fluid jurisdiction">
-    <a href="{{ jurisdiction.key | relative_url }}">
-      <div class="span5 title">{{ jurisdiction.name }}</div>
-      <div class="span2 code">{{ jurisdiction.key }}</div>
-      <div class="span3">{{ site.data[jurisdiction.key].size }} bodies</div>
+    <a href="{{ jurisdiction.url | relative_url }}">
+      <div class="span5 title">{{ jurisdiction.title }}</div>
+      <div class="span2 code">{{ jurisdiction_id }}</div>
+      <div class="span3">{{ site.data[jurisdiction_id].size }} bodies</div>
     </a>
     <div class="span2 download">
-      <a class="btn btn-inverse" href="https://github.com/okfn/publicbodies/raw/master/data/{{ jurisdiction.key }}.csv">
+      <a class="btn btn-inverse" href="https://github.com/okfn/publicbodies/raw/master/data/{{ jurisdiction_id }}.csv">
         <i class="icon-download-alt"> csv</i>
       </a>
     </div>
