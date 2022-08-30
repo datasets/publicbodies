@@ -33,48 +33,26 @@ to automatically and periodically collect the data is even better.
 
 ## For developers of the website
 
-The website is a node webapp. To get it running:
+The website is a Jekyll site. To get it running locally:
 
-1. Install node and npm (>= 12). Alternatively, install Docker.
+1. Install [Docker](https://docs.docker.com/get-docker/).
 
 2. Get the code
 
     ```bash
     git clone https://github.com/okfn/publicbodies
+    cd publicbodies
     ```
 
-3. Install the dependencies (make sure you are in the publicbodies
-    directory)
+3. Run Jekyll
 
     ```bash
-    npm install .
+    cd website
+    export JEKYLL_VERSION=4.2.0
+    docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/minimal:$JEKYLL_VERSION jekyll build --baseurl $PWD/_site/ --watch
     ```
 
-    If you're using Docker, build the container instead:
-
-    ```bash
-    docker build --rm -t publicbodies .
-    ```
-
-    If you are building a development environment, please use:
-
-    ```bash
-    docker build --rm -t publicbodies . --build-arg NODE_ENV=development
-    ```
-
-    so that you can get debugging information.
-
-4. Run the webapp:
-
-    ```bash
-    node index.js
-    ```
-  
-    If you're using Docker, start the container instead:
-
-    ```bash
-    docker run --rm --name publicbodies -p 3000:3000 -it publicbodies node index.js
-    ```
+    The built website will appear on the `website/_site` folder.
 
 The list of outstanding issues is at: <https://github.com/okfn/publicbodies/issues>
 
