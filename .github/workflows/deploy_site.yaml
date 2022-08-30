@@ -1,0 +1,26 @@
+name: Deploy site
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    name: Deploy site to Github Pages
+    steps:
+      - name: Checkout git
+        uses: actions/checkout@v3
+      - name: Prepare build
+        working-directory: scripts/deploy
+        run: python3 ./prepare_build.py
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          enable_jekyll: true
