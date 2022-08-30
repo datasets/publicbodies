@@ -6,7 +6,7 @@ layout: default
 {% assign jurisdiction=site.jurisdictions | find: "id", jurisdiction_path %}
 {% assign data=site.data[jurisdiction_id] %}
 {% assign row_id=page.path | remove: ".md" %}
-{% assign row=data | find: "id", "br/financiadora-de-estudos-e-projetos" %}
+{% assign row=data | find: "id", row_id %}
 
 <div class="row">
   <div class="span12">
