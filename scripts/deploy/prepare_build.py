@@ -8,10 +8,14 @@
 import os, shutil
 import csv
 import logging
+import json
+
+from slugify import slugify
 
 # directories
 DATA_DIR = "../../data"
 WEBSITE_DIR = "../../website"
+MAX_NAME_SIZE = 250 # limit from Linux ext4 file system, minus extension
 BODY_TEMPLATE = \
 """---
 layout: body
@@ -37,7 +41,8 @@ for data_file in data_files:
     with open(csv_filename, "r") as csv_file:
         row_reader = csv.DictReader(csv_file)
         for row in row_reader:
-            jurisdiction, body_id = row["id"].split("/")
+            jurisdiction, body_id = row["id"].split("/", maxsplit=1)
+            body_id = slugify(body_id)[:MAX_NAME_SIZE]
             jurisdiction_path = os.path.join(WEBSITE_DIR, jurisdiction)
             try:
                 os.mkdir(jurisdiction_path)
@@ -49,3 +54,7 @@ for data_file in data_files:
                 "w") as md_file:
                 md_file.write(
                     BODY_TEMPLATE.format(f"{jurisdiction}/{body_id}/"))
+            json_filename = f"{body_id}.json"
+            with open(os.path.join(jurisdiction_path, json_filename),
+                "w") as json_file:
+                json.dump(row, json_file)
