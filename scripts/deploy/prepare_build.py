@@ -1,4 +1,10 @@
 #/usr/bin/python3
+"""Prepares the website for building with Jekyll. For each public body:
+
+- creates a markdown file to be transformed by Jekyll into html
+- creates a json file for downloading machine processable data of
+  individual public body
+"""
 import os, shutil
 import csv
 import logging
