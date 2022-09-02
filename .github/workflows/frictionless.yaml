@@ -1,4 +1,4 @@
-name: publicbodies
+name: Validate data
 
 on:
   push:
