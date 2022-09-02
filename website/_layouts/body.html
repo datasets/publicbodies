@@ -59,13 +59,13 @@ layout: default
         Source:
         <a href="{{ row.source_url }}">{{ row.source_url }}</a>
       </p>
-      <!-- JSON download not implemented, link disabled
       <p>
-        <a class="btn btn-success" href="{{ row.id | split: '/' | last }}.json">
+        {% assign body_id=row.id | split: '/' | last %}
+        {% assign id_size=body_id.size | at_most: 250 %}
+        <a class="btn btn-success" href="../{{ body_id | slice: 0, id_size }}.json">
           <i class="icon-download-alt">JSON</i>
         </a>
       </p>
-      -->
     </div>
   </div>
 </div>
