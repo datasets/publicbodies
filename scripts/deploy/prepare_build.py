@@ -41,6 +41,8 @@ for data_file in data_files:
     with open(csv_filename, "r") as csv_file:
         row_reader = csv.DictReader(csv_file)
         for row in row_reader:
+            if not row["id"]:
+                continue # skip rows with empty ids
             jurisdiction, body_id = row["id"].split("/", maxsplit=1)
             body_id = slugify(body_id)[:MAX_NAME_SIZE]
             jurisdiction_path = os.path.join(WEBSITE_DIR, jurisdiction)
