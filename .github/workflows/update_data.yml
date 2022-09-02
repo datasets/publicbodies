@@ -18,7 +18,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
         with:
-          ref: master # branch
+          ref: main # branch
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
