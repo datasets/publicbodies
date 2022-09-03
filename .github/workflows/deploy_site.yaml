@@ -23,7 +23,7 @@ jobs:
           path: "scripts/requirements.txt"
       - name: Prepare build
         working-directory: scripts/deploy
-        run: python3 ./prepare_build.py
+        run: python3 ./prepare_build.py --max_bodies_per_jurisdiction 1000
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
