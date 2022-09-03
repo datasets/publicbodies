@@ -2,6 +2,7 @@
 .vscode
 pyenv
 .jekyll-cache
+.jekyll-metadata
 
 # compiled site
 website/_site
