@@ -23,7 +23,7 @@ desc: An open database about every part of government.
       <div class="span3">{{ site.data[jurisdiction_id].size }} bodies</div>
     </a>
     <div class="span2 download">
-      <a class="btn btn-inverse" href="https://github.com/okfn/publicbodies/raw/master/data/{{ jurisdiction_id }}.csv">
+      <a class="btn btn-inverse" href="https://github.com/okfn/publicbodies/raw/main/data/{{ jurisdiction_id }}.csv">
         <i class="icon-download-alt"> csv</i>
       </a>
     </div>
