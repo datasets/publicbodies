@@ -35,6 +35,7 @@ jobs:
       - name: commit & push with rebase
         uses: benkaiser/rebase-commit-push@v1.1
         with:
+          branch: main
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
           author_name: GitHub Actions Update Bot
           message: "Update ${{ matrix.source }} data source automatically scheduled with Github actions"
