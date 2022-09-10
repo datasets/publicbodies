@@ -12,7 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        ref: gh-pages
+        with:
+          ref: gh-pages
 
       - name: Setup Ruby and install gems
         uses: ruby/setup-ruby@v1
