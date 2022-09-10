@@ -1,0 +1,33 @@
+name: Publish site
+
+on:
+  push:
+    branches: [ "ghpages-fix" ]
+
+jobs:
+  build:
+    name: Build with Jekyll and publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        ref: gh-pages
+
+      - name: Setup Ruby and install gems
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
+
+      - name: Build Jekyll Site
+        run: bundle exec jekyll build
+
+      - name: commit & push with rebase
+        uses: benkaiser/rebase-commit-push@v1.1
+        with:
+          branch: ghpages-fix
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          author_name: GitHub Actions Update Bot
+          message: Site updated automatically by bot
+          rebase: true
