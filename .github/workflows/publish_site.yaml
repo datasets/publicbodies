@@ -4,6 +4,9 @@ on:
   push:
     branches: [ "ghpages-fix" ]
 
+env:
+  JEKYLL_VERSION: 4.2.0
+
 jobs:
   build:
     name: Build with Jekyll and publish
@@ -15,14 +18,9 @@ jobs:
         with:
           ref: gh-pages
 
-      - name: Setup Ruby and install gems
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.7
-          bundler-cache: true
-
       - name: Build Jekyll Site
-        run: bundle exec jekyll build
+        run: docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/minimal:$JEKYLL_VERSION jekyll build --baseurl $PWD/_site/ --incremental
+          working-directory: website/
 
       - name: commit & push with rebase
         uses: benkaiser/rebase-commit-push@v1.1
