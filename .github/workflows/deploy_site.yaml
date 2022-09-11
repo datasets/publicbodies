@@ -16,8 +16,8 @@ concurrency:
 jobs:
 
   pre-process:
-    runs-on: ubuntu-22.04
     name: Pre-process site for build
+    runs-on: ubuntu-22.04
     steps:
 
       - name: Checkout git
@@ -48,6 +48,12 @@ jobs:
           publish_branch: gh-pages-stage
           publish_dir: src/website
 
+  add-workflow:
+    name: Add deployment workflow to branch
+    needs: pre-process
+    runs-on: ubuntu-22.04
+    steps:
+
       - name: Checkout git
         uses: actions/checkout@v3
         with:
@@ -60,21 +66,21 @@ jobs:
           mkdir -p .github/workflows/
           cp ../src/.github/workflows/publish_site.yaml .github/workflows/
 
-      # - name: Update branch to include action
-      #   uses: actions-x/commit@v6
-      #   with:
-      #     branch: gh-pages-stage
-      #     directory: gh-pages-stage
-      #     email: 41898282+github-actions[bot]@users.noreply.github.com
-      #     name: GitHub Actions Update Bot
-      #     message: Update branch to include action
-
       - name: Update branch to include action
-        uses: benkaiser/rebase-commit-push@v1.1
+        uses: actions-x/commit@v6
         with:
           branch: gh-pages-stage
           directory: gh-pages-stage
-          author_email: 41898282+github-actions[bot]@users.noreply.github.com
-          author_name: GitHub Actions Update Bot
+          email: 41898282+github-actions[bot]@users.noreply.github.com
+          name: GitHub Actions Update Bot
           message: Update branch to include action
-          rebase: true
+
+      # - name: Update branch to include action
+      #   uses: benkaiser/rebase-commit-push@v1.1
+      #   with:
+      #     branch: gh-pages-stage
+      #     directory: gh-pages-stage
+      #     author_email: 41898282+github-actions[bot]@users.noreply.github.com
+      #     author_name: GitHub Actions Update Bot
+      #     message: Update branch to include action
+      #     rebase: true
