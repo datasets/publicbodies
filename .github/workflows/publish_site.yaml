@@ -1,4 +1,4 @@
-name: Publish site
+name: Build and publish site
 
 on:
   push:
@@ -7,19 +7,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 # Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
-env:
-  JEKYLL_VERSION: 4.2.0
 
 jobs:
 

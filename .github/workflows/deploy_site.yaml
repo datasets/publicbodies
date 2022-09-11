@@ -1,4 +1,4 @@
-name: Deploy site
+name: Pre-process and prepare build
 
 on:
   push:
