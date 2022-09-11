@@ -60,11 +60,21 @@ jobs:
           mkdir -p .github/workflows/
           cp ../src/.github/workflows/publish_site.yaml .github/workflows/
 
+      # - name: Update branch to include action
+      #   uses: actions-x/commit@v6
+      #   with:
+      #     branch: gh-pages-stage
+      #     directory: gh-pages-stage
+      #     email: 41898282+github-actions[bot]@users.noreply.github.com
+      #     name: GitHub Actions Update Bot
+      #     message: Update branch to include action
+
       - name: Update branch to include action
-        uses: actions-x/commit@v6
+        uses: benkaiser/rebase-commit-push@v1.1
         with:
           branch: gh-pages-stage
           directory: gh-pages-stage
-          email: 41898282+github-actions[bot]@users.noreply.github.com
-          name: GitHub Actions Update Bot
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          author_name: GitHub Actions Update Bot
           message: Update branch to include action
+          rebase: true
