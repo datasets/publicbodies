@@ -48,12 +48,6 @@ jobs:
           publish_branch: gh-pages-stage
           publish_dir: src/website
 
-  add-workflow:
-    name: Add deployment workflow to branch
-    needs: pre-process
-    runs-on: ubuntu-22.04
-    steps:
-
       - name: Checkout git
         uses: actions/checkout@v3
         with:
