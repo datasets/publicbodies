@@ -51,8 +51,8 @@ jobs:
           git init .
           git checkout -b gh-pages-stage
           git remote add origin git@github.com:okfn/publicbodies.git
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git config user.name GitHub Actions Update Bot
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "GitHub Actions Update Bot"
           git commit -m "Update stage branch"
           git push
 
