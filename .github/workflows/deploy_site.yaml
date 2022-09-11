@@ -41,13 +41,15 @@ jobs:
         run: python3 ./prepare_build.py --max_bodies_per_jurisdiction 1000
 
       - name: Prepare stage branch
-        working-directory: src
         run: |
-          mkdir -p website/.github/workflows/
-          cp .github/workflows/publish_site.yaml website/.github/workflows/
-          rm -rf .git
-          cd website
+          mkdir gh-pages-stage
+          cp -r src/website gh-pages-stage
+          mkdir -p gh-pages-stage/.github/workflows/
+          cp src/.github/workflows/publish_site.yaml gh-pages-stage/.github/workflows/
+          cd gh-pages-stage/website
           git init .
+          git checkout -b gh-pages-stage
+          git remote add origin git@github.com:okfn/publicbodies.git
 
       # - name: Commit to stage
       #   uses: peaceiris/actions-gh-pages@v3
@@ -64,7 +66,7 @@ jobs:
           directory: src/website
           email: 41898282+github-actions[bot]@users.noreply.github.com
           name: GitHub Actions Update Bot
-          message: Update branch to include action
+          message: Update stage branch
 
       # - name: Update branch to include action
       #   uses: benkaiser/rebase-commit-push@v1.1
