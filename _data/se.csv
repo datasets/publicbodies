@@ -1,0 +1,653 @@
+id,name,abbreviation,other_names,description,classification,parent_id,founding_date,dissolution_date,image,url,jurisdiction_code,phone,email,address,contact,tags,source_url
+se/aklagarmyndigheten,Åklagarmyndigheten,,,,,,,,,https://www.aklagare.se,SE,010-5625299,registrator@aklagare.se,BOX 5553,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/ale-kommun,Ale kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.ale.se,SE,0303-33 00 00,kommun@ale.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/alingsas-kommun,Alingsås kommun,,,Pendlingskommuner,5.0,,,,,http://www.alingsas.se,SE,0322-616000,kommunstyrelsen@alingsas.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/alingsas-tingsratt,Alingsås Tingsrätt,,,,,,,,,https://www.alingsastingsratt.domstol.se,SE,,alingsas.tingsratt@dom.se,BOX 126,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/alkoholsortimentsnamnden,Alkoholsortimentsnämnden,,,,,,,,,https://www.kammarkollegiet.se/rattsavdelningen/alkoholsortimentsnamnden,SE,08-7000988,,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/allmanna-reklamationsnamnden,Allmänna Reklamationsnämnden,,,,,,,,,https://www.arn.se,SE,08-50886001,arn@arn.se,BOX 174,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/almhults-kommun,Älmhults kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.almhult.se,SE,0476-55000,info@almhult.se,Box 500,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/alvdalens-kommun,Älvdalens kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.alvdalen.se,SE,0251-813 00,kommun@alvdalen.se,Box 100,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/alvesta-kommun,Alvesta kommun,,,Pendlingskommuner,5.0,,,,,http://www.alvesta.se,SE,0472-15000,klk@alvesta.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/alvkarleby-kommun,Älvkarleby kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.alvkarleby.se,SE,026-83000,kommun@alvkarleby.se,Box 4,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/alvsbyns-kommun,Älvsbyns kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.alvsbyn.se,SE,0929 - 17000,kommunen@alvsbyn.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/amals-kommun,Åmåls kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.amal.se,SE,0532-17000,kommun@amal.se,Box 62,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/andra-ap-fonden,Andra Ap-Fonden,,,,,,,,,https://www.ap2.se,SE,031-7042999,info@ap2.se,BOX 11155,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/aneby-kommun,Aneby kommun,,,Pendlingskommuner,5.0,,,,,http://www.aneby.se,SE,0380-46100,aneby.kommun@aneby.se,Box 53,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ange-kommun,Ånge kommun,,,Glesbygdkommuner,8.0,,,,,http://www.ange.se,SE,0690 - 25 01 00,ange@ange.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/angelholms-kommun,Ängelholms kommun,,,Pendlingskommuner,5.0,,,,,http://www.engelholm.se,SE,0431-870 00,info@engelholm.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/angermanlands-tingsratt,Ångermanlands Tingsrätt,,,,,,,,,https://www.angermanlandstingsratt.domstol.se,SE,,angermanlands.tingsratt@dom.se,BOX 114,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/arbetsdomstolen,Arbetsdomstolen,,,,,,,,,https://www.arbetsdomstolen.se,SE,08-6176615,kansliet@arbetsdomstolen.se,BOX 2018,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/arbetsformedlingen,Arbetsförmedlingen,,,,,,,,,https://www.arbetsformedlingen.se,SE,08-50880199,,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/arbetsgivarverket,Arbetsgivarverket,,,,,,,,,https://www.arbetsgivarverket.se,SE,010-1505551,registrator@arbetsgivarverket.se,BOX 3267,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/arbetsmiljoverket-(av),Arbetsmiljöverket (AV),,,,,,,,,https://www.av.se,SE,08-7301967,arbetsmiljoverket@av.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/arboga-kommun,Arboga kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.arboga.se,SE,0589-87000,arboga.kommun@arboga.se,Box 45,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/are-kommun,Åre kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.are.se,SE,0647-161 00,kundtjanst@are.se,Box 201,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/arjangs-kommun,Årjängs kommun,,,Glesbygdkommuner,8.0,,,,,http://www.arjang.se,SE,0573-14100,kommun@arjang.se,Box 906,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/arjeplogs-kommun,Arjeplogs kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.arjeplog.se,SE,0961-140 00,arjeplogs.kommun@arjeplog.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/arvfondsdelegationen,Arvfondsdelegationen,,,,,,,,,https://www.arvsfonden.se,SE,,,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/arvidsjaurs-kommun,Arvidsjaurs kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.arvidsjaur.se,SE,0960-15500,kommun@arvidsjaur.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/arvika-kommun,Arvika kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.arvika.se,SE,0570-816 00,arvika.kommun@arvika.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/asele-kommun,Åsele kommun,,,Glesbygdkommuner,8.0,,,,,http://www.asele.se,SE,0941-14000,kommun@asele.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/askersunds-kommun,Askersunds kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.askersund.se,SE,0583-81000,kommun@askersund.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/astorps-kommun,Åstorps kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.astorp.se,SE,042-64000,kommun@astorp.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/attunda-tingsratt,Attunda Tingsrätt,,,,,,,,,https://www.attundatingsratt.domstol.se,SE,,attunda.tingsratt@dom.se,BOX 940,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/atvidabergs-kommun,Åtvidabergs kommun,,,Pendlingskommuner,5.0,,,,,http://www.atvidaberg.se,SE,0120-83000,kommun@atvidaberg.se,Box 206,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/avesta-kommun,Avesta kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.avesta.se,SE,0226-645000,kommun@avesta.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/barnombudsmannen,Barnombudsmannen,,,,,,,,,https://www.bo.se,SE,08-6546277,bo@bo.se,BOX 22106,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/bastads-kommun,Båstads kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.bastad.se,SE,0431-77000,bastads.kommun@bastad.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/bengtsfors-kommun,Bengtsfors kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.bengtsfors.se,SE,0531-526000,kommun@bengtsfors.se,Box 14,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/bergs-kommun,Bergs kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.berg.se,SE,0687-16100,bergs.kommun@berg.se,Box 73,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/bjurholms-kommun,Bjurholms kommun,,,Pendlingskommuner,5.0,,,,,http://www.bjurholm.se,SE,0932-14000,kommunen@bjurholm.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/bjuvs-kommun,Bjuvs kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.bjuv.se,SE,042-4585000,info@bjuv.se,Box 501,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/blekinge-tekniska-hogskola,Blekinge Tekniska Högskola,,,,,,,,,https://www.bth.se,SE,0455-385057,registrator@bth.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/blekinge-tingsratt,Blekinge Tingsrätt,,,,,,,,,https://www.blekingetingsratt.domstol.se,SE,0455-26858,blekinge.tingsratt@dom.se,BOX 319,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/bodens-kommun,Bodens kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.boden.se,SE,0921-62000,kommunen@boden.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/bokforingsnamnden,Bokföringsnämnden,,,,,,,,,https://www.bfn.se,SE,08-219788,bfn@bfn.se,BOX 7849,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/bolagsverket,Bolagsverket,,,,,,,,,https://www.bolagsverket.se,SE,060-129840,bolagsverket@bolagsverket.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/bollebygds-kommun,Bollebygds kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.bollebygd.se,SE,033-23 13 00,kommunen@bollebygd.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/bollnas-kommun,Bollnäs kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.bollnas.se,SE,0278-25000,bollnas@bollnas.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/boras-stad,Borås stad,,,Större städer,3.0,,,,,http://www.boras.se,SE,033-357000,boras.stad@boras.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/boras-tingsratt,Borås Tingsrätt,,,,,,,,,https://www.borastingsratt.domstol.se,SE,,boras.tingsratt@dom.se,BOX 270,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/borgholms-kommun,Borgholms kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.borgholm.se,SE,0485-88000,kommun@borgholm.se,Box 52,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/borlange-kommun,Borlänge kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.borlange.se,SE,0243-74000,kommun@borlange.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/botkyrka-kommun,Botkyrka kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.botkyrka.se,SE,08-530 610 00,kontaktcenter@botkyrka.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/boverket,Boverket,,,,,,,,,https://www.boverket.se,SE,0455-353100,registraturen@boverket.se,BOX 534,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/boxholms-kommun,Boxholms kommun,,,Pendlingskommuner,5.0,,,,,http://www.boxholm.se,SE,0142-89500,kommun@boxholm.se,Box 79,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/bracke-kommun,Bräcke kommun,,,Glesbygdkommuner,8.0,,,,,http://www.bracke.se,SE,0693-16100,bracke@bracke.se,Box 190,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/bromolla-kommun,Bromölla kommun,,,Pendlingskommuner,5.0,,,,,http://www.bromolla.se,SE,0456-822000,kommunstyrelsen@bromolla.se,Box 18,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/brottsforebyggande-radet,Brottsförebyggande Rådet,,,,,,,,,https://www.bra.se,SE,,info@bra.se,BOX 1386,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/brottsoffermyndigheten,Brottsoffermyndigheten,,,,,,,,,https://www.brottsoffermyndigheten.se,SE,090-178353,registrator@brottsoffermyndigheten.se,BOX 470,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/burlovs-kommun,Burlövs kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.burlov.se,SE,040-439000,burlovs.kommun@burlov.se,Box 53,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/centrala-etikprovningsnamnden,Centrala Etikprövningsnämnden,,,,,,,,,https://www.epn.se,SE,,kansli@cepn.se,BOX 1035,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/centrala-studiestodsnamnden,Centrala Studiestödsnämnden,,,,,,,,,https://www.csn.se,SE,060-186193,registrator@csn.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/dals-eds-kommun,Dals-Eds kommun,,,Glesbygdkommuner,8.0,,,,,http://www.dalsed.se,SE,0534-19000,kommunstyrelsen@dalsed.se,Box 31,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/danderyds-kommun,Danderyds kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.danderyd.se,SE,08-568 910 00,kommunen@danderyd.se,Box 66,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/datainspektionen,Datainspektionen,,,,,,,,,https://www.datainspektionen.se,SE,08-6528652,datainspektionen@datainspektionen.se,BOX 8114,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/degerfors-kommun,Degerfors kommun,,,Pendlingskommuner,5.0,,,,,http://www.degerfors.se,SE,0586-48100,kommun@degerfors.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/diskrimineringsombudsmannen,Diskrimineringsombudsmannen,,,,,,,,,https://www.do.se,SE,,do@do.se,BOX 3686,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/domarnamnden,Domarnämnden,,,,,,,,,https://www.domstol.se/Om-Sveriges-Domstolar/Domarnamnden,SE,08-243405,domarnamnden@dom.se,BOX 2330,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/domstolsverket,Domstolsverket,,,,,,,,,https://www.domstol.se,SE,036-165721,domstolsverket@dom.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/dorotea-kommun,Dorotea kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.dorotea.se,SE,0942-14000,info@dorotea.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/e-halsomyndigheten,E-Hälsomyndigheten,,,,,,,,,http://www.ehalsomyndigheten.se/,SE,08-6479001,registrator@ehalsomyndigheten.se,SANKT ERIKSGATAN 117,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/e-legitimationsnamnden,E-Legitimationsnämnden,,,,,,,,,https://www.elegnamnden.se,SE,,kansliet@elegnamnden.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/eda-kommun,Eda kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.eda.se,SE,0571-281 00,kommun@eda.se,Box 66,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ekero-kommun,Ekerö kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.ekero.se,SE,08-124 571 00,kommunstyrelsen@ekero.se,Box 205,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ekobrottsmyndigheten,Ekobrottsmyndigheten,,,,,,,,,https://www.ekobrottsmyndigheten.se,SE,08-6134019,huvudregistrator@ekobrottsmyndigheten.se,BOX 22098,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/ekonomistyrningsverket,Ekonomistyrningsverket,,,,,,,,,https://www.esv.se,SE,08-6904350,registrator@esv.se,BOX 45316,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/eksjo-kommun,Eksjö kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.eksjo.se,SE,0381-36000,kommun@eksjo.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/eksjo-tingsratt,Eksjö Tingsrätt,,,,,,,,,https://www.eksjotingsratt.domstol.se,SE,,eksjo.tingsratt@dom.se,BOX 230,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/elsakerhetsverket,Elsäkerhetsverket,,,,,,,,,https://www.elsakerhetsverket.se,SE,0550-85101,registrator@elsakerhetsverket.se,BOX 4,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/emmaboda-kommun,Emmaboda kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.emmaboda.se,SE,0471-24 90 00,kommunen@emmaboda.se,Box 54,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/energimarknadsinspektionen,Energimarknadsinspektionen,,,,,,,,,https://www.energimarknadsinspektionen.se,SE,,registrator@ei.se,BOX 155,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/enkopings-kommun,Enköpings kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.enkoping.se,SE,0171-62 50 00,kommunen@enkoping.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ersattningsnamnden,Ersättningsnämnden,,,,,,,,,https://www.ersattningsnamnden.se/,SE,,,BOX 2089,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/eskilstuna-kommun,Eskilstuna kommun,,,Större städer,3.0,,,,,http://eskilstuna.se/,SE,016 - 710 10 00,eskilstuna.kommun@eskilstuna.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/eskilstuna-tingsratt,Eskilstuna Tingsrätt,,,,,,,,,https://www.domstol.se,SE,,eskilstuna.tingsratt@dom.se,BOX 363,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/eslovs-kommun,Eslövs kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.eslov.se,SE,0413-62000,kommunstyrelsen@eslov.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/essunga-kommun,Essunga kommun,,,Pendlingskommuner,5.0,,,,,http://www.essunga.se,SE,0512-57000,kommun@essunga.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/exportkreditnamnden,Exportkreditnämnden,,,,,,,,,https://www.ekn.se,SE,08-4118149,info@ekn.se,BOX 3064,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/fagersta-kommun,Fagersta kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.fagersta.se,SE,0223-44000,info@fagersta.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/falkenbergs-kommun,Falkenbergs kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.falkenberg.se,SE,0346-886000,kommun@falkenberg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/falkopings-kommun,Falköpings kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.falkoping.se,SE,0515-885000,kommunen@falkoping.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/falu-kommun,Falu kommun,,,Större städer,3.0,,,,,http://www.falun.se,SE,023-83000,info@falun.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/falu-tingsratt,Falu Tingsrätt,,,,,,,,,https://www.falutingsratt.domstol.se,SE,,falu.tingsratt@dom.se,BOX 102,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/fargelanda-kommun,Färgelanda kommun,,,Pendlingskommuner,5.0,,,,,http://www.fargelanda.se,SE,0528-567000,kommun@fargelanda.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/fastighetsmaklarinspektionen,Fastighetsmäklarinspektionen,,,,,,,,,https://www.fmi.se,SE,08-58006901,registrator@fmi.se,BOX 22034,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/fideikommissnamnden,Fideikommissnämnden,,,,,,,,,https://www.kammarkollegiet.se/rattsavdelningen/fideikommissnamnden/fideikommissnamnden,SE,,registratur@kammarkollegiet.se,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/filipstads-kommun,Filipstads kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.filipstad.se,SE,0590-61100,kommun@filipstad.se,Box 303,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/finansinspektionen,Finansinspektionen,,,,,,,,,https://www.fi.se,SE,08-241335,finansinspektionen@fi.se,BOX 7821,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/finanspolitiska-radet,Finanspolitiska Rådet,,,,,,,,,https://www.finanspolitiskaradet.se,SE,,info@finanspolitiskaradet.se,BOX 3273,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/finspangs-kommun,Finspångs kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.finspang.se,SE,0122-85000,kommun@finspang.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/fjarde-ap-fonden,Fjärde Ap-Fonden,,,,,,,,,https://www.ap4.se,SE,08-7879625,info@ap4.se,BOX 3069,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/flens-kommun,Flens kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.flen.se,SE,0157-43 00 00,flenskommun@flen.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/folke-bernadotteakademin,Folke Bernadotteakademin,,,,,,,,,https://www.fba.se,SE,0612-82399,info@fba.se,SANDÖVÄGEN 1,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/folkhalsomyndigheten,Folkhälsomyndigheten,,,,,,,,,http://folkhalsomyndigheten.se,SE,08-328330,info@folkhalsomyndigheten.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forsakringskassan,Försäkringskassan,,,,,,,,,https://www.forsakringskassan.se,SE,08-4112789,fk-hk.stockholm@fk01.sfa.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forshaga-kommun,Forshaga kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.forshaga.se,SE,054-172000,kommun@forshaga.se,Box 93,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/forskarskattenamnden,Forskarskattenämnden,,,,,,,,,https://www.forskarskattenamnden.se,SE,08-210619,kansliet@skatterattsnamnden.se,BOX 24144,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forskningsradet-f-miljo-arella-naringar-och-samh,Forskningsrådet F Miljö Arella Näringar Och Samh,,,,,,,,,https://www.formas.se,SE,08-7754010,info@formas.se,BOX 1206,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+"se/forskningsradet-for-halsa,-arbetsliv-och-valfard","Forskningsrådet För Hälsa, Arbetsliv Och Välfärd",,,,,,,,,https://www.fas.se,SE,08-7754075,fas@fas.se,BOX 894,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forsta-ap-fonden,Första Ap-Fonden,,,,,,,,,https://www.ap1.se,SE,08-56620400,info@ap1.se,BOX 16294,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forsvarets-materielverk,Försvarets Materielverk,,,,,,,,,https://www.fmv.se,SE,08-6675799,registrator@fmv.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forsvarets-radioanstalt,Försvarets Radioanstalt,,,,,,,,,https://www.fra.se,SE,08-4714853,fra@fra.se,BOX 301,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forsvarsexportmyndigheten,Försvarsexportmyndigheten,,,,,,,,,https://www.fxm.se,SE,,,BOX 56081,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forsvarshogskolan,Försvarshögskolan,,,,,,,,,https://www.fhs.se,SE,08-55342598,exp@fhs.se,BOX 27805,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forsvarsmakten,Försvarsmakten,,,,,,,,,https://www.forsvarsmakten.se/sv/,SE,08-7887778,exp-hkv@mil.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forsvarsunderrattelsedomstolen,Försvarsunderrättelsedomstolen,,,,,,,,,https://www.undom.se,SE,08-55504520,,BOX 1097,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/fortifikationsverket,Fortifikationsverket,,,,,,,,,https://www.fortv.se,SE,016-133702,fortv@fortv.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forum-for-levande-historia,Forum För Levande Historia,,,,,,,,,https://www.levandehistoria.se,SE,08-7238759,,BOX 2123,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-falun,Förvaltningsrätten I Falun,,,,,,,,,https://www.domstol.se,SE,023-3830080,forvaltningsrattenifalun@dom.se,BOX 45,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-goteborg,Förvaltningsrätten I Göteborg,,,,,,,,,https://www.lansrattenigoteborg.domstol.se,SE,,forvaltningsrattenigoteborg@dom.se,BOX 53197,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-harnosand,Förvaltningsrätten I Härnösand,,,,,,,,,https://www.lansrattenivasternorrland.domstol.se,SE,0611-349800,forvaltningsratteniharnosand@dom.se,BOX 314,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-jonkoping,Förvaltningsrätten I Jönköping,,,,,,,,,https://www.lansrattenijonkoping.domstol.se,SE,036-156655,forvaltningsrattenijonkoping@dom.se,BOX 2201,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-karlstad,Förvaltningsrätten I Karlstad,,,,,,,,,https://www.lansrattenivarmland.domstol.se,SE,054-148530,forvaltningsrattenikarlstad@dom.se,BOX 568,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-linkoping,Förvaltningsrätten I Linköping,,,,,,,,,https://www.domstol.se,SE,013-251040,forvaltningsrattenilinkoping@dom.se,BOX 406,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-lulea,Förvaltningsrätten I Luleå,,,,,,,,,https://www.lansratteninorrbotten.domstol.se,SE,0920-295498,forvaltningsrattenilulea@dom.se,BOX 849,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-malmo-och-migrationsdomstol,Förvaltningsrätten I Malmö Och Migrationsdomstol,,,,,,,,,https://www.lansratteniskane.domstol.se,SE,040-972490,forvaltningsrattenimalmo@dom.se,BOX 4522,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-stockholm,Förvaltningsrätten I Stockholm,,,,,,,,,https://www.lansrattenistockholm.domstol.se,SE,,forvaltningsrattenistockholm@dom.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-umea,Förvaltningsrätten I Umeå,,,,,,,,,https://www.domstol.se,SE,090-137588,forvaltningsratteniumea@dom.se,BOX 193,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-uppsala,Förvaltningsrätten I Uppsala,,,,,,,,,https://www.lansratteniuppsala.domstol.se,SE,018-167343,forvaltningsratteniuppsala@dom.se,BOX 1853,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/forvaltningsratten-i-vaxjo,Förvaltningsrätten I Växjö,,,,,,,,,https://www.domstol.se,SE,,forvaltningsrattenivaxjo@dom.se,BOX 42,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/gagnefs-kommun,Gagnefs kommun,,,Pendlingskommuner,5.0,,,,,http://www.gagnef.se,SE,0241-15100,registrator@gagnef.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/gallivare-kommun,Gällivare kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.gellivare.se,SE,0970-18000,post@gallivare.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/gallivare-tingsratt,Gällivare Tingsrätt,,,,,,,,,https://www.domstol.se,SE,,gallivare.tingsratt@dom.se,BOX 23,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/gavle-kommun,Gävle kommun,,,Större städer,3.0,,,,,http://www.gavle.se,SE,026-17 80 00,gavle.kommun@gavle.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/gavle-tingsratt,Gävle Tingsrätt,,,,,,,,,https://www.gavletingsratt.domstol.se,SE,,gavle.tingsratt@dom.se,BOX 1194,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/gentekniknamnden,Gentekniknämnden,,,,,,,,,https://www.genteknik.se,SE,08-50884633,genteknik@genteknik.se,FOGDEVRETEN 2 A,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/gih,Gih,,,,,,,,,https://www.gih.se,SE,08-4022280,registrator@gih.se,BOX 5626,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/gislaveds-kommun,Gislaveds kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.gislaved.se,SE,0371-81000,kommunen@gislaved.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/gnesta-kommun,Gnesta kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.gnesta.se,SE,0158-27 50 00,gnesta.kommun@gnesta.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/gnosjo-kommun,Gnosjö kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.gnosjo.se,SE,0370-331000,kommun@gnosjo.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/gota-hovratt,Göta Hovrätt,,,,,,,,,https://www.gotahovratt.se,SE,036-156536,gota.hovratt@dom.se,BOX 2223,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/goteborgs-stad,Göteborgs stad,,,Storstäder,1.0,,,,,http://www.goteborg.se,SE,031-3680000,stadsledningskontoret@stadshuset.goteborg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/goteborgs-tingsratt,Göteborgs Tingsrätt,,,,,,,,,https://www.goteborgstingsratt.domstol.se,SE,,gbg.tingsratt@dom.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/goteborgs-universitet,Göteborgs Universitet,,,,,,,,,https://www.gu.se,SE,031-7861064,,BOX 100,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/gotene-kommun,Götene kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.gotene.se,SE,0511-386000,gotene.kommun@gotene.se,Centrumhuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/gotlands-tingsratt,Gotlands Tingsrätt,,,,,,,,,https://www.gotlandstingsratt.domstol.se,SE,,gotlands.tingsratt@dom.se,BOX 1143,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/grastorps-kommun,Grästorps kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.grastorp.se,SE,0514-58000,kommun@grastorp.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/grums-kommun,Grums kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.grums.se,SE,0555-42000,kommunstyrelse@grums.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/gullspangs-kommun,Gullspångs kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.gullspang.se,SE,0506-36000,kommun@gullspang.se,Box 80,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/habo-kommun,Habo kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.habokommun.se,SE,036-4428000,info@habokommun.se,Box 212,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/haabo-kommun,Håbo kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.habo.se,SE,0171-525 00,kommun@habo.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hagfors-kommun,Hagfors kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.hagfors.se,SE,0563-185 00,kommun@hagfors.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hallefors-kommun,Hällefors kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.hellefors.se,SE,0591-64100,kommun@hellefors.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hallsbergs-kommun,Hallsbergs kommun,,,Pendlingskommuner,5.0,,,,,http://www.hallsberg.se,SE,0582-685000,kommun@hallsberg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hallstahammars-kommun,Hallstahammars kommun,,,Pendlingskommuner,5.0,,,,,http://www.hallstahammar.se,SE,0220-24000,kommun@hallstahammar.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/halmstads-kommun,Halmstads kommun,,,Större städer,3.0,,,,,http://www.halmstad.se,SE,035-137000,kommunstyrelsen@halmstad.se,Box 153,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/halmstads-tingsratt,Halmstads Tingsrätt,,,,,,,,,https://www.halmstadstingsratt.domstol.se,SE,,halmstads.tingsratt@dom.se,BOX 193,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/halso--&-sjukvardens-ansvarsnamnd,Hälso- & Sjukvårdens Ansvarsnämnd,,,,,,,,,https://www.hsan.se,SE,,,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hammaro-kommun,Hammarö kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.hammaro.se,SE,054-51 50 00,kommun@hammaro.se,Box 26,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/haninge-kommun,Haninge kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.haninge.se,SE,08-6067000,haningekommun@haninge.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/haparanda-stad,Haparanda stad,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.haparanda.se,SE,0922-150 00,kommunen@haparanda.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/haparanda-tingsratt,Haparanda Tingsrätt,,,,,,,,,https://www.domstol.se,SE,,haparanda.tingsratt@dom.se,BOX 174,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/harjedalens-kommun,Härjedalens kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.herjedalen.se,SE,0680-16100,kommun@herjedalen.se,Medborgarhuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/harnosands-kommun,Härnösands kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.harnosand.se,SE,0611-348000,kommun@harnosand.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/harpsundsnamnden,Harpsundsnämnden,,,,,,,,,https://www.harpsund.se,SE,0157-60785,per.rudengren@telia.com,HARPSUND,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/harryda-kommun,Härryda kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.harryda.se,SE,031-7246100,kommun@harryda.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hassleholms-kommun,Hässleholms kommun,,,Större städer,3.0,,,,,http://www.hassleholm.se,SE,0451-267000,kommunen@hassleholm.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hassleholms-tingsratt,Hässleholms Tingsrätt,,,,,,,,,https://www.hassleholmstingsratt.domstol.se,SE,,hassleholms.tingsratt@dom.se,BOX 135,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/havs--och-vattenmyndigheten,Havs- Och Vattenmyndigheten,,,,,,,,,https://www.havochvatten.se,SE,010-6986111,havochvatten@havochvatten.se,BOX 11930,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/heby-kommun,Heby kommun,,,Pendlingskommuner,5.0,,,,,http://www.heby.se,SE,0224-36000,information@heby.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hedemora-kommun,Hedemora kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.hedemora.se,SE,0225-34000,kommun@hedemora.se,Box 201,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/helsingborgs-stad,Helsingborgs stad,,,Större städer,3.0,,,,,http://www.helsingborg.se,SE,042-10 50 00,kontaktcenter@helsingborg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/helsingborgs-tingsratt,Helsingborgs Tingsrätt,,,,,,,,,https://www.helsingborgstingsratt.domstol.se,SE,,helsingborgs.tingsratt@dom.se,BOX 712,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/herrljunga-kommun,Herrljunga kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.herrljunga.se,SE,0513-17000,herrljunga.kommun@admin.herrljunga.se,Box 201,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hjo-kommun,Hjo kommun,,,Pendlingskommuner,5.0,,,,,http://www.hjo.se,SE,0503-35000,kommunen@hjo.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hofors-kommun,Hofors kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.hofors.se,SE,0290-29000,hofors.kommun@hofors.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hoganas-kommun,Höganäs kommun,,,Pendlingskommuner,5.0,,,,,http://www.hoganas.se,SE,042-337100,kommunen@hoganas.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hogsby-kommun,Högsby kommun,,,Pendlingskommuner,5.0,,,,,http://www.hogsby.se,SE,0491-29000,kommunkontoret@hogsby.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hogskolan-dalarna,Högskolan Dalarna,,,,,,,,,https://www.du.se,SE,023-778090,registrator@du.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hogskolan-i-boras,Högskolan I Borås,,,,,,,,,https://www.hb.se,SE,033-4354003,registrator@hb.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hogskolan-i-gavle,Högskolan I Gävle,,,,,,,,,https://www.hig.se,SE,026-648686,registrator@hig.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hogskolan-i-halmstad,Högskolan I Halmstad,,,,,,,,,https://www.hh.se,SE,035-186192,registrator@hh.se,BOX 823,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hogskolan-i-kristianstad,Högskolan I Kristianstad,,,,,,,,,https://www.hkr.se,SE,044-129651,info@hkr.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hogskolan-i-skovde,Högskolan I Skövde,,,,,,,,,https://www.his.se,SE,0500-416325,info@his.se,BOX 408,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hogskolan-vast,Högskolan Väst,,,,,,,,,https://www.hv.se,SE,0520-223099,registrator@hv.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hogsta-domstolen,Högsta Domstolen,,,,,,,,,https://www.hogstadomstolen.se,SE,,hogsta.domstolen@dom.se,BOX 2066,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hogsta-forvaltningsdomstolen,Högsta Förvaltningsdomstolen,,,,,,,,,https://www.regeringsratten.se,SE,,hogstaforvaltningsdomstolen@dom.se,BOX 2293,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hoors-kommun,Höörs kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.hoor.se,SE,0413-28000,kommun@hoor.se,Box 53,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/horby-kommun,Hörby kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.horby.se,SE,0415-37 80 00,kommunen@horby.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hovratten-for-nedre-norrland,Hovrätten För Nedre Norrland,,,,,,,,,https://www.hovrattenfornedrenorrland.se,SE,060-186839,hovratten.nedrenorrland@dom.se,BOX 170,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hovratten-for-ovre-norrland,Hovrätten För Övre Norrland,,,,,,,,,https://www.hovrattenovrenorrland.domstol.se,SE,090-138850,hovratten.ovrenorrland@dom.se,BOX 384,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hovratten-for-vastra-sverige,Hovrätten För Västra Sverige,,,,,,,,,https://www.vastrahovratten.domstol.se,SE,031-7742943,hovratten.vastrasverige@dom.se,BOX 40,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hovratten-over-skane-och-blekinge,Hovrätten Över Skåne Och Blekinge,,,,,,,,,https://www.hovrattenskaneblekinge.domstol.se,SE,040-78311,hovratten.skaneblekinge@dom.se,BOX 846,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/huddinge-kommun,Huddinge kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.huddinge.se,SE,08-53530000,huddinge@huddinge.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hudiksvalls-kommun,Hudiksvalls kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.hudiksvall.se,SE,0650-19000,kommun@hudiksvall.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hudiksvalls-tingsratt,Hudiksvalls Tingsrätt,,,,,,,,,https://www.hudiksvallstingsratt.domstol.se,SE,0650-31094,hudiksvalls.tingsratt@dom.se,BOX 1073,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hultsfreds-kommun,Hultsfreds kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.hultsfred.se,SE,0495-240000,kommunen@hultsfred.se,Box 500,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hylte-kommun,Hylte kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.hylte.se,SE,0345-18000,kommunen@hylte.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/hyres-och-arrendenamnden-i-goteborg,Hyres Och Arrendenämnden I Göteborg,,,,,,,,,https://www.hyresnamnden.se,SE,031-7011270,hyresnamndenigoteborg@dom.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hyres-och-arrendenamnden-i-jonkoping,Hyres Och Arrendenämnden I Jönköping,,,,,,,,,https://www.hyresnamnden.se,SE,036-156665,hyresnamndenijonkoping@dom.se,BOX 2243,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hyres-och-arrendenamnden-i-linkoping,Hyres Och Arrendenämnden I Linköping,,,,,,,,,https://www.hyresnamnden.se,SE,013-145662,hyresnamndenilinkoping@dom.se,BOX 359,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hyres-och-arrendenamnden-i-stockholm,Hyres Och Arrendenämnden I Stockholm,,,,,,,,,https://www.hyresnamnden.se,SE,08-561665,hyresnamndenistockholm@dom.se,BOX 8301,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hyres-och-arrendenamnden-i-sundsvall,Hyres Och Arrendenämnden I Sundsvall,,,,,,,,,https://www.hyresnamnden.se,SE,060-186794,hyresnamndenisundsvall@dom.se,BOX 415,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hyres-och-arrendenamnden-i-umea,Hyres Och Arrendenämnden I Umeå,,,,,,,,,https://www.hyresnamnden.se,SE,090-131394,hyresnamndeniumea@dom.se,BOX 324,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hyres-och-arrendenamnden-i-vasteras,Hyres Och Arrendenämnden I Västerås,,,,,,,,,https://www.hyresnamnden.se,SE,021-120175,hyresnamndenivasteras@dom.se,BOX 40,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/hyres-och-arrendenamnen-i-malmo,Hyres Och Arrendenämnen I Malmö,,,,,,,,,https://www.hyresnamnden.se,SE,040-302728,hyresnamndenimalmo@dom.se,BOX 4287,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/ilo-kommitten,Ilo-Kommittén,,,,,,,,,https://www.ilo.org,SE,,,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/inspektionen-for-arbetsloshetsforsakring,Inspektionen För Arbetslöshetsförsäkring,,,,,,,,,https://www.iaf.se,SE,0150-487002,iaf@iaf.se,BOX 210,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/inspektionen-for-socialforsakringen,Inspektionen För Socialförsäkringen,,,,,,,,,https://www.inspsf.se,SE,08-58001590,registrator@inspsf.se,BOX 202,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/inspektionen-for-strategiska-produkter,Inspektionen För Strategiska Produkter,,,,,,,,,https://www.isp.se,SE,08-203100,registrator@isp.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/inspektionen-for-vard-och-omsorg,Inspektionen För Vård Och Omsorg,,,,,,,,,,SE,,registrator@ivo.se,BOX 45184,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/institutet-for-arbetsmarknads-och-utbildningspolitisk-utvardering,Institutet För Arbetsmarknads-Och Utbildningspolitisk Utvärdering,,,,,,,,,https://www.ifau.se,SE,018-4757071,ifau@ifau.uu.se,BOX 513,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/institutet-for-rymdfysik,Institutet För Rymdfysik,,,,,,,,,https://www.irf.se,SE,0980-79050,irf@irf.se,BOX 812,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/institutet-for-sprak-och-folkminnen,Institutet För Språk Och Folkminnen,,,,,,,,,https://www.sofi.se,SE,018-652165,registrator@sprakochfolkminnen.se,BOX 135,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/jarfalla-kommun,Järfälla kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.jarfalla.se,SE,08-580 285 00,jarfalla.kommun@jarfalla.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/jokkmokks-kommun,Jokkmokks kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.jokkmokk.se,SE,0971-17000,kommun@jokkmokk.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/jonkopings-kommun,Jönköpings kommun,,,Större städer,3.0,,,,,http://www.jonkoping.se,SE,036-105000,kommunstyrelse@jonkoping.se,Rådhuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/jonkopings-tingsratt,Jönköpings Tingsrätt,,,,,,,,,https://www.jonkopingstingsratt.domstol.se,SE,,jonkopings.tingsratt@dom.se,BOX 2243,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/justitiekanslern,Justitiekanslern,,,,,,,,,https://www.justitiekanslern.se,SE,08-7230357,registrator@justiekanslern.se,BOX 2308,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kalix-kommun,Kalix kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.kalix.se,SE,0923-65000,kommun@kalix.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kalmar-kommun,Kalmar kommun,,,Större städer,3.0,,,,,http://www.kalmar.se,SE,0480-450000,kommun@kalmar.se,Box 611,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kalmar-tingsratt,Kalmar Tingsrätt,,,,,,,,,https://www.kalmartingsratt.domstol.se,SE,,kalmar.tingsratt@dom.se,BOX 613,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kammarkollegiet,Kammarkollegiet,,,,,,,,,https://www.kammarkollegiet.se,SE,08-204969,registratur@kammarkollegiet.se,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kammarratten-i-goteborg,Kammarrätten I Göteborg,,,,,,,,,https://www.kammarratten.goteborg.se,SE,031-7327600,kammarratten.goteborg@dom.se,BOX 1531,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kammarratten-i-jonkoping,Kammarrätten I Jönköping,,,,,,,,,https://www.kammarrattenijonkoping.domstol.se,SE,036-161968,kammarrattenijonkoping@dom.se,BOX 2203,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kammarratten-i-stockholm,Kammarrätten I Stockholm,,,,,,,,,https://www.kammarrattenistockholm.domstol.se,SE,08-149889,kammarrattenistockholm@dom.se,BOX 2302,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kammarratten-i-sundsvall,Kammarrätten I Sundsvall,,,,,,,,,https://www.kammarrattenisundsvall.se,SE,060-186652,kammarrattenisundsvall@dom.se,BOX 714,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/karlsborgs-kommun,Karlsborgs kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.karlsborg.se,SE,0505-17000,karlsborg.kommun@karlsborg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/karlshamns-kommun,Karlshamns kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.karlshamn.se,SE,0454-81000,info@karlshamn.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/karlskoga-kommun,Karlskoga kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.karlskoga.se,SE,0586 - 610 00,kommun@karlskoga.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/karlskrona-kommun,Karlskrona kommun,,,Större städer,3.0,,,,,http://www.karlskrona.se,SE,0455-303000,karlskrona.kommun@karlskrona.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/karlstads-kommun,Karlstads kommun,,,Större städer,3.0,,,,,http://www.karlstad.se,SE,054-5400000,karlstadskommun@karlstad.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/karlstads-universitet,Karlstads Universitet,,,,,,,,,https://www.kau.se,SE,054-7001460,information@kau.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/karnavfallsfondens-styrelse,Kärnavfallsfondens Styrelse,,,,,,,,,https://www.karnavfallsfonden.se,SE,08-203881,karnavfallsfondens.styrelse@kammarkollegiet.se,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/karolinska-institutet,Karolinska Institutet,,,,,,,,,https://www.ki.se,SE,08-311101,info@ki.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/katrineholms-kommun,Katrineholms kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.katrineholm.se,SE,0150-570 00,kommunen@katrineholm.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kavlinge-kommun,Kävlinge kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.kavlinge.se,SE,046-73 90 00,kommunen@kavlinge.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kemikalieinspektionen,Kemikalieinspektionen,,,,,,,,,https://www.kemi.se,SE,08-7357698,kemi@kemi.se,BOX 2,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kils-kommun,Kils kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.kil.se,SE,0554-19100,kommun@kil.se,Box 88,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kinda-kommun,Kinda kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.kinda.se,SE,0494-19000,kinda@kinda.se,Box 1,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kiruna-kommun,Kiruna kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.kommun.kiruna.se,SE,0980-70000,kommun@kommun.kiruna.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/klippans-kommun,Klippans kommun,,,Pendlingskommuner,5.0,,,,,http://www.klippan.se,SE,0435-28000,kommun@klippan.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/knivsta-kommun,Knivsta kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.knivsta.se,SE,018-347000,knivsta@knivsta.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kommerskollegium,Kommerskollegium,,,,,,,,,https://www.kommers.se,SE,08-306759,registrator@kommers.se,BOX 6803,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/konjunkturinstitutet,Konjunkturinstitutet,,,,,,,,,https://www.konj.se,SE,08-4535980,ki@konj.se,BOX 3116,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/konkurrensverket,Konkurrensverket,,,,,,,,,https://www.konkurrensverket.se,SE,08-245543,konkurrensverket@kkv.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/konstfack,Konstfack,,,,,,,,,https://www.konstfack.se,SE,08-4504128,registrator@konstfack.se,BOX 3601,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/konstnarsnamnden,Konstnärsnämnden,,,,,,,,,https://www.konstnarsnamnden.se,SE,,info@konstnarsnamnden.se,MARIA SKOLGATA 83,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/konsumentverket,Konsumentverket,,,,,,,,,https://www.konsumentverket.se,SE,054-194195,konsumentverket@konsumentverket.se,BOX 48,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kopings-kommun,Köpings kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.koping.se,SE,0221-25000,kopings.kommun@koping.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kramfors-kommun,Kramfors kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.kramfors.se,SE,0612-800 00,kommun@kramfors.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/krigsforsakringsnamnden,Krigsförsäkringsnämnden,,,,,,,,,,SE,08-241335,,BOX 7821,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kriminalvarden,Kriminalvården,,,,,,,,,https://www.kriminalvarden.se,SE,011-4963640,hk@kriminalvarden.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kristianstads-kommun,Kristianstads kommun,,,Större städer,3.0,,,,,http://www.kristianstad.se,SE,044-135000,kommun@kristianstad.se,Rådhuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kristianstads-tingsratt,Kristianstads Tingsrätt,,,,,,,,,https://www.kristianstadstingsratt.domstol.se,SE,,kristianstads.tingsratt@dom.se,BOX 536,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kristinehamns-kommun,Kristinehamns kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.kristinehamn.se,SE,0550-88000,kommunen@kristinehamn.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/krokoms-kommun,Krokoms kommun,,,Pendlingskommuner,5.0,,,,,http://www.krokom.se,SE,0640-16100,krokoms.kommun@krokom.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kronofogdemyndigheten,Kronofogdemyndigheten,,,,,,,,,https://www.kronofogden.se,SE,,kronofogdemyndigheten@kronofogden.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kumla-kommun,Kumla kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.kumla.se,SE,019-588000,kommun@kumla.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kungalvs-kommun,Kungälvs kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.kungalv.se,SE,0303-23 80 00,kommun@kungalv.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kungliga-biblioteket,Kungliga Biblioteket,,,,,,,,,https://www.kb.se,SE,,kungl.biblioteket@kb.se,BOX 5039,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kungliga-konsthogskolan,Kungliga Konsthögskolan,,,,,,,,,https://www.kkh.se,SE,08-6798626,info@kkh.se,BOX 16315,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kungliga-musikhogskolan,Kungliga Musikhögskolan,,,,,,,,,https://www.kmh.se,SE,08-6641424,info@kmh.se,BOX 27711,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kungliga-tekniska-hogskolan,Kungliga Tekniska Högskolan,,,,,,,,,https://www.kth.se,SE,08-7906500,registrator@kth.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/kungsbacka-kommun,Kungsbacka kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.kungsbacka.se,SE,0300-834000,kommun@kungsbacka.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kungsors-kommun,Kungsörs kommun,,,Pendlingskommuner,5.0,,,,,http://www.kungsor.se,SE,0227-600000,info@kungsor.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/kustbevakningen,Kustbevakningen,,,,,,,,,https://www.kustbevakningen.se,SE,0455-10521,registrator@kustbevakningen.se,BOX 536,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lagradet,Lagrådet,,,,,,,,,https://www.lagradet.se,SE,,,BOX 2066,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/laholms-kommun,Laholms kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.laholm.se,SE,0430-15000,kommun@laholm.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lakemedelsverket,Läkemedelsverket,,,,,,,,,https://www.lakemedelsverket.se,SE,018-548566,registrator@mpa.se,BOX 26,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/landskrona-stad,Landskrona stad,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.landskrona.se,SE,0418-470000,kommun@landskrona.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/landstinget-blekinge,Landstinget Blekinge,,,,,,,,,http://www.ltblekinge.se,SE,0455-73 10 00,landstinget.blekinge@ltblekinge.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/landstinget-dalarna,Landstinget Dalarna,,,,,,,,,http://www.ltdalarna.se,SE,023-49 00 00,landstinget.dalarna@ltdalarna.se,Box 712,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/landstinget-kalmar-lan,Landstinget i Kalmar län,,,,,,,,,http://www.ltkalmar.se,SE,0480-840 00,landstinget@ltkalmar.se,Box 601,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/landstinget-uppsala-lan,Landstinget i Uppsala län,,,,,,,,,http://www.lul.se,SE,018-611 00 00,landstinget@lul.se,Box 602,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/landstinget-varmland,Landstinget i Värmland,,,,,,,,,http://www.liv.se,SE,054-61 50 00,info@liv.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/landstinget-sormland,Landstinget Sörmland,,,,,,,,,http://www.landstingetsormland.se,SE,0155-24 50 00,landstinget.sormland@dll.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/landstinget-vasternorrland,Landstinget Västernorrland,,,,,,,,,http://www.lvn.se,SE,0611-800 00,landstinget.vasternorrland@lvn.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/landstinget-vastmanland,Landstinget Västmanland,,,,,,,,,http://www.ltv.se,SE,021-17 30 00,landstinget@ltv.se,Landstingshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/lansstyrelsen-i-blekinge-lan,Länsstyrelsen I Blekinge Län,,,,,,,,,https://www.lansstyrelsen.se/blekinge,SE,010-2240223,blekinge@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-dalarnas-lan,Länsstyrelsen I Dalarnas Län,,,,,,,,,https://www.w.lst.se,SE,010-2250110,dalarna@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-gavleborgs-lan,Länsstyrelsen I Gävleborgs Län,,,,,,,,,https://www.lansstyrelsen.se/gavleborg,SE,010-2251150,gavleborg@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-gotlands-lan,Länsstyrelsen I Gotlands Län,,,,,,,,,https://www.lansstyrelsen.se/gotland/,SE,0498-217289,gotland@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-hallands-lan,Länsstyrelsen I Hallands Län,,,,,,,,,https://www.lansstyrelsen.se/halland,SE,035-107548,halland@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-jamtlands-lan,Länsstyrelsen I Jämtlands Län,,,,,,,,,https://www.lansstyrelsen.se/jamtland,SE,010-2253010,jamtland@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-jonkopings-lan,Länsstyrelsen I Jönköpings Län,,,,,,,,,https://www.lansstyrelsen.se/jonkoping,SE,036-121558,jonkoping@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-kalmar-lan,Länsstyrelsen I Kalmar Län,,,,,,,,,https://www.lansstyrelsen.se/kalmar,SE,010-2238110,kalmar@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-kronobergs-lan,Länsstyrelsen I Kronobergs Län,,,,,,,,,https://www.lansstyrelsen.se/kronoberg/,SE,010-2237220,kronoberg@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-norrbottens-lan,Länsstyrelsen I Norrbottens Län,,,,,,,,,https://www.bd.lst.se,SE,0920-228411,Norrbotten@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-orebro-lan,Länsstyrelsen I Örebro Län,,,,,,,,,https://www.lansstyrelsen.se/orebro,SE,019-193010,orebro@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-ostergotlands-lan,Länsstyrelsen I Östergötlands Län,,,,,,,,,https://www.lansstyrelsen.se/ostergotland,SE,013-101381,ostergotland@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-skane-lan,Länsstyrelsen I Skåne Län,,,,,,,,,https://www.lansstyrelsen.se/skane,SE,010-2241110,skane@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-sodermanlands-lan,Länsstyrelsen I Södermanlands Län,,,,,,,,,https://www.d.lst.se,SE,0155-267125,sodermanland@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-stockholms-lan,Länsstyrelsen I Stockholms Län,,,,,,,,,https://www.ab.lst.se,SE,08-7854001,stockholm@lansstyrelsen.se,BOX 22067,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-uppsala-lan,Länsstyrelsen I Uppsala Län,,,,,,,,,https://www.lansstyrelsen.se/uppsala,SE,010-2233010,uppsala@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-varmlands-lan,Länsstyrelsen I Värmlands Län,,,,,,,,,https://www.lansstyrelsen.se/varmland,SE,010-2247100,varmland@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-vasterbottens-lan,Länsstyrelsen I Västerbottens Län,,,,,,,,,https://www.ac.lst.se,SE,010-2254110,vasterbotten@lanstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-vasternorrlands-lan,Länsstyrelsen I Västernorrlands Län,,,,,,,,,https://www.y.lst.se,SE,0611-349372,vasternorrland@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-vastmanlands-lan,Länsstyrelsen I Västmanlands Län,,,,,,,,,https://www.lansstyrelsen.se/vastmanland,SE,010-2249110,vastmanland@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lansstyrelsen-i-vastra-gotalands-lan,Länsstyrelsen I Västra Götalands Län,,,,,,,,,https://www.lansstyrelsen.se/vastragotaland,SE,010-2244022,vastragotaland@lansstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lantmateriet,Lantmäteriet,,,,,,,,,https://www.lantmateriet.se,SE,026-687594,lantmateriet@lm.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/laxa-kommun,Laxå kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.laxa.se,SE,0584-473100,kommun@laxa.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lekebergs-kommun,Lekebergs kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.lekeberg.se,SE,0585-487 00,lekebergs.kommun@lekeberg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/leksands-kommun,Leksands kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.leksand.se,SE,0247-80000,kommun@leksand.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lerums-kommun,Lerums kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.lerum.se,SE,0302-521000,lerums.kommun@lerum.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lessebo-kommun,Lessebo kommun,,,Pendlingskommuner,5.0,,,,,http://www.lessebo.se,SE,0478-125 00,info@lessebo.se,Box 13,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lidingo-stad,Lidingö stad,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.lidingo.se,SE,08-7313000,lidingo.stad@lidingo.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lidkopings-kommun,Lidköpings kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.lidkoping.se,SE,0510-770000,kommun@lidkoping.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lilla-edets-kommun,Lilla Edets kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.lillaedet.se,SE,0520-659500,kommunen@lillaedet.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lindesbergs-kommun,Lindesbergs kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.lindesberg.se,SE,0581-81000,kommun@lindesberg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/linkopings-kommun,Linköpings kommun,,,Större städer,3.0,,,,,http://www.linkoping.se,SE,013-206000,kommun@linkoping.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/linkopings-tingsratt,Linköpings Tingsrätt,,,,,,,,,https://www.linkopingstingsratt.domstol.se,SE,,linkopings.tingsratt@dom.se,BOX 365,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/linkopings-universitet,Linköpings Universitet,,,,,,,,,https://www.liu.se,SE,013-149403,liu@liu.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/linneuniversitetet,Linnéuniversitetet,,,,,,,,,https://www.linneuniversitetet.se,SE,,info@lnu.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/livrustkammaren-och-skoklosters-slott-med-stiftelsen-hallwylska-museet,Livrustkammaren Och Skoklosters Slott Med Stiftelsen Hallwylska Museet,,,,,,,,,https://www.lsh.se,SE,08-207305,livrustkammaren@lsh.se,SLOTTSBACKEN 3,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/livsmedelsverket,Livsmedelsverket,,,,,,,,,https://www.slv.se,SE,018-105848,livsmedelsverket@slv.se,BOX 622,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/ljungby-kommun,Ljungby kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.ljungby.se,SE,0372-789000,kommunstyrelsen@ljungby.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ljusdals-kommun,Ljusdals kommun,,,Glesbygdkommuner,8.0,,,,,http://www.ljusdal.se,SE,0651-18000,kommun@ljusdal.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ljusnarsbergs-kommun,Ljusnarsbergs kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.ljusnarsberg.se,SE,0580-805 00,kommun@ljusnarsberg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lomma-kommun,Lomma kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.lomma.se,SE,040-6411000,kommunstyrelsen@lomma.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lotteriinspektionen,Lotteriinspektionen,,,,,,,,,https://www.lotteriinspektionen.se,SE,,registrator@lotteriinspektionen.se,BOX 199,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/ludvika-kommun,Ludvika kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.ludvika.se,SE,0240-86000,info@ludvika.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/luftfartsverket,Luftfartsverket,,,,,,,,,https://www.lfv.se,SE,,lfv@lfv.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lulea-kommun,Luleå kommun,,,Större städer,3.0,,,,,http://www.lulea.se,SE,0920 - 45 30 00,lulea.kommun@lulea.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lulea-tekniska-universitet,Luleå Tekniska Universitet,,,,,,,,,https://www.ltu.se,SE,0920-491399,registrator@ltu.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lulea-tingsratt,Luleå Tingsrätt,,,,,,,,,https://www.domstol.se,SE,,lulea.tingsratt@dom.se,BOX 849,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lunds-kommun,Lunds kommun,,,Större städer,3.0,,,,,http://www.lund.se,SE,046-355000,lunds.kommun@lund.se,Box 41,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lunds-tingsratt,Lunds Tingsrätt,,,,,,,,,https://www.lundstingsratt.domstol.se,SE,046-133933,lunds.tingsratt@dom.se,BOX 75,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lunds-universitet,Lunds Universitet,,,,,,,,,https://www.lu.se,SE,046-2224720,univer@luniver.lu.se,BOX 117,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lycksele-kommun,Lycksele kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.lycksele.se,SE,0950-16600,kommun@lycksele.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/lycksele-tingsratt,Lycksele Tingsrätt,,,,,,,,,https://www.lyckseletingsratt.domstol.se,SE,,lycksele.tingsratt@dom.se,BOX 53,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/lysekils-kommun,Lysekils kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.lysekil.se,SE,0523-61 30 00,registrator@lysekil.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/mala-kommun,Malå kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.mala.se,SE,0953-14000,ks@mala.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/malardalens-hogskola,Mälardalens Högskola,,,,,,,,,https://www.mdh.se,SE,021-101320,info@mdh.se,BOX 883,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/malmo-hogskola,Malmö Högskola,,,,,,,,,https://www.mah.se,SE,040-6657167,info@mah.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/malmo-stad,Malmö stad,,,Storstäder,1.0,,,,,http://www.malmo.se,SE,040-341000,kommunstyrelsen@malmo.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/malmo-tingsratt,Malmö Tingsrätt,,,,,,,,,https://www.malmotingsratt.domstol.se,SE,,malmo.tingsratt@dom.se,BOX 265,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/malung-salens-kommun,Malung-Sälens kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.malung-salen.se,SE,0280-18100,kommun@malung-salen.se,Box 14,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/mariestads-kommun,Mariestads kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.mariestad.se,SE,0501-755000,info@mariestad.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/markaryds-kommun,Markaryds kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.markaryd.se,SE,0433-72000,ks@markaryd.se,Box 74,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/marknadsdomstolen,Marknadsdomstolen,,,,,,,,,https://www.marknadsdomstolen.se,SE,08-212335,mail@marknadsdomstolen.se,BOX 2217,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/marks-kommun,Marks kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.mark.se,SE,0320-217000,markskommun@mark.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/medlingsinstitutet,Medlingsinstitutet,,,,,,,,,https://www.mi.se,SE,08-6506836,info@mi.se,BOX 1236,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/melleruds-kommun,Melleruds kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.mellerud.se,SE,0530-18000,kommunen@mellerud.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/migrationsverket,Migrationsverket,,,,,,,,,https://www.migrationsverket.se,SE,010-4856075,migrationsverket@migrationsverket.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/mittuniversitetet,Mittuniversitetet,,,,,,,,,https://www.miun.se,SE,0771-975001,registrator@miun.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/mjolby-kommun,Mjölby kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.mjolby.se,SE,0142-850 00,kommunstyrelsen@mjolby.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/moderna-museet,Moderna Museet,,,,,,,,,https://www.modernamuseet.se,SE,08-6781604,info@modernamuseet.se,BOX 16382,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/molndals-stad,Mölndals stad,,,Förortskommuner till storstäderna,2.0,,,,,http://www.molndal.se,SE,031-315 10 00,stad@molndal.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/monsteras-kommun,Mönsterås kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.monsteras.se,SE,0499-17000,kommun@monsteras.se,Box 54,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/mora-kommun,Mora kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.mora.se,SE,0250-26000,mora.kommun@mora.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/mora-tingsratt,Mora Tingsrätt,,,,,,,,,https://www.moratingsratt.domstol.se,SE,,mora.tingsratt@dom.se,BOX 31,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/morbylanga-kommun,Mörbylånga kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.morbylanga.se,SE,0485-47000,kommun@morbylanga.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/motala-kommun,Motala kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.motala.se,SE,0141-225000,motala.kommun@motala.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/mullsjo-kommun,Mullsjö kommun,,,Pendlingskommuner,5.0,,,,,http://www.mullsjo.se,SE,0392-14000,kommun@mullsjo.se,Box 800,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/munkedals-kommun,Munkedals kommun,,,Pendlingskommuner,5.0,,,,,http://www.munkedal.se,SE,0524-18000,munkedal.kommun@munkedal.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/munkfors-kommun,Munkfors kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.munkfors.se,SE,0563-541000,munkfors.kommun@munkfors.se,Box 13,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/myndigheten-for-delaktighet,Myndigheten För Delaktighet,,,,,,,,,https://www.handisam.se,SE,,info@mfd.se,BOX 1210,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/myndigheten-for-internationella-adoptionsfragor-(mia),Myndigheten För Internationella Adoptionsfrågor (MIA),,,,,,,,,https://www.mia.eu,SE,08-6504110,,BOX 308,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/myndigheten-for-kulturanalys,Myndigheten För Kulturanalys,,,,,,,,,https://www.kulturanalys.se,SE,08-52802011,,BOX 12030,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/myndigheten-for-radio-och-tv,Myndigheten För Radio Och Tv,,,,,,,,,https://www.radioochtv.se,SE,,registrator@radioochtv.se,BOX 33,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/myndigheten-for-samhallsskydd-och-beredskap-(msb),Myndigheten För Samhällsskydd Och Beredskap (MSB),,,,,,,,,https://www.msb.se,SE,010-2405600,registrator@msb.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/myndigheten-for-tillgangliga-medier,Myndigheten För Tillgängliga Medier,,,,,,,,,https://www.mtm.se,SE,08-58002770,info@mtm.se,BOX 5113,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/myndigheten-for-tillvaxtpolitiska-utvarderingar-och-analyser,Myndigheten För Tillväxtpolitiska Utvärderingar Och Analyser,,,,,,,,,https://www.tillvaxtanalys.se,SE,010-4474401,info@tillvaxtanalys.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/myndigheten-for-ungdoms-och-civilsamhallesfragor,Myndigheten För Ungdoms-Och Civilsamhällesfrågor,,,,,,,,,https://www.ungdomsstyrelsen.se,SE,08-6448813,info@ungdomsstyrelsen.se,BOX 17801,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/myndigheten-for-vard--och-omsorgsanalys,Myndigheten För Vård- Och Omsorgsanalys,,,,,,,,,https://www.vardanalys.se,SE,,,BOX 6070,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/myndigheten-for-yrkeshogskolan,Myndigheten För Yrkeshögskolan,,,,,,,,,https://www.yhmyndigheten.se,SE,021-132016,info@myh.se,BOX 145,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/nacka-kommun,Nacka kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.nacka.se,SE,08-7188000,info@nacka.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/nacka-tingsratt,Nacka Tingsrätt,,,,,,,,,https://www.nackatingsratt.domstol.se,SE,,nacka.tingsratt@dom.se,BOX 1104,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/namnden-for-hemslojdsfragor,Nämnden För Hemslöjdsfrågor,,,,,,,,,https://www.nfh.se,SE,,,BOX 4006,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/namnden-for-statligt-stod-till-trossamfund,Nämnden För Statligt Stöd Till Trossamfund,SST,,,,,,,,https://www.sst.a.se,SE,,,BOX 14038,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/namnden-for-styrelserepresentationsfragor,Nämnden För Styrelserepresentationsfrågor,,,,,,,,,,SE,,,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/namnden-mot-diskriminering,Nämnden Mot Diskriminering,,,,,,,,,https://www.namndenmotdiskriminering.se,SE,,kansliet@namndenmotdiskriminering.se,BOX 2066,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/nassjo-kommun,Nässjö kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.nassjo.se,SE,0380-518000,kommunstyrelsen@nassjo.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/nationalmuseum-med-prins-eugens-waldemarsudde,Nationalmuseum Med Prins Eugens Waldemarsudde,,,,,,,,,https://www.nationalmuseum.se,SE,08-51954451,registrator@nationalmuseum.se,BOX 16176,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/naturhistoriska-riksmuseet,Naturhistoriska Riksmuseet,,,,,,,,,https://www.nrm.se,SE,08-51954085,myndigheten@nrm.se,BOX 50007,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/naturvardsverket,Naturvårdsverket,,,,,,,,,https://www.naturvardsverket.se,SE,010-6981099,registrator@naturvardsverket.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/nora-kommun,Nora kommun,,,Pendlingskommuner,5.0,,,,,http://www.nora.se,SE,0587-81000,nora.kommun@nora.se,Tingshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/norbergs-kommun,Norbergs kommun,,,Pendlingskommuner,5.0,,,,,http://www.norberg.se,SE,0223-290 00,info@norberg.se,Box 25,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/nordanstigs-kommun,Nordanstigs kommun,,,Glesbygdkommuner,8.0,,,,,http://www.nordanstig.se,SE,0652-36000,kommun@nordanstig.se,Box 56,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/nordiska-afrikainstitutet,Nordiska Afrikainstitutet,,,,,,,,,https://www.nai.uu.se,SE,,nai@nai.uu.se,BOX 1703,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/nordmalings-kommun,Nordmalings kommun,,,Glesbygdkommuner,8.0,,,,,http://www.nordmaling.se,SE,0930-14000,kommun@nordmaling.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/norrbottens-lans-landsting,Norrbottens läns landsting,,,,,,,,,http://www.nll.se,SE,0920-28 40 00,norrbottens.lans.landsting@nll.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/norrkopings-kommun,Norrköpings kommun,,,Större städer,3.0,,,,,http://www.norrkoping.se,SE,011-150000,norrkoping.kommun@norrkoping.se,Rådhuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/norrkopings-tingsratt,Norrköpings Tingsrätt,,,,,,,,,https://www.norrkopingstingsratt.domstol.se,SE,,norrkopings.tingsratt@dom.se,BOX 418,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/norrtalje-kommun,Norrtälje kommun,,,Turism- och besöksnäringskommuner,6.0,1.0,,,,http://www.norrtalje.se,SE,0176-71000,norrtalje.kommun@norrtalje.se,Box 800,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/norrtalje-tingsratt,Norrtälje Tingsrätt,,,,,,,,,https://www.norrtaljetingsratt.domstol.se,SE,,norrtalje.tingsratt@dom.se,BOX 5,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/norsjo-kommun,Norsjö kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.norsjo.se,SE,0918-14000,info@norsjo.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/notarienamnden,Notarienämnden,,,,,,,,,http://www.domstol.se/templates/DV_InfoPage.aspx?id=3805,SE,036-715360,domstolsverket@dom.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/nybro-kommun,Nybro kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.nybro.se,SE,0481-45000,kommun@nybro.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/nykopings-kommun,Nyköpings kommun,,,Större städer,3.0,,,,,http://www.nykoping.se,SE,0155-248000,kommun@nykoping.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/nykopings-tingsratt,Nyköpings Tingsrätt,,,,,,,,,https://www.nykopingstingsratt.domstol.se,SE,0155-200445,nykopings.tingsratt@dom.se,BOX 333,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/nykvarns-kommun,Nykvarns kommun,,,Förortskommuner till större städer,4.0,1.0,,,,http://www.nykvarn.se,SE,08-555 01000,kommun@nykvarn.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/nynashamns-kommun,Nynäshamns kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.nynashamn.se,SE,08-520 680 00,kommunstyrelsen@nynashamn.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ockelbo-kommun,Ockelbo kommun,,,Pendlingskommuner,5.0,,,,,http://www.ockelbo.se,SE,0297-55500,kommun@ockelbo.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ockero-kommun,Öckerö kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.ockero.se,SE,031-976200,kommun@ockero.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/odeshogs-kommun,Ödeshögs kommun,,,Pendlingskommuner,5.0,,,,,http://www.odeshog.se,SE,0144-35000,kommun@odeshog.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/olofstroms-kommun,Olofströms kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.olofstrom.se,SE,0454-93000,ks@olofstrom.se,Box 302,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/orebro-kommun,Örebro kommun,,,Större städer,3.0,,,,,http://www.orebro.se,SE,019-211000,kommun@orebro.se,Box 30000,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/orebro-tingsratt,Örebro Tingsrätt,,,,,,,,,https://www.orebrotingsratt.domstol.se,SE,019-166335,orebro.tingsratt@dom.se,BOX 383,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/orebro-universitet,Örebro Universitet,,,,,,,,,https://www.oru.se,SE,019-303465,registrator@oru.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/orkelljunga-kommun,Örkelljunga kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.orkelljunga.se,SE,0435-55000,kommunkontor@orkelljunga.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ornskoldsviks-kommun,Örnsköldsviks kommun,,,Större städer,3.0,,,,,http://www.ornskoldsvik.se,SE,0660-880 00,kommunen@ornskoldsvik.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/orsa-kommun,Orsa kommun,,,Pendlingskommuner,5.0,,,,,http://www.orsa.se,SE,0250-552100,orsa.kommun@orsa.se,Box 23,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/orust-kommun,Orust kommun,,,Pendlingskommuner,5.0,,,,,http://www.orust.se,SE,0304-334000,orustkommun@orust.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/osby-kommun,Osby kommun,,,Pendlingskommuner,5.0,,,,,http://www.osby.se,SE,0479-18000,kommun@osby.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/oskarshamns-kommun,Oskarshamns kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.oskarshamn.se,SE,0491-88000,kommunen@oskarshamn.se,Box 706,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/osterakers-kommun,Österåkers kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.osteraker.se,SE,08-54081000,kommun@osteraker.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ostersunds-kommun,Östersunds kommun,,,Större städer,3.0,,,,,http://www.ostersund.se,SE,063-14 30 00,kommunstyrelsen@ostersund.se,Rådhuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ostersunds-tingsratt,Östersunds Tingsrätt,,,,,,,,,https://www.domstol.se,SE,,ostersunds.tingsratt@dom.se,BOX 708,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/osthammars-kommun,Östhammars kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.osthammar.se,SE,0173-86000,kommunen@osthammar.se,Box 66,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ostra-goinge-kommun,Östra Göinge kommun,,,Pendlingskommuner,5.0,,,,,http://www.ostragoinge.se,SE,044-7756000,kommun@ostragoinge.se,Storgatan 4,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ovanakers-kommun,Ovanåkers kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.ovanaker.se,SE,0271-570 00,kommun@ovanaker.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/overkalix-kommun,Överkalix kommun,,,Glesbygdkommuner,8.0,,,,,http://www.overkalix.se,SE,0926-74000,kommun@overkalix.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/overklagandenamnden-for-hogskolan,Överklagandenämnden För Högskolan,,,,,,,,,https://www.onh.se,SE,,,BOX 7249,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/overklagandenamnden-for-namndemannauppdrag,Överklagandenämnden För Nämndemannauppdrag,,,,,,,,,https://www.domstol.se/templates/DV_Page.aspx?id=4073,SE,060-186652,overklagandenamnden@dom.se,BOX 714,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/overklagandenamnden-for-studiestod,Överklagandenämnden För Studiestöd,,,,,,,,,https://www.oks.se,SE,0611-347570,registrator@oks.se,BOX 110,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/overtornea-kommun,Övertorneå kommun,,,Glesbygdkommuner,8.0,,,,,http://www.overtornea.se,SE,0927-72000,kommun@overtornea.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/oxelosunds-kommun,Oxelösunds kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.oxelosund.se,SE,0155-38000,kommun@oxelosund.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/pajala-kommun,Pajala kommun,,,Glesbygdkommuner,8.0,,,,,http://www.pajala.se,SE,0978-12000,kommun@pajala.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/partille-kommun,Partille kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.partille.se,SE,031-7921000,partille.kommun@partille.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/patent--och-registreringsverket,Patent- Och Registreringsverket,,,,,,,,,https://www.prv.se,SE,08-6660286,prv@prv.se,BOX 5055,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/patentbesvarsratten,Patentbesvärsrätten,,,,,,,,,https://www.pbr.se,SE,08-7837637,pbr@pbr.se,BOX 24160,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/patentombudsnamnden,Patentombudsnämnden,,,,,,,,,,SE,,,BOX 46,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/pensionsmyndigheten,Pensionsmyndigheten,,,,,,,,,https://www.pensionsmyndigheten.se,SE,,registrator@ppm.nu,BOX 38190,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/perstorps-kommun,Perstorps kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.perstorp.se,SE,0435-39000,kommunhuset@perstorp.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/pitea-kommun,Piteå kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.pitea.se,SE,0911-696000,kommun@pitea.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/polarforskningssekretariatet,Polarforskningssekretariatet,,,,,,,,,https://www.polar.se,SE,08-4502599,office@polar.se,BOX 50003,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/polismyndigheten,Polismyndigheten,,,,,,,,,https://www.polisen.se,SE,08-4019990,registrator.kansli@polisen.se,BOX 12256,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/post--och-telestyrelsen,Post- Och Telestyrelsen,PTS,,,,,,,,https://www.pts.se,SE,08-6785505,pts@pts.se,BOX 5398,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/postverkets-avvecklingsorganisation,Postverkets Avvecklingsorganisation,,,,,,,,,,SE,,,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/provningsnamnden-for-stod-till-kreditinstitut,Prövningsnämnden För Stöd Till Kreditinstitut,,,,,,,,,,SE,,,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/ragunda-kommun,Ragunda kommun,,,Glesbygdkommuner,8.0,,,,,http://www.ragunda.se,SE,0696-682000,ragunda.kommun@ragunda.se,Box 150,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/rattshjalpnamnden,Rättshjälpnämnden,,,,,,,,,https://www.domstol.se/rattshjalpsnamnden,SE,060-186839,rattshjalpsnamnden@dom.se,BOX 170,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/rattshjalpsmyndigheten,Rättshjälpsmyndigheten,,,,,,,,,https://www.rattshjalp.se,SE,060-134640,rattshjalpsmyndigheten@dom.se,BOX 853,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/rattsmedicinalverket,Rättsmedicinalverket,,,,,,,,,https://www.rmv.se,SE,08-240530,rmv@rmv.se,BOX 206,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/rattviks-kommun,Rättviks kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.rattvik.se,SE,0248-70000,rattvik@rattvik.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/rederinamnden,Rederinämnden,,,,,,,,,,SE,,,BOX 11125,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/regeringskansliet,Regeringskansliet,,,,,,,,,https://www.regeringen.se,SE,08-7231171,registrator@primeminister.ministry.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/region-gavleborg,Region Gävleborg,,,,,,,,,http://www.regiongavleborg.se,SE,026-15 40 00,rg@regiongavleborg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/region-gotland,Region Gotland,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.gotland.se,SE,0498-26 90 00,regiongotland@gotland.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/region-gotland-(landsting),Region Gotland (landsting),,,,,,,,,http://www.gotland.se,SE,0498-26 90 00,regiongotland@gotland.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/region-halland-(landsting),Region Halland (landsting),,,,,,,,,http://www.regionhalland.se,SE,035-13 48 00,regionen@regionhalland.se,Box 517,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/region-jamtland-harjedalen,Region Jämtland Härjedalen,,,,,,,,,http://regionjh.se/,SE,063-14 75 00,region@regionjh.se,Box 654,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/region-jonkopings-lan,Region Jönköpings län,,,,,,,,,http://www.rjl.se,SE,010-241 00 00,regionen@rjl.se,Box 1024,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/region-kronoberg,Region Kronoberg,,,,,,,,,http://www.ltkronoberg.se,SE,0470-58 80 00,region@kronoberg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/region-orebro-lan,Region Örebro län,,,,,,,,,http://www.regionorebrolan.se,SE,019-602 70 00,regionen@regionorebrolan.se,Box 1613,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/region-ostergotland,Region Östergötland,,,,,,,,,http://regionostergotland.se,SE,010-103 00 00,region@regionostergotland.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/region-skane,Region Skåne,,,,,,,,,http://www.skane.se,SE,044-309 30 00,region@skane.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/regionala-etikprovningsnamnden-i-goteborg,Regionala Etikprövningsnämnden I Göteborg,,,,,,,,,https://www.epn.se/goeteborg/om-naemnden/,SE,,,BOX 401,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/regionala-etikprovningsnamnden-i-linkoping,Regionala Etikprövningsnämnden I Linköping,,,,,,,,,https://www.epn.se/linkoeping/om-naemnden/,SE,,registrator@linkoping.epn.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/regionala-etikprovningsnamnden-i-lund,Regionala Etikprövningsnämnden I Lund,,,,,,,,,https://www.epn.se/lund/om-naemnden/,SE,046-2224422,registrator@epn.lu.se,BOX 117,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/regionala-etikprovningsnamnden-i-stockholm,Regionala Etikprövningsnämnden I Stockholm,,,,,,,,,https://www.epn.se/stockholm/om-naemnden/,SE,,,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/regionala-etikprovningsnamnden-i-umea,Regionala Etikprövningsnämnden I Umeå,,,,,,,,,https://www.epn.se/umeaa/om-naemnden/,SE,,,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/regionala-etikprovningsnamnden-i-uppsala,Regionala Etikprövningsnämnden I Uppsala,,,,,,,,,https://www.epn.se/uppsala/om-naemnden/,SE,,registrator@uppsala.epn.se,BOX 1964,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/resegarantinamnden,Resegarantinämnden,,,,,,,,,,SE,,,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/revisorsnamnden,Revisorsnämnden,,,,,,,,,https://www.revisorsnamnden.se,SE,08-7831871,rn@revisorsnamnden.se,BOX 24014,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/riksantikvarieambetet,Riksantikvarieämbetet,,,,,,,,,https://www.raa.se,SE,08-6607284,riksant@raa.se,BOX 5405,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/riksarkivet,Riksarkivet,,,,,,,,,https://www.riksarkivet.se,SE,010-4767120,riksarkivet@riksarkivet.se,BOX 12541,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/riksdagens-arvodesnamnd,Riksdagens Arvodesnämnd,,,,,,,,,,SE,,,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/riksdagens-ombudsman,Riksdagens Ombudsmän,,,,,,,,,https://www.jo.se,SE,08-216558,justitieombudsmannen@jo.se,BOX 16327,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/riksdagsforvaltningen,Riksdagsförvaltningen,,,,,,,,,https://www.riksdagen.se,SE,08-7865130,riksdagsforvaltningen@riksdagen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/riksgaldskontoret,Riksgäldskontoret,,,,,,,,,https://www.riksgalden.se,SE,08-212163,riksgalden@riksgalden.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/riksrevisionen,Riksrevisionen,,,,,,,,,https://www.riksrevisionen.se,SE,08-51714100,registrator@riksrevisionen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/riksutstallningar,Riksutställningar,,,,,,,,,https://www.riksutstallningar.se,SE,,ru@riksutstallningar.se,BOX 1033,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/robertsfors-kommun,Robertsfors kommun,,,Glesbygdkommuner,8.0,,,,,http://www.robertsfors.se,SE,0934-14000,kommun@robertsfors.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ronneby-kommun,Ronneby kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.ronneby.se,SE,0457-618000,stadshuset@ronneby.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/rymdstyrelsen,Rymdstyrelsen,,,,,,,,,https://www.rymdstyrelsen.se,SE,08-6275014,rymdstyrelsen@snsb.se,BOX 4006,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/saffle-kommun,Säffle kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.saffle.se,SE,0533-681000,kommun@saffle.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sakerhets--och-integritetsskyddsnamnden,Säkerhets- Och Integritetsskyddsnämnden,,,,,,,,,https://www.sakint.se,SE,08-6179888,sakint@sakint.se,BOX 22523,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sakerhetspolisen,Säkerhetspolisen,SÄPO,,,,,,,,https://www.sakerhetspolisen.se,SE,,,BOX 12312,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sala-kommun,Sala kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.sala.se,SE,0224-74 70 00,kommun.info@sala.se,Box 304,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/salems-kommun,Salems kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.salem.se,SE,08-53259800,info@salem.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sameskolstyrelsen,Sameskolstyrelsen,,,,,,,,,https://www.sameskolstyrelsen.se,SE,0971-44215,sameskolstyrelsen@sameskolstyrelsen.se,BOX 155,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sametinget,Sametinget,,,,,,,,,https://www.sametinget.se,SE,0980-78031,kansli@sametinget.se,BOX 90,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sandvikens-kommun,Sandvikens kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.sandviken.se,SE,026-240000,kommun@sandviken.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/saters-kommun,Säters kommun,,,Pendlingskommuner,5.0,,,,,http://www.sater.se,SE,0225-55000,kommun@sater.se,Rådhuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/savsjo-kommun,Sävsjö kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.savsjo.se,SE,0382-15200,kommun@savsjo.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sida,Sida,,,,,,,,,https://www.sida.se,SE,08-208864,sida@sida.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sigtuna-kommun,Sigtuna kommun,,,Pendlingskommuner,5.0,1.0,,,,http://www.sigtuna.se,SE,08-59126000,sigtuna.kommun@sigtuna.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/simrishamns-kommun,Simrishamns kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.simrishamn.se,SE,0414-819000,kommunledningskontoret@simrishamn.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sjatte-ap-fonden,Sjätte Ap-Fonden,,,,,,,,,https://www.apfond6.se,SE,031-7411098,reception@apfond6.se,BOX 11395,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sjobo-kommun,Sjöbo kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.sjobo.se,SE,0416-27000,kanslihuset@sjobo.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sjofartsverket,Sjöfartsverket,,,,,,,,,https://www.sjofartsverket.se,SE,011-191400,info@sjofartsverket.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sjunde-ap-fonden,Sjunde Ap-Fonden,,,,,,,,,https://www.ap7.se,SE,08-224666,,BOX 100,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/skara-kommun,Skara kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.skara.se,SE,0511-32000,skara.kommun@skara.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/skaraborgs-tingsratt,Skaraborgs Tingsrätt,,,,,,,,,https://www.domstol.se,SE,0500-499201,skaraborgs.tingsratt@dom.se,BOX 174,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/skatterattsnamnden,Skatterättsnämnden,,,,,,,,,https://www.skatterattsnamnden.se,SE,08-210619,kansliet@skatterattsnamnden.se,BOX 24144,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/skatteverket,Skatteverket,,,,,,,,,https://www.skatteverket.se,SE,,,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/skelleftea-kommun,Skellefteå kommun,,,Större städer,3.0,,,,,http://www.skelleftea.se,SE,0910-735000,kundtjanst@skelleftea.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/skelleftea-tingsratt,Skellefteå Tingsrätt,,,,,,,,,https://www.skellefteatingsratt.domstol.se,SE,,skelleftea.tingsratt@dom.se,BOX 398,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/skiljenamnden-i-vissa-trygghetsfragor,Skiljenämnden I Vissa Trygghetsfrågor,,,,,,,,,http://www.kammarkollegiet.se/kammarkollegiet/vi-arbetar-ocksa-med/naemndmyndigheter/skiljenaemnden-i-vissa-trygghetsfragor,SE,,registratur@kammarkollegiet.se,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/skinnskattebergs-kommun,Skinnskattebergs kommun,,,Pendlingskommuner,5.0,,,,,http://www.skinnskatteberg.se,SE,0222-45000,kommun@skinnskatteberg.se,Box 101,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/skogsstyrelsen,Skogsstyrelsen,,,,,,,,,https://www.svo.se,SE,036-166170,,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/skolforskningsinstitutet,Skolforskningsinstitutet,,,,,,,,,https://www.skolfi.se,SE,,info@skolfi.se,BOX 1009,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/skolvasendets-overklagandenamnd,Skolväsendets Överklagandenämnd,,,,,,,,,https://www.overklagandenamnden.se,SE,,overklagandenamnden@skolinspektionen.se,BOX 23069,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/skovde-kommun,Skövde kommun,,,Större städer,3.0,,,,,http://www.skovde.se,SE,0500-498000,kommunstyrelsen@skovde.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/skurups-kommun,Skurups kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.skurup.se,SE,0411-536000,kansli@skurup.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/smedjebackens-kommun,Smedjebackens kommun,,,Pendlingskommuner,5.0,,,,,http://www.smedjebacken.se,SE,0240-660000,kommun@smedjebacken.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/socialstyrelsen,Socialstyrelsen,,,,,,,,,https://www.socialstyrelsen.se,SE,075-2473252,socialstyrelsen@socialstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/soderhamns-kommun,Söderhamns kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.soderhamn.se,SE,0270-75000,kommunstyrelsen@soderhamn.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/soderkopings-kommun,Söderköpings kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.soderkoping.se,SE,0121-18100,kommun@soderkoping.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sodertalje-kommun,Södertälje kommun,,,Större städer,3.0,1.0,,,,http://www.sodertalje.se,SE,08-523 010 00,sodertalje.kommun@sodertalje.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sodertalje-tingsratt,Södertälje Tingsrätt,,,,,,,,,https://www.domstol.se,SE,,sodertalje.tingsratt@dom.se,BOX 348,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sodertorns-hogskola,Södertörns Högskola,,,,,,,,,https://webappl.web.sh.se,SE,08-6084010,registrator@sh.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sodertorns-tingsratt,Södertörns Tingsrätt,,,,,,,,,https://www.sodertornstingsratt.domstol.se,SE,08-7110580,sodertorns.tingsratt@dom.se,BJÖRNKULLAVÄGEN 5 A,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/solleftea-kommun,Sollefteå kommun,,,Glesbygdkommuner,8.0,,,,,http://www.solleftea.se,SE,0620-682000,kommun@solleftea.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sollentuna-kommun,Sollentuna kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.sollentuna.se,SE,08-57921000,sollentuna.kommun@sollentuna.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/solna-stad,Solna stad,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.solna.se,SE,08-746 10 00,kommunstyrelsen@solna.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/solna-tingsratt,Solna Tingsrätt,,,,,,,,,https://www.solnatingsratt.domstol.se,SE,,solna.tingsratt@dom.se,BOX 1356,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/solvesborgs-kommun,Sölvesborgs kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.solvesborg.se,SE,0456-81 60 00,info@solvesborg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sorsele-kommun,Sorsele kommun,,,Glesbygdkommuner,8.0,,,,,http://www.sorsele.se,SE,0952-140 00,kommun@sorsele.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sotenas-kommun,Sotenäs kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.sotenas.se,SE,0523 - 66 40 00,info@sotenas.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/specialpedagogiska-skolmyndigheten,Specialpedagogiska Skolmyndigheten,,,,,,,,,https://www.spsm.se,SE,010-4736642,spsm@spsm.se,BOX 1100,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/staffanstorps-kommun,Staffanstorps kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.staffanstorp.se,SE,046-251100,kommunen@staffanstorp.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/statens-ansvarsnamnd,Statens Ansvarsnämnd,,,,,,,,,https://www.statensansvarsnamnd.se,SE,08-202141,ansvarsnamnden@dom.se,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-beredning-for-medicinsk-utvardering,Statens Beredning För Medicinsk Utvärdering,,,,,,,,,https://www.sbu.se,SE,08-4113260,info@sbu.se,BOX 3657,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-centrum-for-arkitektur-och-design,Statens Centrum För Arkitektur Och Design,,,,,,,,,https://www.arkitekturmuseet.se,SE,08-58727070,info@arkitekturmuseet.se,SKEPPSHOLMEN,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-energimyndighet,Statens Energimyndighet,,,,,,,,,https://www.energimyndigheten.se,SE,016-5442099,registrator@energimyndigheten.se,BOX 310,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-fastighetsverk,Statens Fastighetsverk,,,,,,,,,https://www.sfv.se,SE,08-6967001,sfv@sfv.se,BOX 2263,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-forsvarshistoriska-museer,Statens Försvarshistoriska Museer,,,,,,,,,https://www.sfhm.se,SE,08-6626831,info@sfhm.se,BOX 14095,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-geotekniska-institut,Statens Geotekniska Institut,,,,,,,,,https://www.swedgeo.se,SE,013-201914,sgi@swedgeo.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-haverikommission,Statens Haverikommission,,,,,,,,,https://www.havkom.se,SE,08-50886290,info@havkom.se,BOX 12538,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-historiska-museer,Statens Historiska Museer,,,,,,,,,https://www.historiska.se,SE,08-51955603,registrator@historiska.se,BOX 5428,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-inspektion-for-forsvarsunderrattelseverksamheten,Statens Inspektion För Försvarsunderrättelseverksamheten,SIUN,,,,,,,,https://www.siun.se,SE,,registrator@siun.se,BOX 1140,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-institutionsstyrelse,Statens Institutionsstyrelse,,,,,,,,,https://www.stat-inst.se,SE,010-4534050,registrator@stat-inst.se,BOX 30224,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-jordbruksverk,Statens Jordbruksverk,,,,,,,,,https://www.sjv.se,SE,036-190546,jordbruksverket@jordbruksverket.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-konstrad,Statens Konstråd,,,,,,,,,https://www.statenskonstrad.se,SE,08-4401281,info@statenskonstrad.se,HÄLSINGEGATAN 45,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-kulturrad,Statens Kulturråd,,,,,,,,,https://www.kulturradet.se,SE,08-51926499,kulturradet@kulturradet.se,BOX 27215,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-maritima-museer,Statens Maritima Museer,,,,,,,,,https://www.maritima.se,SE,,registrator@maritima.se,BOX 48,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-medierad,Statens Medieråd,,,,,,,,,https://www.statensmedierad.se,SE,08-210178,registrator@statensmedierad.se,BOX 27204,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-museer-for-varldskultur,Statens Museer För Världskultur,,,,,,,,,https://www.smvk.se,SE,010-4561150,info@varldskulturmuseerna.se,BOX 5306,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-musikverk,Statens Musikverk,,,,,,,,,https://www.smus.se,SE,08-51955405,registrator@musikverk.se,BOX 16326,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-namnd-for-arbetstagares-uppfinningar,Statens Nämnd För Arbetstagares Uppfinningar,,,,,,,,,,SE,,,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-overklagandenamnd,Statens Överklagandenämnd,,,,,,,,,https://www.kammarkollegiet.se/statens-oeverklagandenaemnd,SE,08-204969,registratur@kammarkollegiet.se,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-servicecenter,Statens Servicecenter,,,,,,,,,https://www.statenssc.se,SE,,registrator@statenssc.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-skaderegleringsnamnd,Statens Skaderegleringsnämnd,,,,,,,,,https://www.kammarkollegiet.se/kammarkollegiet/vi-arbetar-ocksa-med/naemndmyndigheter/statens-skaderegleringsnaemnd,SE,,,BOX 2218,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-skolinspektion,Statens Skolinspektion,,,,,,,,,https://www.skolinspektionen.se,SE,08-58608010,skolinspektionen@skolinspektionen.se,BOX 23069,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-skolverk,Statens Skolverk,,,,,,,,,https://www.skolverket.se,SE,08-244420,skolverket@skolverket.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-tjanstepensions--och-grupplivnamnd,Statens Tjänstepensions- Och Grupplivnämnd,,,,,,,,,,SE,060-187438,spv@spv.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-tjanstepensionsverk,Statens Tjänstepensionsverk,,,,,,,,,https://www.spv.se,SE,060-187438,spv@spv.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-va-namnd,Statens VA-Nämnd,,,,,,,,,https://www.va-namnden.se,SE,08-6573885,kansli@va-namnden.se,BOX 12535,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-vag--och-transportforskningsinstitut,Statens Väg- Och Transportforskningsinstitut,,,,,,,,,https://www.vti.se,SE,013-141436,vti@vti.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statens-veterinarmedicinska-anstalt,Statens Veterinärmedicinska Anstalt,,,,,,,,,https://www.sva.se,SE,018-309162,sva@sva.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statistiska-centralbyran,Statistiska Centralbyrån,,,,,,,,,https://www.scb.se,SE,08-6615261,scb@scb.se,BOX 24300,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/statskontoret,Statskontoret,,,,,,,,,https://www.statskontoret.se,SE,08-7918972,registrator@statskontoret.se,BOX 8110,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/stenungsunds-kommun,Stenungsunds kommun,,,Pendlingskommuner,5.0,,,,,http://www.stenungsund.se,SE,0303-730000,kommun@stenungsund.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/stockholms-konstnarliga-hogskola,Stockholms Konstnärliga Högskola,,,,,,,,,http://www.uniarts.se/,SE,08-49400203,info@uniarts.se,BOX 24045,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/stockholms-lans-landsting,Stockholms läns landsting,,,,,,,,,http://www.sll.se,SE,08-737 25 00,landstinget@sll.se,Box 22550,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/stockholms-stad,Stockholms stad,,,Storstäder,1.0,1.0,,,,http://www.stockholm.se,SE,08 - 508 290 00,kommunstyrelsen@stockholm.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/stockholms-tingsratt,Stockholms Tingsrätt,,,,,,,,,https://www.stockholmstingsratt.se,SE,,stockholms.tingsratt.administrativa@dom.se,BOX 8307,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/stockholms-universitet,Stockholms Universitet,,,,,,,,,https://www.su.se,SE,08-159522,registrator@su.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/storfors-kommun,Storfors kommun,,,Pendlingskommuner,5.0,,,,,http://www.storfors.se,SE,0550-65100,storfors.kommun@storfors.se,Box 1001,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/storumans-kommun,Storumans kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.storuman.se,SE,0951-14000,ks@storuman.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/stralsakerhetsmyndigheten,Strålsäkerhetsmyndigheten,,,,,,,,,https://www.stralsakerhetsmyndigheten.se,SE,,registrator@ssm.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/strangnas-kommun,Strängnäs kommun,,,Pendlingskommuner,5.0,,,,,http://www.strangnas.se,SE,0152-29100,kommunstyrelsen@strangnas.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/stromstads-kommun,Strömstads kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.stromstad.se,SE,0526-19000,kommun@stromstad.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/stromsunds-kommun,Strömsunds kommun,,,Glesbygdkommuner,8.0,,,,,http://www.stromsund.se,SE,0670-16100,stromsunds.kommun@stromsund.se,Box 500,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/styrelsen-for-ackreditering-och-teknisk-kontroll,Styrelsen För Ackreditering Och Teknisk Kontroll,,,,,,,,,https://www.swedac.se,SE,033-101392,registrator@swedac.se,BOX 878,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sundbybergs-stad,Sundbybergs stad,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.sundbyberg.se,SE,08-7068000,kommunstyrelsen@sundbyberg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sundsvalls-kommun,Sundsvalls kommun,,,Större städer,3.0,,,,,http://www.sundsvall.se,SE,060-191000,sundsvalls.kommun@sundsvall.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/sundsvalls-tingsratt,Sundsvalls Tingsrätt,,,,,,,,,https://www.sundsvallstingsratt.se,SE,,sundsvalls.tingsratt@dom.se,BOX 467,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sunne-kommun,Sunne kommun,,,Kommuner i glesbefolkad region,10.0,,,,,http://www.sunne.se,SE,0565-16000,kommun.kansli@sunne.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/surahammars-kommun,Surahammars kommun,,,Pendlingskommuner,5.0,,,,,http://www.surahammar.se,SE,0220-39000,kommunen@surahammar.se,Box 203,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/svalovs-kommun,Svalövs kommun,,,Pendlingskommuner,5.0,,,,,http://www.svalov.se,SE,0418-475000,info@svalov.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/svea-hovratt,Svea Hovrätt,,,,,,,,,https://www.svea.se,SE,08-219327,svea.hovratt@dom.se,BOX 2290,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/svedala-kommun,Svedala kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.svedala.se,SE,040-626 80 00,kommunen@svedala.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/svenljunga-kommun,Svenljunga kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.svenljunga.se,SE,0325-18000,kansliet@svenljunga.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/svenska-esf-radet,Svenska ESF-Rådet,,,,,,,,,https://www.esf.se,SE,08-57917101,esf@esf.se,BOX 47141,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/svenska-institutet,Svenska Institutet,,,,,,,,,https://www.si.se,SE,08-207248,si@si.se,BOX 7434,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/svenska-institutet-for-europapolitiska-studier,Svenska Institutet För Europapolitiska Studier,,,,,,,,,https://www.sieps.se,SE,08-4544706,info@sieps.se,FLEMINGGATAN 20,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/svenska-kraftnat,Svenska Kraftnät,,,,,,,,,https://www.svk.se,SE,08-4758950,svenska.kraftnat@svk.se,BOX 1200,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sveriges-forfattarfond,Sveriges Författarfond,,,,,,,,,https://www.svff.se,SE,08-4404565,svff@svff.se,BOX 6243,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sveriges-geologiska-undersokning,Sveriges Geologiska Undersökning,,,,,,,,,https://www.sgu.se,SE,018-179210,sgu@sgu.se,BOX 670,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sveriges-lantbruksuniversitet,Sveriges Lantbruksuniversitet,,,,,,,,,https://www.slu.se,SE,018-672000,registrator@slu.se,BOX 7070,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sveriges-meteorologiska-o-hydrologiska-institut,Sveriges Meteorologiska O Hydrologiska Institut,,,,,,,,,https://www.smhi.se,SE,011-4958001,smhi@smhi.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/sveriges-riksbank,Sveriges Riksbank,,,,,,,,,https://www.riksbank.se,SE,08-7870526,registratorn@riksbank.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/taby-kommun,Täby kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.taby.se,SE,08-55 55 9000,tabykommun@taby.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/tandvards-och-lakemedelsformansverket,Tandvårds-Och Läkemedelsförmånsverket,TLV,,,,,,,,https://www.tlv.se,SE,08-56842099,registrator@tlv.se,BOX 22520,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/tanums-kommun,Tanums kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.tanum.se,SE,0525-180 00,kommun@tanum.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/tibro-kommun,Tibro kommun,,,Pendlingskommuner,5.0,,,,,http://www.tibro.se,SE,0504-18000,kommun@tibro.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/tidaholms-kommun,Tidaholms kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.tidaholm.se,SE,0502-606000,tidaholms.kommun@tidaholm.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/tierps-kommun,Tierps kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.tierp.se,SE,0293-18000,kommunstyrelsen@tierp.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/tillvaxtverket,Tillväxtverket,,,,,,,,,https://www.tillvaxtverket.se,SE,08-196828,tillvaxtverket@tillvaxtverket.se,BOX 4044,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/timra-kommun,Timrå kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.timra.se,SE,060-163100,timra.kommun@timra.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/tingsryds-kommun,Tingsryds kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.tingsryd.se,SE,0477-44100,kommunen@tingsryd.se,Box 88,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/tjorns-kommun,Tjörns kommun,,,Pendlingskommuner,5.0,,,,,http://www.tjorn.se,SE,0304-601000,kommun@tjorn.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/tomelilla-kommun,Tomelilla kommun,,,Pendlingskommuner,5.0,,,,,http://www.tomelilla.se,SE,0417-18000,kommun@tomelilla.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/toreboda-kommun,Töreboda kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.toreboda.se,SE,0506-18000,kommunen@toreboda.se,Box 83,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/torsas-kommun,Torsås kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.torsas.se,SE,0486-33100,info@torsas.se,Box 503,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/torsby-kommun,Torsby kommun,,,Glesbygdkommuner,8.0,,,,,http://www.torsby.se,SE,0560-16000,torsby.kommun@torsby.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/totalforsvarets-forskningsinstitut,Totalförsvarets Forskningsinstitut,FOI,,,,,,,,https://www.foi.se,SE,08-55503100,registrator@foi.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/totalforsvarets-rekryteringsmyndighet,Totalförsvarets Rekryteringsmyndighet,,,,,,,,,https://www.pliktverket.se,SE,010-8211002,exp@rekryteringsmyndigheten.se,  KAROLINEN,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/trafikanalys,Trafikanalys,,,,,,,,,https://www.trafa.se,SE,010-4144210,trafikanalys@trafa.se,TORSGATAN 30,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/trafikverket,Trafikverket,,,,,,,,,https://www.trafikverket.se,SE,,trafikverket@trafikverket.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/tranas-kommun,Tranås kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.tranas.se,SE,0140-68100,tranaskommun@tranas.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/tranemo-kommun,Tranemo kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.tranemo.se,SE,0325-576000,kommun@tranemo.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/transportstyrelsen,Transportstyrelsen,,,,,,,,,https://www.transportstyrelsen.se,SE,011-4152250,kontakt@transportstyrelsen.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/tredje-ap-fonden,Tredje Ap-Fonden,,,,,,,,,https://www.ap3.se,SE,08-55517120,info@ap3.se,BOX 1176,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/trelleborgs-kommun,Trelleborgs kommun,,,Pendlingskommuner,5.0,,,,,http://www.trelleborg.se,SE,0410-733000,trelleborgs.kommun@trelleborg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/trollhattans-stad,Trollhättans stad,,,Större städer,3.0,,,,,http://www.trollhattan.se,SE,0520-495000,trollhattans.stad@trollhattan.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/trosa-kommun,Trosa kommun,,,Förortskommuner till större städer,4.0,,,,,http://www.trosa.se,SE,0156-52000,trosa@trosa.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/tullverket,Tullverket,,,,,,,,,https://www.tullverket.se,SE,08-208012,tullverket@tullverket.se,BOX 12854,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/tyreso-kommun,Tyresö kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.tyreso.se,SE,08-5782 9100,kommun@tyreso.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/uddevalla-kommun,Uddevalla kommun,,,Större städer,3.0,,,,,http://www.uddevalla.se,SE,0522-696000,kommunen@uddevalla.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/uddevalla-tingsratt,Uddevalla Tingsrätt,,,,,,,,,https://www.uddevallatingsratt.domstol.se,SE,,uddevalla.tingsratt@dom.se,BOX 323,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/ulricehamns-kommun,Ulricehamns kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.ulricehamn.se,SE,0321-595000,kommun@ulricehamn.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/umea-kommun,Umeå kommun,,,Större städer,3.0,,,,,http://www.umea.se,SE,090- 16 10 00,umea.kommun@umea.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/umea-tingsratt,Umeå Tingsrätt,,,,,,,,,https://www.umeatingsratt.domstol.se,SE,,umea.tingsratt@dom.se,BOX 138,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/umea-universitet,Umeå Universitet,,,,,,,,,https://www.umu.se,SE,090-7866670,umea.universitet@umu.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/universitets-och-hogskoleradet,Universitets-Och Högskolerådet,,,,,,,,,https://www.uhr.se,SE,,,BOX 45093,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/universitetskanslersambetet,Universitetskanslersämbetet,,,,,,,,,https://www.uk-ambetet.se/,SE,,,BOX 7703,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/upplands-vasby-kommun,Upplands Väsby kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.upplandsvasby.se,SE,08-59097000,upplands.vasby.kommun@upplandsvasby.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/upplands-bro-kommun,Upplands-Bro kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.upplands-bro.se,SE,08-581 690 00,upplands-bro.kommun@upplands-bro.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/uppsala-kommun,Uppsala kommun,,,Större städer,3.0,,,,,http://www.uppsala.se,SE,018-7270000,uppsala.kommun@uppsala.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/uppsala-tingsratt,Uppsala Tingsrätt,,,,,,,,,https://www.domstol.se,SE,018-167282,uppsala.tingsratt@dom.se,BOX 1113,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/uppsala-universitet,Uppsala Universitet,,,,,,,,,https://www.uu.se,SE,018-4712000,registrator@uu.se,BOX 256,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/uppvidinge-kommun,Uppvidinge kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.uppvidinge.se,SE,0474-47000,ledningskontoret@uppvidinge.se,Box 59,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vadstena-kommun,Vadstena kommun,,,Pendlingskommuner,5.0,,,,,http://www.vadstena.se,SE,0143-15000,vadstena.kommun@vadstena.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vaggeryds-kommun,Vaggeryds kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.vaggeryd.se,SE,0370-67 80 00,kommunstyrelsen@vaggeryd.se,Box 43,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/valdemarsviks-kommun,Valdemarsviks kommun,,,Turism- och besöksnäringskommuner,6.0,,,,,http://www.valdemarsvik.se,SE,0123-19100,kommun@valdemarsvik.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vallentuna-kommun,Vallentuna kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.vallentuna.se,SE,08-58785000,kommun@vallentuna.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/valmyndigheten,Valmyndigheten,,,,,,,,,https://www.val.se,SE,08-6356920,valet@val.se,BOX 12191,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/vanersborgs-kommun,Vänersborgs kommun,,,Pendlingskommuner,5.0,,,,,http://www.vanersborg.se,SE,0521-721000,kommun@vanersborg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vanersborgs-tingsratt,Vänersborgs Tingsrätt,,,,,,,,,https://www.vanersborgstingsratt.domstol.se,SE,,vanersborgs.tingsratt@dom.se,BOX 1070,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/vannas-kommun,Vännäs kommun,,,Pendlingskommuner,5.0,,,,,http://www.vannas.se,SE,0935-14000,vannas.kommun@vannas.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vansbro-kommun,Vansbro kommun,,,Glesbygdkommuner,8.0,,,,,http://www.vansbro.se,SE,0281-75000,vansbro.kommun@vansbro.se,Medborgarhuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vara-kommun,Vara kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.vara.se,SE,0512-31000,vara.kommun@vara.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/varbergs-kommun,Varbergs kommun,,,Större städer,3.0,,,,,http://www.varberg.se,SE,0340-88000,ks@kommunen.varberg.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/varbergs-tingsratt,Varbergs Tingsrätt,,,,,,,,,https://www.varbergstingsratt.domstol.se,SE,,varbergs.tingsratt@dom.se,BOX 121,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/vargarda-kommun,Vårgårda kommun,,,Pendlingskommuner,5.0,,,,,http://www.vargarda.se,SE,0322-600600,kommunen@vargarda.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/varmdo-kommun,Värmdö kommun,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.varmdo.se,SE,08-57047000,varmdo.kommun@varmdo.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/varmlands-tingsratt,Värmlands Tingsrätt,,,,,,,,,https://www.varmlandstingsratt.domstol.se,SE,,varmlands.tingsratt@dom.se,BOX 188,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/varnamo-kommun,Värnamo kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.varnamo.se,SE,0370-377000,kommunen@varnamo.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vasteras-stad,Västerås stad,,,Större städer,3.0,,,,,http://www.vasteras.se,SE,021-390000,info@vasteras.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vasterbottens-lans-landsting,Västerbottens läns landsting,,,,,,,,,http://www.vll.se,SE,090-785 70 00,landstinget@vll.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/vasterviks-kommun,Västerviks kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.vastervik.se,SE,0490-254000,vasterviks.kommun@vastervik.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vastmanlands-tingsratt,Västmanlands Tingsrätt,,,,,,,,,https://www.vastmanlandstingsratt.domstol.se,SE,,vastmanlands.tingsratt@dom.se,BOX 40,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/vastra-gotalandsregionen,Västra Götalandsregionen,,,,,,,,,http://www.vgregion.se,SE,010-441 00 00,post@vgregion.se,Regionens Hus,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterlandstingregioner.1247.html
+se/vaxholms-stad,Vaxholms stad,,,Förortskommuner till storstäderna,2.0,1.0,,,,http://www.vaxholm.se,SE,08-54170800,kansliet@vaxholm.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vaxjo-kommun,Växjö kommun,,,Större städer,3.0,,,,,http://www.vaxjo.se,SE,0470-41000,kommunstyrelsen@vaxjo.se,Box 1222,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vaxjo-tingsratt,Växjö Tingsrätt,,,,,,,,,https://www.domstol.se,SE,,vaxjo.tingsratt@dom.se,BOX 81,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/vellinge-kommun,Vellinge kommun,,,Förortskommuner till storstäderna,2.0,,,,,http://www.vellinge.se,SE,040-42 50 00,vellinge.kommun@vellinge.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/verket-for-innovationssystem,Verket För Innovationssystem,,,,,,,,,https://www.vinnova.se,SE,08-4733005,vinnova@vinnova.se,,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/vetenskapsradet,Vetenskapsrådet,,,,,,,,,https://www.vr.se,SE,08-54644180,vetenskapsradet@vr.se,BOX 1035,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
+se/vetlanda-kommun,Vetlanda kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.vetlanda.se,SE,0383-97100,kommun@vetlanda.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vilhelmina-kommun,Vilhelmina kommun,,,Glesbygdkommuner,8.0,,,,,http://www.vilhelmina.se,SE,0940-14000,vilhelmina.kommun@vilhelmina.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vimmerby-kommun,Vimmerby kommun,,,Varuproducerande kommuner,7.0,,,,,http://www.vimmerby.se,SE,0492-769000,kommun@vimmerby.se,Stadshuset,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vindelns-kommun,Vindelns kommun,,,Glesbygdkommuner,8.0,,,,,http://www.vindeln.se,SE,0933-14000,vindelns.kommun@vindeln.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/vingakers-kommun,Vingåkers kommun,,,Pendlingskommuner,5.0,,,,,http://www.vingaker.se,SE,0151-19100,kommunstyrelsen@vingaker.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ydre-kommun,Ydre kommun,,,Pendlingskommuner,5.0,,,,,http://www.ydre.se,SE,0381-661200,ydre.kommun@ydre.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ystads-kommun,Ystads kommun,,,Kommuner i tätbefolkad region,9.0,,,,,http://www.ystad.se,SE,0411-577000,kommunen@ystad.se,,,,http://skl.se/tjanster/kommunerlandsting/adressuppgifterkommuner.1246.html
+se/ystads-tingsratt,Ystads Tingsrätt,,,,,,,,,https://www.domstol.se,SE,,ystads.tingsratt@dom.se,BOX 114,,,http://www.myndighetsregistret.scb.se/Myndighet.aspx
