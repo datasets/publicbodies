@@ -27,7 +27,7 @@ jobs:
 
     name: Build with Jekyll
     runs-on: ubuntu-latest
-    container: jekyll/minimal:4.2.0
+    # container: jekyll/minimal:4.2.0
 
     steps:
       - name: Checkout code
@@ -47,14 +47,14 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
-      # - name: Build with Jekyll
-      #   uses: actions/jekyll-build-pages@v1
-      #   with:
-      #     source: ./
-      #     destination: ./_site
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
 
-      - name: Build Jekyll Site
-        run: jekyll build --baseurl /
+      # - name: Build Jekyll Site
+      #   run: jekyll build --baseurl /
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
