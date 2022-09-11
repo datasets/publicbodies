@@ -63,8 +63,9 @@ jobs:
       - name: Update branch to include action
         uses: actions-x/commit@v6
         with:
-          branch: gh-pages-stage
           directory: gh-pages-stage/website
+          branch: gh-pages-stage
+          force: true
           email: 41898282+github-actions[bot]@users.noreply.github.com
           name: GitHub Actions Update Bot
           message: Update stage branch
