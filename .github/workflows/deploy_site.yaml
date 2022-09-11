@@ -46,6 +46,7 @@ jobs:
           cp -r src/website gh-pages-stage
           mkdir -p gh-pages-stage/.github/workflows/
           cp src/.github/workflows/publish_site.yaml gh-pages-stage/.github/workflows/
+          rm -rf src/
           cd gh-pages-stage/website
           git init .
           git checkout -b gh-pages-stage
