@@ -32,6 +32,11 @@ jobs:
         working-directory: src/scripts/deploy
         run: python3 ./prepare_build.py --max_bodies_per_jurisdiction 1000
 
+      - name: Copy deploy action to branch
+        run: |
+          mkdir -p website/.github/workflows/
+          cp .github/workflows/publish_site.yaml website/.github/workflows/
+
       - name: Commit to stage
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/ghpages-fix' }}
