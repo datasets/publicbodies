@@ -51,6 +51,8 @@ jobs:
           git init .
           git checkout -b gh-pages-stage
           git remote add origin git@github.com:okfn/publicbodies.git
+          git commit -m "Update stage branch" --author="GitHub Actions Update Bot 41898282+github-actions[bot]@users.noreply.github.com"
+          git push
 
       # - name: Commit to stage
       #   uses: peaceiris/actions-gh-pages@v3
@@ -60,15 +62,15 @@ jobs:
       #     publish_branch: gh-pages-stage
       #     publish_dir: src/website
 
-      - name: Update branch to include action
-        uses: actions-x/commit@v6
-        with:
-          directory: gh-pages-stage/website
-          branch: gh-pages-stage
-          force: true
-          email: 41898282+github-actions[bot]@users.noreply.github.com
-          name: GitHub Actions Update Bot
-          message: Update stage branch
+      # - name: Update branch to include action
+      #   uses: actions-x/commit@v6
+      #   with:
+      #     directory: gh-pages-stage/website
+      #     branch: gh-pages-stage
+      #     force: true
+      #     email: 41898282+github-actions[bot]@users.noreply.github.com
+      #     name: GitHub Actions Update Bot
+      #     message: Update stage branch
 
       # - name: Update branch to include action
       #   uses: benkaiser/rebase-commit-push@v1.1
