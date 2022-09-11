@@ -2,7 +2,8 @@ name: Build and publish site
 
 on:
   push:
-    branches: [ "gh-pages-stage" ]
+    branches:
+      - gh-pages-stage  
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
