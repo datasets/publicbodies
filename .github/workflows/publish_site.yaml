@@ -19,7 +19,6 @@ jobs:
           ref: gh-pages
 
       - name: Build Jekyll Site
-        working-directory: website/
         run: docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/minimal:$JEKYLL_VERSION jekyll build --baseurl $PWD/_site/ --incremental
 
       - name: commit & push with rebase
