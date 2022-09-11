@@ -3,33 +3,45 @@ name: Deploy site
 on:
   push:
     branches:
-      - main
+      - ghpages-fix
 
 jobs:
-  deploy:
+
+  pre-process:
     runs-on: ubuntu-22.04
-    name: Deploy site to Github Pages
+    name: Pre-process site for build
     steps:
+
       - name: Checkout git
         uses: actions/checkout@v3
+        with:
+          path: src
+
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: 3.9
           architecture: x64
+
       - name: Install Python dependencies
         uses: py-actions/py-dependency-install@v2
         with:
-          path: "scripts/requirements.txt"
+          path: "src/scripts/requirements.txt"
+
       - name: Prepare build
-        working-directory: scripts/deploy
+        working-directory: src/scripts/deploy
         run: python3 ./prepare_build.py --max_bodies_per_jurisdiction 1000
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+
+      - name: Trim unnecessary files
+        run: |
+          cp -r src/website .
+          rm -rf src
+
+      - name: Commit to stage
+        uses: benkaiser/rebase-commit-push@v1.1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./website
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          enable_jekyll: true
+          branch: gh-pages-stage
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          author_name: GitHub Actions Update Bot
+          message: Site updated automatically by bot
+          rebase: true

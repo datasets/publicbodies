@@ -2,14 +2,14 @@ name: Publish site
 
 on:
   push:
-    branches: [ "ghpages-fix" ]
+    branches: [ "gh-pages-stage" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -33,31 +33,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          ref: gh-pages
-
-      # - name: commit & push with rebase
-      #   uses: benkaiser/rebase-commit-push@v1.1
-      #   with:
-      #     branch: ghpages-fix
-      #     author_email: 41898282+github-actions[bot]@users.noreply.github.com
-      #     author_name: GitHub Actions Update Bot
-      #     message: Site updated automatically by bot
-      #     rebase: true
-
-      # - name: Setup Pages
-      #   uses: actions/configure-pages@v2
-
-      # - name: Build with Jekyll
-      #   uses: actions/jekyll-build-pages@v1
-      #   with:
-      #     source: ./
-      #     destination: ./_site
-
-      # - name: Build Jekyll Site
-      #   run: jekyll build --baseurl /
-
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v1
+          ref: gh-pages-stage
 
       - uses: actions/cache@v2
         with:
@@ -69,17 +45,3 @@ jobs:
       - uses: helaili/jekyll-action@v2    # Choose any one of the Jekyll Actions
         with:                                # Some relative inputs of your action
           token: ${{ secrets.GITHUB_TOKEN }}
-
-  # deploy:
-
-  #   name: Deploy to Github Pages
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
-  #   needs: build
-  #   steps:
-
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v1
