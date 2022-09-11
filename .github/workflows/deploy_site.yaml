@@ -64,7 +64,7 @@ jobs:
         uses: actions-x/commit@v6
         with:
           branch: gh-pages-stage
-          directory: src/website
+          directory: gh-pages-stage/website
           email: 41898282+github-actions[bot]@users.noreply.github.com
           name: GitHub Actions Update Bot
           message: Update stage branch
