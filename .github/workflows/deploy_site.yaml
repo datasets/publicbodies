@@ -40,7 +40,7 @@ jobs:
         working-directory: src/scripts/deploy
         run: python3 ./prepare_build.py --max_bodies_per_jurisdiction 1000
 
-      - name: Prepare stage branch
+      - name: Commit to stage branch
         run: |
           mkdir gh-pages-stage
           cp -r src/website gh-pages-stage
@@ -51,7 +51,7 @@ jobs:
           git init .
           git checkout -b gh-pages-stage
           git remote add origin git@github.com:okfn/publicbodies.git
-          git commit -m "Update stage branch" --author="GitHub Actions Update Bot 41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update stage branch" --author="GitHub Actions Update Bot <41898282+github-actions[bot]@users.noreply.github.com>"
           git push
 
       # - name: Commit to stage
