@@ -18,8 +18,8 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-# env:
-#   JEKYLL_VERSION: 4.2.0
+env:
+  JEKYLL_VERSION: 4.2.0
 
 jobs:
 
