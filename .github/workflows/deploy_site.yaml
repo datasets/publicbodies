@@ -32,16 +32,10 @@ jobs:
         working-directory: src/scripts/deploy
         run: python3 ./prepare_build.py --max_bodies_per_jurisdiction 1000
 
-      - name: Trim unnecessary files
-        run: |
-          cp -r src/website .
-          rm -rf src
-
       - name: Commit to stage
-        uses: benkaiser/rebase-commit-push@v1.1
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/ghpages-fix' }}
         with:
-          branch: gh-pages-stage
-          author_email: 41898282+github-actions[bot]@users.noreply.github.com
-          author_name: GitHub Actions Update Bot
-          message: Site updated automatically by bot
-          rebase: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages-stage
+          publish_dir: src/website
