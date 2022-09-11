@@ -55,10 +55,10 @@ jobs:
           path: gh-pages-stage
 
       - name: Copy deploy action to branch
-        working-directory: gh-pages-stage
         run: |
-          mkdir -p .github/workflows/
-          cp ../src/.github/workflows/publish_site.yaml .github/workflows/
+          mkdir -p gh-pages-stage/.github/workflows/
+          cp src/.github/workflows/publish_site.yaml gh-pages-stage/.github/workflows/
+          rm -rf src/.git
 
       - name: Update branch to include action
         uses: actions-x/commit@v6
