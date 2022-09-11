@@ -25,7 +25,7 @@ jobs:
 
   build:
 
-    name: Build with Jekyll and publish
+    name: Build with Jekyll
     runs-on: ubuntu-latest
 
     steps:
@@ -33,9 +33,6 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: gh-pages
-
-      # - name: Build Jekyll Site
-      #   run: docker run --rm --volume="$PWD:/srv/jekyll" jekyll/minimal:$JEKYLL_VERSION jekyll build --baseurl /
 
       # - name: commit & push with rebase
       #   uses: benkaiser/rebase-commit-push@v1.1
@@ -49,17 +46,21 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+      # - name: Build with Jekyll
+      #   uses: actions/jekyll-build-pages@v1
+      #   with:
+      #     source: ./
+      #     destination: ./_site
+
+      - name: Build Jekyll Site
+        run: docker run --rm --volume="$PWD:/srv/jekyll" jekyll/minimal:$JEKYLL_VERSION jekyll build --baseurl /
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
   deploy:
 
+    name: Deploy to Github Pages
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
