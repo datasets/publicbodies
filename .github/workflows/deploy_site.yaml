@@ -51,6 +51,7 @@ jobs:
       - name: Checkout git
         uses: actions/checkout@v3
         with:
+          ref: gh-pages-stage
           path: gh-pages-stage
 
       - name: Copy deploy action to branch
