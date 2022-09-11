@@ -33,6 +33,7 @@ jobs:
         run: python3 ./prepare_build.py --max_bodies_per_jurisdiction 1000
 
       - name: Copy deploy action to branch
+        working-directory: src
         run: |
           mkdir -p website/.github/workflows/
           cp .github/workflows/publish_site.yaml website/.github/workflows/
