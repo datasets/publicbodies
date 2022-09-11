@@ -61,9 +61,9 @@ jobs:
 
       - name: Update branch to include action
         uses: benkaiser/rebase-commit-push@v1.1
-        working-directory: gh-pages-stage
         with:
           branch: gh-pages-stage
+          directory: gh-pages-stage
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
           author_name: GitHub Actions Update Bot
           message: Update branch to include action
