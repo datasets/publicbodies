@@ -33,7 +33,7 @@ jobs:
       - name: re-sync with git repo
         run: git pull
       - name: commit & push with rebase
-        uses: benkaiser/rebase-commit-push@v1.1
+        uses: augusto-herrmann/rebase-commit-push@v1.1.1
         with:
           branch: main
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
