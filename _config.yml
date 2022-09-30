@@ -1,0 +1,22 @@
+title: Public Bodies
+
+# Build settings
+markdown: kramdown
+
+# kramdown:
+#   parse_block_html: true
+
+baseurl: /
+
+collections:
+  jurisdictions:
+    output: true
+    layout: jurisdiction
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ''
+      type: jurisdictions
+    values:
+      layout: jurisdiction

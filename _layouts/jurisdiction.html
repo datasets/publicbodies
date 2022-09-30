@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% assign page_id=page.id | split: "/" | last %}
+{% assign jurisdiction=site.jurisdictions | find: "id", page.id %}
+{% assign jurisdiction_id=jurisdiction.id | split: "/" | last %}
+{% assign data=site.data[jurisdiction_id] %}
+
+<div class="row">
+  <div class="span12">
+    <h1>{{ page.title }} ({{ jurisdiction_id | upcase }})</h1>
+    {{ content }}
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <table class="table table-striped">
+      {% for row in data %}
+        {% assign json_path=row.id | prepend: "/" | append: ".json" %}
+        {% assign file_exists=site.static_files | where: "path", json_path %}
+        <tr><td>
+          {% if file_exists.size > 0 %}
+            <a href="{{ row.id | split: '/' | last }}/">{{ row.name }}</a>
+          {% else %}
+            {{ row.name }}
+          {% endif %}
+        </td></tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>

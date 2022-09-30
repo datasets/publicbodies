@@ -1,0 +1,71 @@
+---
+layout: default
+---
+{% assign jurisdiction_id=page.path | split: "/" | first %}
+{% assign jurisdiction_path=jurisdiction_id | prepend: "/" %}
+{% assign jurisdiction=site.jurisdictions | find: "id", jurisdiction_path %}
+{% assign data=site.data[jurisdiction_id] %}
+{% assign row_id=page.path | remove: ".md" %}
+{% assign row=data | find: "id", row_id %}
+
+<div class="row">
+  <div class="span12">
+    <a class="btn btn-large" href="{{ jurisdiction.url }}">
+      <i class="icon-level-up"></i>
+      {{ jurisdiction.title }}
+    </a>
+    <h2>
+      {{ row.name }}
+      {% if row.abbreviation and row.abbreviation.size > 0 %}
+        <small class="abbr">{{ row.abbreviation }}</small>
+      {% endif %}
+    </h2>
+    {{ content }}
+    <div class="attributes dl-horizontal">
+      <dt>Home page</dt>
+      <dd><a href="{{ row.url }}">{{ row.name }}</a></dd>
+      <dt>E-Mail</dt>
+      <dd>{{ row.email }}</dd>
+      <dt>Address</dt>
+      <dd>
+        {% if row.address and row.address.size > 0 %}
+          <address>
+            <pre>{{ row.address }}</pre>
+          </address>
+        {% endif %}
+      </dd>
+      <dt>Classification</dt>
+      <dd>{{ row.classification }}</dd>
+      {% if row.parent_id and row.parent_id.size > 0 %}
+        {% assign parent_row=data | find: "id", row.parent_id %}
+        <dt>Parent Body</dt>
+        <dd>
+          <a href="/{{ parent_row.id }}.html">{{ parent_row.name }}</a>
+        </dd>
+      {% endif %}
+      <dt>Jurisdiction</dt>
+      <dd>{{ jurisdiction.title }} ({{ jurisdiction_id | upcase }})</dd>
+      <dt>Tags</dt>
+      <dd>{{ row.tags }}</dd>
+      <dt>Description</dt>
+      {% if row.description and row.description.size > 0 %}
+        <dd class="description">
+          <blockquote>{{ row.description }}</blockquote>
+        </dd>
+      {% endif %}
+    </div>
+    <div class="well">
+      <p class="source">
+        Source:
+        <a href="{{ row.source_url }}">{{ row.source_url }}</a>
+      </p>
+      <p>
+        {% assign body_id=row.id | split: '/' | last %}
+        {% assign id_size=body_id.size | at_most: 250 %}
+        <a class="btn btn-success" href="../{{ body_id | slice: 0, id_size }}.json">
+          <i class="icon-download-alt">JSON</i>
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
