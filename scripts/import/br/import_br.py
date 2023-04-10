@@ -27,7 +27,7 @@ URL_SUBNATUREZAJURIDICA = 'http://estruturaorganizacional.dados.gov.br/doc/subna
 URL_OLD_FILE = 'https://github.com/okfn/publicbodies/raw/c7466bbfad3169e573b6e7f2ff92a3861bfda82a/data/br.csv'
 URL_MUNICIPIOS = 'https://servicodados.ibge.gov.br/api/v1/localidades/municipios'
 URL_PAISES = 'https://balanca.economia.gov.br/balanca/bd/tabelas/PAIS.csv'
-URL_IMAGES = 'https://dados.gov.br/api/3/action/organization_list?all_fields=1&include_extras=1'
+URL_IMAGES = 'https://legado.dados.gov.br/api/3/action/organization_list?all_fields=1&include_extras=1'
 
 # config for making requests
 USER_AGENT = 'PublicBodiesBot (https://github.com/okfn/publicbodies)'
