@@ -1,4 +1,4 @@
 python-slugify[unidecode]==6.1.1
-requests==2.27.1
+requests==2.31.0
 pandas==1.4.1
 frictionless==4.28.1
