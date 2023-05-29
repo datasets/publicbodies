@@ -29,7 +29,7 @@ URL_SUBNATUREZAJURIDICA = (
 
 # auxiliary sources
 URL_OLD_FILE = "https://github.com/okfn/publicbodies/raw/c7466bbfad3169e573b6e7f2ff92a3861bfda82a/data/br.csv"
-URL_MUNICIPIOS = "https://servicodados.ibge.gov.br/api/v1/localidades/municipios"
+URL_MUNICIPIOS = "https://github.com/augusto-herrmann/transparencia-dados-abertos-brasil/raw/main/data/auxiliary/geographic/municipality.csv"
 URL_PAISES = "https://balanca.economia.gov.br/balanca/bd/tabelas/PAIS.csv"
 URL_IMAGES = "https://legado.dados.gov.br/api/3/action/organization_list?all_fields=1&include_extras=1"
 
@@ -234,12 +234,9 @@ def import_br_data(url: str, output: str):
     # the main data source has only the municipality code, not their
     # names. So we go to IBGE to get the corresponding name.
     print(f"Fetching municipality codes data from {URL_MUNICIPIOS}...")
-    municipios_response = session.get(URL_MUNICIPIOS)
-    municipios_data = municipios_response.json()
+    municipios_data = pd.read_csv(URL_MUNICIPIOS)
 
-    municipios_map = {
-        int(municipio["id"]): municipio["nome"] for municipio in municipios_data
-    }
+    municipios_map = municipios_data.set_index("code")["name"].to_dict()
 
     # the main data source has only the country code, not their names.
     # So we go to the SISCOMEX (foreign trade) data to get country
