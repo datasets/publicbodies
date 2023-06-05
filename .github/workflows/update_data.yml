@@ -20,12 +20,12 @@ jobs:
         with:
           ref: main # branch
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: 3.8
           architecture: x64
       - name: Install Python dependencies
-        uses: py-actions/py-dependency-install@v2
+        uses: py-actions/py-dependency-install@v4
         with:
           path: "scripts/requirements.txt"
       - name: Update ${{ matrix.source }}.csv file
@@ -33,7 +33,7 @@ jobs:
       - name: re-sync with git repo
         run: git pull
       - name: commit & push with rebase
-        uses: augusto-herrmann/rebase-commit-push@1.1.1
+        uses: benkaiser/rebase-commit-push@1.3
         with:
           branch: main
           author_email: 41898282+github-actions[bot]@users.noreply.github.com

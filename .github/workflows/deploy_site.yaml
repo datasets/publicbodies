@@ -13,12 +13,12 @@ jobs:
       - name: Checkout git
         uses: actions/checkout@v3
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: 3.9
           architecture: x64
       - name: Install Python dependencies
-        uses: py-actions/py-dependency-install@v2
+        uses: py-actions/py-dependency-install@v4
         with:
           path: "scripts/requirements.txt"
       - name: Prepare build
