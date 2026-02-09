@@ -56,7 +56,7 @@ The website is a Jekyll site. To get it running locally:
 
     The built website will appear on the `website/_site` folder.
 
-The list of outstanding issues is at: <https://github.com/okfn/publicbodies/issues>
+The list of outstanding issues is at: https://github.com/okfn/publicbodies/issues
 
 ## For developers of data collector bots
 
