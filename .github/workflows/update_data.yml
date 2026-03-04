@@ -3,10 +3,14 @@ name: Update data sources
 on:
   schedule:
     - cron: 45 3 * * 0
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-data:
-    if: github.repository == 'okfn/publicbodies'
+    if: github.repository == 'datasets/publicbodies'
     name: Update data from sources
     runs-on: ubuntu-latest
 
@@ -16,11 +20,11 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: main # branch
       - name: Setup Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
           python-version: 3.8
           architecture: x64
