@@ -108,7 +108,7 @@ def import_br_data(url: str, output: str):
         "Retorna a categoria do órgão com base no código."
         category = category_map[int(code.split("/")[-1])]
         if category == "Vinculado":
-            category += f' ({natureza_juridica_map[int(nj.split("/")[-1])]})'
+            category += f" ({natureza_juridica_map[int(nj.split('/')[-1])]})"
         return category
 
     df["classification"] = [
@@ -142,16 +142,19 @@ def import_br_data(url: str, output: str):
     # get URLs of images, like logos and photos, from the dados.gov.br
     # open data portal. Luckily, those have the siorg code property set.
     print(f"Fetching image URLs from {URL_IMAGES}...")
-    images_response = requests.get(URL_IMAGES)
-    images_data = images_response.json()
-
-    image_map = {
-        int(extra["value"]): organization["image_display_url"]
-        for organization in images_data["result"]
-        if len(organization.get("extras", "")) > 0
-        for extra in organization["extras"]
-        if extra["key"].lower() == "siorg"
-    }
+    try:
+        images_response = session.get(URL_IMAGES, timeout=30)
+        images_response.raise_for_status()
+        images_data = images_response.json()
+        image_map = {
+            int(extra["value"]): organization["image_display_url"]
+            for organization in images_data.get("result", [])
+            if len(organization.get("extras", "")) > 0
+            for extra in organization["extras"]
+            if extra["key"].lower() == "siorg"
+        }
+    except (requests.RequestException, ValueError):
+        image_map = {}
 
     df["image"] = [
         image_map.get(int(orgao["codigoUnidade"].split("/")[-1]), None)
