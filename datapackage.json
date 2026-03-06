@@ -1,0 +1,103 @@
+{
+  "profile": "tabular-data-package",
+  "name": "public-bodies",
+  "title": "Database of Public Bodies (Government Entities)",
+  "description": "A database of public bodies (or organizations) around the world, such as government departments, ministries etc.",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "uri": "http://opendatacommons.org/licenses/pddl/1.0/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/br.csv",
+      "profile": "tabular-data-resource",
+      "name": "br",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/ch.csv",
+      "profile": "tabular-data-resource",
+      "name": "ch",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/de.csv",
+      "profile": "tabular-data-resource",
+      "name": "de",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/eu.csv",
+      "profile": "tabular-data-resource",
+      "name": "eu",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/gb.csv",
+      "profile": "tabular-data-resource",
+      "name": "gb",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/gr.csv",
+      "profile": "tabular-data-resource",
+      "name": "gr",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/it.csv",
+      "profile": "tabular-data-resource",
+      "name": "it",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/np.csv",
+      "profile": "tabular-data-resource",
+      "name": "np",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/nz.csv",
+      "profile": "tabular-data-resource",
+      "name": "nz",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/se.csv",
+      "profile": "tabular-data-resource",
+      "name": "se",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    },
+    {
+      "path": "data/us.csv",
+      "profile": "tabular-data-resource",
+      "name": "us",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "public-body-schema.json"
+    }
+  ]
+}
